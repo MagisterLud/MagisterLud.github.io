@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Specialist degree program in Lomonosov State University, 2022
-* Ph.D in [MI RAS](https://www.mi-ras.ru/index.php?c=main&l=1) (expect), 2026
+* Ph.D in [MI RAS](https://www.mi-ras.ru/index.php?c=main&l=1) (expected), 2026
 
 Work experience
 ======
