@@ -1,5 +1,5 @@
 ---
-title: "Nerve-Realization adjunction and the Bar Construction"
+title: "Nerve-Realization Adjunction and The Bar Construction"
 collection: talks
 type: "Talk"
 permalink: /talks/2022-11-07-talk
