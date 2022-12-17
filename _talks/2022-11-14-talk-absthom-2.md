@@ -3,7 +3,7 @@ title: "Homotopically Final Functors and Examples of Calculations with Homotopy 
 collection: talks
 type: "Talk"
 permalink: /talks/2022-11-14-talk
-venue: "Study Seminar on Abstract Homotopy Theory and Applications"
+venue: "Study Seminar on Abstract Homotopy Theory and Applications, Independent University of Moscow"
 date: 2022-11-14
 location: "Zoom"
 ---
