@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Here you can know about my research interests, read my blog's articles and explore my hobbies    
+Here you can find out about my research interests, read blog and hobbies    
 
 
 
