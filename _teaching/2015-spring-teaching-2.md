@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "Undergraduate Course Teaching Assistant"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Undergraduate Course Teaching"
+permalink: /teaching/2022-fall-teaching
+venue: "[Profi](https://profi.ru)"
+date: 2022-12-17
+location: "Online"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+I help students from different universities to understand topics in mathematics 
