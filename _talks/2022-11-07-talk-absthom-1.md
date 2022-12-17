@@ -8,4 +8,4 @@ date: 2022-11-07
 location: "Zoom"
 ---
 
-[Notes]({% https://drive.google.com/file/d/183TxU2vrP94UMjDy9bLxE3kmL7Bz2znT/view %}) and [video](https://youtu.be/5A36vq1NfDc)
+[Notes](https://drive.google.com/file/d/183TxU2vrP94UMjDy9bLxE3kmL7Bz2znT/view) and [Video](https://youtu.be/5A36vq1NfDc)
