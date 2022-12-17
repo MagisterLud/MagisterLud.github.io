@@ -8,4 +8,4 @@ date: 2022-11-28
 location: "Zoom"
 ---
 
-[Notes](https://magisterlud.github.io/files/The%20Hirschhorn%20Lemma%20and%20Reedy%20model%20structure.pdf), [Site of The Seminar](https://sites.google.com/view/homotopy-basics-seminar) and [IUM site (in Russian)](https://ium.mccme.ru/f22/f22-kaledin.html)
+[Notes](https://magisterlud.github.io/files/The%20Hirschhorn%20Lemma%20and%20Reedy%20model%20structure.pdf), [page of the seminar](https://sites.google.com/view/homotopy-basics-seminar) and [IUM page (in Russian)](https://ium.mccme.ru/f22/f22-kaledin.html)
