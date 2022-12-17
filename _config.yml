@@ -247,10 +247,10 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _music
+  # _musica
   - scope:
       path: ""
-      type: music
+      type: musica
     values:
       layout: single
       author_profile: true
