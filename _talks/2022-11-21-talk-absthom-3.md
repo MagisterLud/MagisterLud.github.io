@@ -1,5 +1,5 @@
 ---
-title: "Weighted (co)limits, Gambino's theorem, Reedy Model Structures"
+title: "Weighted (Co)Limits, Gambino's Theorem, Reedy Model Structures"
 collection: talks
 type: "Talk"
 permalink: /talks/2022-11-21-talk
