@@ -8,4 +8,4 @@ date: 2022-11-14
 location: "Zoom"
 ---
 
-[Notes](https://drive.google.com/file/d/1l3d7ttBushGLQW-S9_gLLYACqKaWaWAP/view) and [video](https://www.youtube.com/watch?v=ZMFgVHDmDnY&feature=youtu.be), [page of the seminar](https://sites.google.com/view/homotopy-basics-seminar) and [IUM page (in Russian)](https://ium.mccme.ru/f22/f22-kaledin.html)
+[Notes](https://drive.google.com/file/d/1l3d7ttBushGLQW-S9_gLLYACqKaWaWAP/view) and [video](https://www.youtube.com/watch?v=ZMFgVHDmDnY&feature=youtu.be), [page of the seminar](https://sites.google.com/view/homotopy-basics-seminar) and [IUM page](https://ium.mccme.ru/f22/f22-kaledin.html)
