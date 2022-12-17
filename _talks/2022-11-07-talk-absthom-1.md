@@ -3,7 +3,7 @@ title: "Nerve-Realization Adjunction and The Bar Construction"
 collection: talks
 type: "Talk"
 permalink: /talks/2022-11-07-talk
-venue: "Study Seminar on Abstract Homotopy Theory and Applications"
+venue: "Study Seminar on Abstract Homotopy Theory and Applications, Independent University of Moscow"
 date: 2022-11-07
 location: "Zoom"
 ---
