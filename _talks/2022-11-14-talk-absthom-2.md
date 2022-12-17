@@ -1,5 +1,5 @@
 ---
-title: "Homotopically final functors and examples of calculations with homotopy (co)limits"
+title: "Homotopically Final Functors and Examples of Calculations with Homotopy (Co)Limits"
 collection: talks
 type: "Talk"
 permalink: /talks/2022-11-14-talk
