@@ -1,0 +1,211 @@
+\begin{thebibliography}{}
+
+\addcontentsline{toc}{section}{\bibname}
+
+
+\bibitem{Toric}
+V. Buchstaber, T. Panov, {\it Toric Topology}, Mathematical Surveys and Monographs, 204, American Mathematical Society, Providence, RI, 2015
+
+\bibitem{Fullerenes}
+V. Buchstaber, N.Erokhovets, {\it Fullerenes, Polytopes and Toric Topology}, Lecture Notes Series, Institute for Mathematical Sciences, National University of SingaporeCombinatorial and Toric Homotopy, pp. 67-178 (2017)
+
+\bibitem{Brown}
+К. Браун, {\it Когомологии групп}, пер. с англ. Д. Б. Фукса, Москва, Наука, 1987, 383 с. 
+
+
+\bibitem{BDH}
+G. Baumslag, E. Dyer \& A. Heller, {\it The topology of discrete groups}, J. of Pure and Appl. Alg. 16 (1980), 1- 47. | MR 549702 | Zbl 0419.20026
+
+\bibitem{Whitehead}
+ J. H. C. Whitehead, {\it On the asphericity of regions in a 3-sphere}, Fund. Math. 32 (1939),149-166
+
+
+\bibitem{Deleanu}
+A. Deleanu, {\it On a theorem of Baumslag, Dyer and Heller linking group theory and topology}, Cahiers de topologie et géométrie différentielle catégoriques, tome 23, no 3 (1982), p. 231-242 
+
+
+\bibitem{Kan}
+D. Kan and W. Thurston, {\it Every connected space has the homology of a $K(\pi, 1)$}, Topology Vol. 15. pp. 253–258, 1976. 
+
+
+\bibitem{Higman}
+G. Higman, {\it A Finitely Generated Infinite Simple Group}, Volume s1-26, Issue 1 p. 61-64 Journal of the London Mathematical Society. Notes and Papers.
+
+
+
+\bibitem{Maunder}
+C. R. F. Maunder, {\it A Short Proof of a Theorem of Kan and Thurston}, Bulletin of the London Mathematical Society, Volume 13, Issue 4, July 1981, Pages 325–327, https://doi.org/10.1112/blms/13.4.325
+
+
+
+\bibitem{Vasquez}
+Dyer, E., Vasquez, A. (1973), {\it Some small aspherical spaces}, Journal of the Australian Mathematical Society, 16(3), 332-352. doi:10.1017/S1446788700015147
+
+
+\bibitem{Monod}
+N. Monod, {\it Variations on a theme by Higman}, https://arxiv.org/abs/1604.05454
+
+
+\bibitem{McDuff}
+Dusa McDuff, {\it On the classifying spaces of discrete monoids}, Topology, Volume 18, Issue 4, 1979, Pages 313-320
+
+\bibitem{Automorphisms}
+D. McDuff, P. De La Harpe, {\it Acyclic groups of automorphisms}, Commentarii mathematici Helvetici 58 (1983): 48-71
+
+
+\bibitem{Malcev}
+A. Malcev, 1937, {\it On the Immersion of an Algebraic Ring into a Field}, Mathematische Annalen, vol. 113, no. 1, pp. 686 — 691
+
+
+
+\bibitem{Lenz}
+O. Lenz, {\it The classifying space of a monoid}, Thesis submitted in partial satisfaction of the requirements for the degree of Master of Science in Mathematics, 2011, Advisor: Dr. Lenny D.J. Taelman
+
+
+
+\bibitem{Kervaire}
+Kervaire M., {\it Smooth homology spheres and their fundamental groups}, Transactions of the American Mathematical Society. 144: 67–72, 1969
+
+
+
+\bibitem{Milnor}
+Milnor J., {\it On simply connected 4-manifolds}, Symposium intemacional de topologia algebraica, Universidad Nacional Autnoma de Mexico and UNESCO, Mexico City, 1958, pp. 122-128. MR 21 \#2240
+
+
+
+\bibitem{Novikov}
+И. А. Володин, В. Е. Кузнецов, А. Т. Фоменко, О пробле- ме алгоритмического распознавания стандартной трех-
+мерной сферы, УМН, 1974, том 29, выпуск 5(179), 71–168
+
+
+
+
+\bibitem{Magnus}
+Магнус В., Каррас А., Солитэр Д., {\it Комбинаторная теория групп. Представление групп в терминах образующих и определяющих соотношений}, М.: Наука, 1974.
+
+
+
+\bibitem{Milgram}
+R. Milgram, {\it The bar construction and abelian H-spaces}, Illinois J. Math. 11 (1967), 242-250.
+
+
+
+
+\bibitem{MilnorBar}
+John Milnor, {\it Construction of Universal Bundles}, I, Ann. of Math. 63:2 (1956) 272-284
+
+
+\bibitem{View}
+A. J. Berrick, {\it A topologist’s view of perfect and acyclic groups}, Invitations to Geometry and
+Topology, ed. M. R. Bridson, S. M. Salamon, Oxford Graduate Texts in Math. 5, Oxford
+Univ. Press (Oxford, 2002), ch. 1: 1–28
+
+
+\bibitem{Ganea}
+Eilenberg, Samuel; Ganea, Tudor (1957). {\it On the Lusternik–Schnirelmann category of abstract groups}. Annals of Mathematics. 2nd Ser. 65 (3): 517–518
+
+
+
+\bibitem{BerrickHillman}
+A. J. Berrick,  J. A. Hillman, {\it Perfect and Acyclic Subgroups of Finitely Presentable Groups}, Journal of the London Mathematical Society, Volume 68, Issue 3, December 2003, Pages 683–698
+
+
+
+\bibitem{Dobr}
+Н. Э. Добринская, {\it Гипотеза Арнольда–Тома–Фама и классифицирующее пространство положительного моноида Артина}, УМН, 57:6(348) (2002), 181–182; Russian Math. Surveys, 57:6 (2002), 1215–1217 
+
+
+
+
+\bibitem{Burnside}
+Новиков П. С., Адян С. И., {\it О бесконечных периодических группах}. I // Известия АН СССР. Серия математическая. — 1968. — Т. 32, выпуск 1. — С. 212—244.
+
+
+
+
+
+\bibitem{QuillenHomAlg}
+Daniel G. Quillen, {\it Homotopical Algebra}, Lecture Notes in Mathematics, Springer-Verlag Berlin Heidelberg, 1967
+
+
+
+
+
+
+\bibitem{BousfieldKan}
+Aldridge K. BousfieldDaniel M. Kan, {\it Homotopy Limits, Completions and Localizations},  Lecture Notes in Mathematics book series (LNM, volume 304), 1972
+
+
+
+\bibitem{Dror}
+E. Dror, {\it Acyclic spaces}, Vol. II, pp. 339-348, Pergamon Press, 1972
+
+
+
+
+
+\bibitem{BaumslagUniversal}
+G. Baumslag, E. Dyer, C.F. Miller, {\it On the integral homology of finitely presented groups}, Topology, Volume 22, Issue 1, 1983, Pages 27-46
+
+
+
+\bibitem{Serre}
+Stilwell, J., Serre, J.P., {\it Trees}, Springer Monographs in Mathematics, Springer Berlin Heidelberg, 2002
+
+
+
+\bibitem{UniversalHigmanGroup}
+Higman Graham,  {\it Subgroups of finitely presented groups}, Proc. R. Soc. Lond. A262455–475, 1961
+
+
+\bibitem{ExplicityPresentation}
+https://arxiv.org/abs/1610.00977
+
+
+\bibitem{EmbeddingTheorems}
+G. Higman, B. H. Neumann and H. Neumann, Embedding theorems for groups, J. London Math. Soc. 24 (1949) 247–254
+
+
+\bibitem{Mather}
+J. N. Mather, {\it The vanishing of the homology of certain groups of homeomorphisms}, Vol. 10, pp. 197-298, 1971
+
+
+\bibitem{Swan}
+R. Swan, {\it Periodic Resolutions for Finite Groups}, Annals of Mathematics, vol. 72, no. 2, 1960, pp. 267–91
+
+\bibitem{Scott}
+G. P. Scott, {\it Compact submanifolds of 3-manifolds}, J. London Math. Soc. 7 (1973) 246–250
+
+\bibitem{Hempel}
+ J. Hempel, 3-manifolds, Annals of Mathematics Studies 86 (Princeton University Press, Princeton,
+1976)
+
+\bibitem{Hausmann}
+Hausmann J.-C., Weinberger Sh.,  {\it Caractéristiques d'euler et groupes fondamentaux des variétés de dimension 4}, Commentarii Mathematici Helvetici, 1985
+
+\bibitem{Kardos}
+https://arxiv.org/pdf/1409.2440.pdf
+
+\bibitem{Thurston}
+W. Thurston, {\it Shapes of polyhedra and triangulations of the sphere}, The Epstein birthday schrift, Geom. Topol. Monogr., 1. Geom. Topol. Publ., Coventry, 1998, pp. 511–549
+
+\bibitem{Hatcher}
+A. Hatcher, {\it Algebraic topology}, Cambridge Univ. Press, Cambridge, 2000
+
+\bibitem{Milgram}
+R. Milgram, {\it The bar construction and abelian $H$-spaces}, Illinois Journal of Mathematics 11 (1967): 242-250
+
+\bibitem{MilnorBG}
+J. Milnor, {\it Construction of Universal Bundles}, I, Ann. of Math. 63:2 (1956) 272-284 
+
+\bibitem{Jardine}
+P. Goerss, J. Jardine, {\it Simplicial Homotopy Theory}, Modern Birkhäuser Classics, 2009     
+
+
+
+
+
+
+
+
+\end{thebibliography}

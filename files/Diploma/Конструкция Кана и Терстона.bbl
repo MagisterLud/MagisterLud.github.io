@@ -1,0 +1,245 @@
+\begin{thebibliography}{10}
+
+\bibitem{BDH}
+G.~Baumslag, E.~Dyer, and A.~Heller.
+\newblock The topology of discrete groups.
+\newblock {\em Journal of Pure and Applied Algebra}, 16(1):1--47, 1980.
+
+\bibitem{BaumslagUniversal}
+G.~Baumslag, E.~Dyer, and C.F. Miller.
+\newblock On the integral homology of finitely presented groups.
+\newblock {\em Topology}, 22(1):27--46, 1983.
+
+\bibitem{View}
+A.J. Berrick.
+\newblock The acyclic group dichotomy.
+\newblock {\em Journal of Algebra}, 326(1):47--58, 2011.
+\newblock Special issue in Memory of Karl Walter Gruenberg.
+
+\bibitem{BerrickHillman}
+AJ~Berrick and JA~Hillman.
+\newblock Perfect and acyclic subgroups of finitely presentable groups.
+\newblock {\em Journal of The London Mathematical Society-second Series - J
+  LONDON MATH SOC-SECOND SER}, 68, 12 2003.
+
+\bibitem{Bille}
+Artur Bille, Victor Buchstaber, and Evgeny Spodarev.
+\newblock Spectral clustering of combinatorial fullerene isomers based on their
+  facet graph structure.
+\newblock {\em Journal of Mathematical Chemistry}, 59:1--25, 01 2021.
+
+\bibitem{BousfieldKan}
+Aldridge~K. Bousfield and Daniel~M. Kan.
+\newblock {\em Homotopy Limits, Completions and Localizations}.
+\newblock Lecture Notes in Mathematics. Springer-Verlag Berlin Heidelberg,
+  1972.
+
+\bibitem{Brown}
+Kenneth~S. Brown.
+\newblock {\em Cohomology of Groups}, volume~87 of {\em Graduate Texts in
+  Mathematics}.
+\newblock Springer New York, NY, 1982.
+
+\bibitem{ErokhovetsFullerenes}
+V.~M. Buchstaber and N.~Yu. Erokhovets.
+\newblock Constructions of families of three-dimensional polytopes,
+  characteristic patches of fullerenes, and pogorelov polytopes.
+\newblock {\em Izv. RAN. Ser. Mat.}, 81(5), 2017.
+
+\bibitem{Fullerenes}
+Victor~M Buchstaber and Nikolay~Yu Erokhovets.
+\newblock Fullerenes, polytopes and toric topology.
+\newblock In {\em Combinatorial and Toric Homotopy: Introductory Lectures},
+  pages 67--178. World Scientific, 2018.
+
+\bibitem{StructuralChemistry}
+Victor~Matveevich Buchstaber and Nikolay Erokhovets.
+\newblock Finite sets of operations sufficient to construct any fullerene from
+  c20.
+\newblock {\em Structural Chemistry}, 28:225--234, 2016.
+
+\bibitem{ExplicityPresentation}
+Maurice Chiodo and Michael~E. Hill.
+\newblock Preserving torsion orders when embedding into groups with `small'
+  finite presentations, 2016.
+
+\bibitem{Milnor}
+Tim~D. Cochran and Nathan Habegger.
+\newblock On the homotopy theory of simply connected four manifolds.
+\newblock {\em Topology}, 29(4):419--440, 1990.
+
+\bibitem{Automorphisms}
+Pierre de~la Harpe and Dusa McDuff.
+\newblock Acyclic groups of automorphisms.
+\newblock {\em Commentarii Mathematici Helvetici}, 58(1):48--71, 1983.
+
+\bibitem{Deleanu}
+Aristide Deleanu.
+\newblock On a theorem of baumslag, dyer and heller linking group theory and
+  topology.
+\newblock {\em Cahiers de Topologie et G\'eom\'etrie Diff\'erentielle
+  Cat\'egoriques}, 23:231--242, 1982.
+
+\bibitem{Dror}
+E.~Dror.
+\newblock Homology spheres.
+\newblock {\em Israel Journal of Mathematics}, 15(2):115--129, 1973.
+
+\bibitem{Vasquez}
+Eldon Dyer and A.~T. Vasquez.
+\newblock Some small aspherical spaces.
+\newblock {\em Journal of the Australian Mathematical Society}, 16(3):332--352,
+  1973.
+
+\bibitem{Jardine}
+Paul Goerss and Rick Jardine.
+\newblock {\em Simplicial homotopy theory}.
+\newblock Birkh{\"a}user Basel, 01 2009.
+
+\bibitem{Hatcher}
+Allen Hatcher.
+\newblock {\em {Algebraic topology}}.
+\newblock Cambridge Univ. Press, Cambridge, 2000.
+
+\bibitem{Hausmann}
+Jean-Claude Hausmann and Shmuel Weinberger.
+\newblock Caract{\'e}ristiques d'euler et groupes fondamentaux des
+  vari{\'e}t{\'e}s de dimension 4.
+\newblock {\em Commentarii Mathematici Helvetici}, 60:139--144, 1985.
+
+\bibitem{Hempel}
+J.~Hempel.
+\newblock {\em 3-Manifolds}.
+\newblock AMS Chelsea Publishing Series. AMS Chelsea Pub., American
+  Mathematical Society, 2004.
+
+\bibitem{EmbeddingTheorems}
+G.~Higman, B.~H. Neumann, and H.~Neumann.
+\newblock Embedding theorems for groups.
+\newblock {\em J. London Math. Soc.}, 24:247--254, 1949.
+
+\bibitem{Higman}
+Graham Higman.
+\newblock A finitely generated infinite simple group.
+\newblock {\em Journal of The London Mathematical Society-second Series}, pages
+  61--64, 1951.
+
+\bibitem{UniversalHigmanGroup}
+Graham Higman.
+\newblock Subgroups of finitely presented groups.
+\newblock {\em Proceedings of the Royal Society of London. Series A.
+  Mathematical and Physical Sciences}, 262:455 -- 475, 1961.
+
+\bibitem{Kan}
+D.M. Kan and W.P. Thurston.
+\newblock Every connected space has the homology of a $k(\pi,1)$.
+\newblock {\em Topology}, 15(3):253--258, 1976.
+
+\bibitem{Kardos}
+Franti{\v s}ek Kardo{\v s}.
+\newblock A computer-assisted proof of barnette-goodey conjecture: Not only
+  fullerene graphs are hamiltonian, 2014.
+
+\bibitem{Kervaire}
+Michel Kervaire.
+\newblock Les n{\oe}uds de dimensions sup\'erieures.
+\newblock {\em Bulletin de la Soci\'et\'e Math\'ematique de France},
+  93:225--271, 1965.
+
+\bibitem{Magnus}
+W.~Magnus, A.~Karrass, and D.~Solitar.
+\newblock {\em Combinatorial Group Theory: Presentations of Groups in Terms of
+  Generators and Relations}.
+\newblock Dover books on mathematics. Dover Publications, 2004.
+
+\bibitem{Mather}
+J.~N. Mather.
+\newblock The vanishing of the homology of certain groups of homeomorphisms.
+\newblock {\em Topology}, 10:197--298, 1971.
+
+\bibitem{Maunder}
+C.~R.~F. Maunder.
+\newblock {A Short Proof of a Theorem of Kan and Thurston}.
+\newblock {\em Bulletin of the London Mathematical Society}, 13(4):325--327, 07
+  1981.
+
+\bibitem{Milgram}
+R.~James Milgram.
+\newblock {The bar construction and abelian $H$-spaces}.
+\newblock {\em Illinois Journal of Mathematics}, 11(2):242 -- 250, 1967.
+
+\bibitem{Milnor_h}
+John Milnor.
+\newblock {\em Lectures on the H-Cobordism Theorem}.
+\newblock Princeton University Press, 2015.
+
+\bibitem{MilnorBG}
+John~W. Milnor.
+\newblock Construction of universal bundles, ii.
+\newblock {\em Annals of Mathematics}, 63:272, 1956.
+
+\bibitem{Variations}
+Nicolas Monod.
+\newblock Variations on a theme by higman, 2016.
+
+\bibitem{Perelman}
+Grisha Perelman.
+\newblock The entropy formula for the ricci flow and its geometric
+  applications, 2002.
+
+\bibitem{Poincare}
+H.~Poincar{\'e}.
+\newblock Analysis situs.
+\newblock {\em Journal de l'{\'E}cole polytechnique}, 1:1--121, 1895.
+
+\bibitem{QuillenHomAlg}
+Daniel~G. Quillen.
+\newblock {\em Homotopical Algebra}.
+\newblock Lecture Notes in Mathematics. Springer-Verlag Berlin Heidelberg,
+  1967.
+
+\bibitem{Scorpan}
+A.~Scorpan.
+\newblock {\em The Wild World of 4-Manifolds}.
+\newblock American Mathematical Society, 2005.
+
+\bibitem{Scott}
+G.~P. Scott.
+\newblock {Compact Submanifolds of 3-Manifolds}.
+\newblock {\em Journal of the London Mathematical Society}, s2-7(2):246--250,
+  11 1973.
+
+\bibitem{Serre}
+Jean-Pierre Serre.
+\newblock {\em Trees}.
+\newblock Springer-Verlag, Berlin, 1980.
+\newblock Translated from the French by John Stillwell.
+
+\bibitem{Swan}
+Richard~G. Swan.
+\newblock Periodic resolutions for finite groups.
+\newblock {\em Annals of Mathematics}, 72:267, 1960.
+
+\bibitem{Thurston}
+William~P. Thurston.
+\newblock Shapes of polyhedra and triangulations of the sphere.
+\newblock {\em Unpublished}, 1998.
+
+\bibitem{double}
+user98602.
+\newblock Homology 4-balls with boundary $s^3$.
+\newblock Mathematics Stack Exchange.
+\newblock URL:https://math.stackexchange.com/q/1835420 (version: 2019-02-14).
+
+\bibitem{Novikov}
+I.~A. Volodin, V.~E. Kuznetsov, and A.~T. Fomenko.
+\newblock {\em The problem of discriminating algorithmically the standard
+  three-dimensional sphere}, volume~29.
+\newblock Uspekhi Mat. Nauk, 5 edition, 1974.
+
+\bibitem{Whitehead}
+J.~Whitehead.
+\newblock On the asphericity of regions in a 3-sphere.
+\newblock {\em Fundamenta Mathematicae}, 32(1):149--166, 1939.
+
+\end{thebibliography}

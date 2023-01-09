@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Конструкция Кана и Терстона.aux
+The style file: plain.bst
+Database file #1: data.bib
+You've used 44 entries,
+            2118 wiz_defined-function locations,
+            806 strings with 9882 characters,
+and the built_in function-call counts, 12153 in all, are:
+= -- 1195
+> -- 446
+< -- 4
++ -- 188
+- -- 136
+* -- 751
+:= -- 2076
+add.period$ -- 136
+call.type$ -- 44
+change.case$ -- 190
+chr.to.int$ -- 0
+cite$ -- 44
+duplicate$ -- 491
+empty$ -- 1066
+format.name$ -- 136
+if$ -- 2565
+int.to.chr$ -- 0
+int.to.str$ -- 44
+missing$ -- 50
+newline$ -- 222
+num.names$ -- 88
+pop$ -- 208
+preamble$ -- 1
+purify$ -- 156
+quote$ -- 0
+skip$ -- 330
+stack$ -- 0
+substring$ -- 724
+swap$ -- 61
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 154
+warning$ -- 0
+while$ -- 121
+width$ -- 46
+write$ -- 476
