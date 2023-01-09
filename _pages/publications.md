@@ -5,4 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-Work in progress!
+
+{% for post in site.publications reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
