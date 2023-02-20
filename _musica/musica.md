@@ -2,10 +2,10 @@
 title: "Inventio"
 collection: musica
 type: "Musica"
-permalink: /musica/2023-02-20-inventio
+permalink: /musica/2021-08-03-inventio
 venue: "Piano piece"
-date: 2023-02-20
+date: 2021-08-03
 location: "Home"
 ---
 
-[Notes](https://magisterlud.github.io/files/Quasi%20Categories.pdf), [page of the seminar](https://sites.google.com/view/homotopy-basics-seminar) and [IUM page](https://ium.mccme.ru/s23/s23-kaledin.html)
+[Sheet Music](https://magisterlud.github.io/files/sheet_music/Inventio_1.0.pdf)
