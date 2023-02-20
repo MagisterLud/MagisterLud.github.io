@@ -240,7 +240,7 @@ defaults:
       path: ""
       type: musica
     values:
-      layout: single
+      layout: musica
       author_profile: true
       share: true
 
