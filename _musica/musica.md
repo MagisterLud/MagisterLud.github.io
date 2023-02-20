@@ -1,6 +1,6 @@
 ---
 title: "Inventio"
-collection: talks
+collection: musica
 type: "Musica"
 permalink: /musica/2023-02-20-talk
 venue: "Piano piece"
