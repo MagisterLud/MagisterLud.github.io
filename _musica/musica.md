@@ -2,7 +2,7 @@
 title: "Inventio"
 collection: musica
 type: "Musica"
-permalink: /musica/2023-02-20-talk
+permalink: /musica/2023-02-20-inventio
 venue: "Piano piece"
 date: 2023-02-20
 location: "Home"
