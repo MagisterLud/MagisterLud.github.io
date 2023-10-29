@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: nvaltalk.aux
+The style file: plain.bst
+Database file #1: data.bib
+Warning--entry type for "promonoidal_category" isn't style-file defined
+--line 11 of file data.bib
+Warning--to sort, need author, editor, or key in Lothaire1997
+Warning--empty author and editor in Lothaire1997
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            520 strings with 4689 characters,
+and the built_in function-call counts, 973 in all, are:
+= -- 96
+> -- 28
+< -- 0
++ -- 12
+- -- 8
+* -- 57
+:= -- 163
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 15
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 43
+empty$ -- 96
+format.name$ -- 8
+if$ -- 209
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 21
+num.names$ -- 6
+pop$ -- 22
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 28
+stack$ -- 0
+substring$ -- 45
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 2
+while$ -- 8
+width$ -- 5
+write$ -- 42
+(There were 3 warnings)

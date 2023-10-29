@@ -1,0 +1,1181 @@
+\documentclass{beamer}
+\setbeamertemplate{footline}[frame number]
+\mode<presentation>
+{
+\usetheme{Warsaw}
+% or ...
+%\usecolortheme{beaver}
+%  \setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+}
+
+\usepackage{mathtext}
+\usepackage[cp1251]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[T2A]{fontenc}
+
+\usepackage{inputenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+
+\usepackage{amssymb}
+\usepackage{graphicx}
+%\usepackage{pscyr}
+
+\usepackage{times}
+
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+\usepackage{amscd}
+\usepackage{euscript}
+\usepackage{graphics}
+
+\usepackage{inputenc}
+\usepackage{mathtext}
+%\usepackage{mathkerncmssi8}
+%\pdfmapfile{+mathkerncmssi8.map}
+\graphicspath{{./}{pics/}}
+\usepackage[matrix,arrow,curve]{xy}
+% ----------------------------------------------------------------
+%\vfuzz2pt % Don't report over-full v-boxes if over-edge is small
+%\hfuzz2pt % Don't report over-full h-boxes if over-edge is smafrll
+
+
+% ----------------------------------------------------------------
+% THEOREMS -------------------------------------------------------
+\newtheorem{thm}{Theorem}
+\newtheorem*{thm*}{Theorem}
+\newtheorem{cor}{Corollary}
+\newtheorem{lem}{Lemma}
+%\newtheorem*{lem*}{Lemma}
+%\newtheorem{prop}{Proposition}
+\newtheorem{con}{Conjecture}
+\newtheorem{prob}{Problem}
+\newtheorem*{fr}{}
+%
+%\newtheorem{utv}{Óòâåðæäåíèå}
+%\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+%\newtheorem{ex}{Ïðèìåð}
+%\newtheorem{cons}{Construction}
+%\newtheorem*{cons*}{Construction}
+%\newtheorem{rem}{Remark}
+%\theoremstyle{remark}
+%\newtheorem*{not*}{Notation}
+
+\DeclareGraphicsExtensions{.pdf}
+%\DeclareMathOperator{\conv}{conv}
+%\DeclareMathOperator{\supp}{supp}
+%\DeclareMathOperator{\des}{des}
+%\DeclareMathOperator{\Sym}{Sym}
+%\newcommand{\lk}{lk}
+%\DeclareMathOperator{\dim}{dim}
+%\DeclareMathOperator{\codim}{codim}
+%\DeclareMathOperator{\cone}{Cone}
+
+\usepackage{color}
+\def\red#1{\textcolor{red}{#1}}
+\def\blue#1{\textcolor{blue}{#1}}
+
+%%%%\DeclareMathOperator{\lk}{lk}
+%%%%\DeclareMathOperator{\st}{st}
+\newcommand {\ib}[1]{\textit{\textbf{#1}}}
+%\usetheme{Warsaw}
+%\usetheme{Madrid} % My favorite!
+%\usetheme{Boadilla} % Pretty neat, soft color.
+%\usetheme{default}
+\usetheme{Warsaw}
+%\usetheme{Bergen} % This template has nagivation on the left
+%\usetheme{Frankfurt} % Similar to the default
+%with an extra region at the top.
+%\usecolortheme{seahorse} % Simple and clean template
+%\usetheme{Darmstadt} % not so good
+% Uncomment the following line if you want %
+% page numbers and using Warsaw theme%
+%\setbeamertemplate{footline}[page number]
+%\setbeamercovered{transparent}
+%\setbeamercovered{invisible}
+% To remove the navigation symbols from
+% the bottom of slides%
+%\setbeamertemplate{navigation symbols}{}
+%\setlength{\parskip}{10pt plus 1pt minus 1pt}
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+
+\begin{document}
+
+\title[$n$-valued groups and applications]{%
+\huge {$n$-valued groups and applications}}
+\author[V.\,M.\,Buchstaber]{\huge V.\,M.\,Buchstaber}
+\vspace{10cm}
+\institute{Steklov Mathematical Institute RAS\\
+Steklov International Mathematical Center\\
+HSE University, Int. Lab. of Algebraic Topology and Its Applications,\\
+buchstab@mi-ras.ru}
+\vspace{5cm}
+
+\date{
+\vspace{1cm}
+\text{}\\
+Euler International Mathematical Institute\\
+St-Petersburg, 04 October, 2022}
+
+%%%%%%%%%%%%%   1
+\begin{frame}
+  \maketitle
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%   2
+\begin{frame}{}
+In various fields of research one encounters \\
+a natural multiplication on a space, say $X$,  under which \\
+the product of a pair of points is a subset of $X$\\ (for example, a finite subset).
+\vspace{0.5cm}
+
+The literature on multivalued groups and  their applications\\
+is very large and includes titles from 19th century,\\
+mainly in the context of hypergroups.
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%   3
+\begin{frame}{}
+In 1971 S.~Novikov and the author introduced a construction,\\
+\text{suggested by the theory of characteristic classes of vector bundles},\\
+in which the product of each pair of elements is an \blue{$n$-multiset},\\
+i.e. the unordered set of $n$ points, possibly with repetitions.
+\vskip.3cm
+This construction leads to the notion of \blue{$n$-valued groups}.
+\vskip.3cm
+Soon afterwards the author gave an axiomatic definition\\
+of $n$-valued groups and obtained the first results on their algebraic structure.\\
+These results have found applications in the well-known problem of algebraic topology.
+\end{frame}
+
+
+
+%%%%%%%%%%%%   4
+\begin{frame}{}
+The condition of \blue{$n$-valuedness} is in fact very strong, so,
+initially it seemed that the supply of interesting examples
+of~$n$-valued groups is not very rich.
+\vspace{0.5cm}
+
+Soon afterwards the author developed the theory of formal,\\
+or local, $n$-valued Lie groups,\\
+which appeared to be rich of contents and have found important applications
+in algebraic topology and theory of integrable systems.
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%  5
+\begin{frame}{}
+In 1990 the author described the structure of an algebraic 2-valued group
+on the complex projective line $\mathbb{C}P^1$.
+\vspace{0.5cm}
+
+Since 1993, Elmer Rees and the author collaborated\\
+on the topological and algebraical theory of $n$-valued groups.
+\vspace{0.5cm}
+
+Since 1996 A.Veselov and the author started to work\\
+on the applications of the $n$-valued groups theory\\
+to the dynamical systems with discrete time.
+\vspace{0.5cm}
+
+At present, a number of authors successfully develope the theory
+of $n$-valued groups (finite, discrete, topological, algebraic,
+algebro-geometric) with applications in various areas\\
+of mathematics and mathematical physics.
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%   6
+\begin{frame}{Symmetric powers of a space.}
+For a topological space $X$, let $(X)^n$ denote its $n$-fold
+symmetric power, i.e., $(X)^n=X^n/\Sigma_n$ where the symmetric group $\Sigma_n$ acts by permuting the coordinates.
+\vspace{0.2cm}
+
+An element of $(X)^n$ is called an $n$-subset of $X$ or just an $n$-set;\\
+it is a subset with multiplicities of total cardinality $n$.
+\vspace{0.2cm}
+
+\underline{Example}. The spaces $(\mathbb{C})^n=\mathbb{C}^n/\Sigma_n$
+and $\mathbb{C}^n$ are identified\\ using the map $\mathcal{S}:\mathbb{C}^n\to\mathbb{C}^n$
+whose components are given by
+\[
+(z_1,z_2,\dots,z_n)\to e_r(z_1,z_2,\dots,z_n),\; 1\leqslant r\leqslant n,
+\]
+where $e_r$ is the $r$-th elementary symmetric polynomial.
+\vspace{0.2cm}
+
+The \blue{projectivisation} of the map $\mathcal{S}$ induces a
+homeomorphism between $(\mathbb{CP}^1)^n$ and $\mathbb{CP}^n.$
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%   7
+\begin{frame}{$n$-valued group structure.}
+An \blue{$n$-valued multiplication} on $X$ is a map
+\[
+\mu: X\times X \to (X)^n\,:\,\mu(x,y)=x*y=[z_1,z_2,\dots, z_n], \; z_k=(x*y)_k.
+\]
+\underline{Associativity}. The $n^2$-sets:
+\begin{gather*}[x*(y*z)_1,x*(y*z)_2,\dots,x*(y*z)_n],\\
+[(x*y)_1*z,(x*y)_2*z,\dots,(x*y)_n*z]
+\end{gather*}
+are equal for all $x,y,z\in X$.\\
+\vspace{0.2cm}
+
+\underline{Unit}. $e\in X$ such that\; $e*x=x*e=[x,x,\dots,x]$\; for all\; $x\in X$.\\
+\vspace{0.2cm}
+
+\underline{Inverse}. A map $\mathrm{inv}\colon X\to X$ such that
+\vspace{-0.4cm}
+\[
+e\in \mathrm{inv}(x)* x\; \text{ and }\; e \in x*\mathrm{inv}(x)\;\text{ for all }\; x\in X.
+\]
+\vspace{-0.5cm}
+\begin{fr}
+The map $\mu$ defines an $n$-valued group structure on $X$ \\
+if it is associative, has a unit and an inverse.
+\end{fr}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%   8
+\begin{frame}{First results}
+\begin{lem}
+For each $m\in\mathbb{N}$, an $n$-valued group on $X$, with\\ the multiplication $\mu$, can be regarded as an
+$mn$-valued group\\ by using as the multiplication the composition
+\vspace{-0.2cm}
+
+\[
+X\times X\overset{\mu}\longrightarrow(X)^n\overset{(D)^m}{\longrightarrow} (X)^{m n},\;\text{ where }\; D\;\text{ is diagonal}.
+\]
+\end{lem}
+\begin{defn}
+A map $f\colon X\to Y$ is a \blue{homomorphism} of $n$-valued groups if
+ \vspace{-0.2cm}
+
+\[
+f(e_X)=e_Y,\; f(\mathrm{inv}_X(x))=\mathrm{inv}_Y(f(x)))\;\text{ for all }\; x\in X,
+\]
+\[
+\mu_{Y}(f(x),f(y))=(f)^n\mu_X(x,y)\;\text{ for all }\; x,y\in X.
+\]
+\end{defn}
+\begin{lem}
+Let $f\colon X\to Y$ be a homomorphism of $n$-valued groups. Then
+\vspace{-0.2cm}
+
+\[
+\mathrm{Ker}(f)=\{x\in X\mid f(x)=e_Y\}\;\text{ is an $n$-valued group}.
+\]
+\end{lem}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%   9
+\begin{frame}{$2$-valued group structure on $\mathbb{Z}_{+}$.}
+Consider the semigroup  of nonnegative integers $\mathbb{Z}_+$.\\[3pt]
+Define the multiplication \;$\mu\colon \mathbb{Z}_+\times \mathbb{Z}_+\to (\mathbb{Z}_+)^2$ \\[3pt]
+by the formula\; $x*y=[x+y,|x-y|]$.\\[7pt]
+
+\underline{The unit}: $e=0$.
+\vspace{0.2cm}
+
+\underline{The inverse}: $\mathrm{inv}(x)=x$.
+\vspace{0.2cm}
+
+\underline{The associativity}:\\[3pt]
+one has to verify that the $4$-subsets of
+$\mathbb{Z}_+$
+\[[x+y+z, |x-y-z|,x+|y-z|, |x-|y-z||]\]
+and
+\[[x+y+z,|x+y-z|,|x-y|+z,||x-y|-z|]\]
+are equal for all nonnegative integers $x,y,z$.
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%  10
+\begin{frame}{Additive $n$-valued group structure on $\mathbb{C}$.}
+Define the multiplication\; $\mu\colon \mathbb{C}\times \mathbb{C}\to \mathbb{(C)}^n$\;
+by the formula
+\vspace{-0.2cm}
+
+\[
+x*y=[(\sqrt[n]{x}+\varepsilon^r \sqrt[n]{y}\,)^n,\quad 1\leqslant r\leqslant n],
+\]
+where $\varepsilon \in \mathbb{Z}_n$ is a
+primitive $n$-th root of unity.
+\vspace{0.2cm}
+
+\underline{The unit}: $e=0$.
+\vspace{0.2cm}
+
+\underline{The inverse}: $\mathrm{inv}(x)=(-1)^n x$.
+\vspace{0.2cm}
+
+The multiplication is described by the polynomial equations
+\vspace{-0.2cm}
+
+\[
+p_n(x,y,z)=\prod_{k=1}^n\big(z-(x*y)_k\big) = 0.
+\]
+For instance,
+\vspace{-0.3cm}
+
+\[
+p_1=z-x-y,\quad p_2=(z+x+y)^2-4(x y+y z+z x),
+\]
+\[
+p_3=(z-x-y)^3-27xyz.
+\]
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%   11
+\begin{frame}{Coset and double coset groups.}
+Let $G$ be a ($1$-valued) group with the multiplication $\mu_0$,\\
+the unit $e_G$, and $\mathrm{inv}_G(u) = u^{-1}$.\\[5pt]
+Let $A$ be a group  with $\# A=n$\; and\; $\varphi : A \to Aut\,G$ be\\
+a homomorphism to the group of automorphisms of $G$. \\[5pt]
+Denote by $X$ the quotient space $G/\varphi(A)$ of $G$ by the action\\ of the group
+$\mathrm{Im}\varphi$, and denote by $\pi\colon G\to X$ the quotient map.\\[5pt]
+
+Define the $n$-valued multiplication\; $\mu\colon X\times X\to (X)^n$\\ by the formula
+\[
+\mu(x,y)=[\pi(\mu_0(u,v^{a_i})),\quad 1\leqslant i\leqslant n,\quad a_i\in A],
+\]
+where\; $u\in \pi^{-1}(x),\;v\in \pi^{-1}(y)$\; and\; $v^a$\, is the image\\
+of the action of $\varphi(a) \in Aut\,G, \; a \in A$\; on\; $G$.
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%   12
+\begin{frame}{}
+\begin{thm}
+The multiplication $\mu $ defines an $n$-valued group structure\\
+on $X=G/\varphi(A)$, called the \blue{coset group} of  $(G,A,\varphi)$,\\
+with \underline{the unit} $e_X=\pi(e_G)$ and \underline{the inverse} $\mathrm{inv}_{X}(x)=\pi(\mathrm{inv}_{G}(u))$, where
+$u\in\pi^{-1}(x)$.
+\end{thm}
+In case of $\ker \varphi = 0$ we will identify $A$ with $\varphi(A)
+\subset Aut\, G$.
+\vspace{0.2cm}
+
+Let $H \subset G$ be a subgroup, and $\#H=n$.\\[3pt]
+Denote by $X$ the space of double cosets $H \backslash G/H$.\\[3pt]
+Define the $n$-valued multiplication\; $\mu\colon X\times X\to (X)^n$\\
+by the formula
+\[
+\mu(x,y)=\{Hg_1H\}*\{Hg_2H\} = [\{Hg_1hg_2H\} : \; h \in H].
+\]
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%   13
+\begin{frame}{}
+\begin{thm}
+The multiplication $\mu $ defines an $n$-valued group structure\\
+on $X=H \backslash G/H$, called a \blue{double coset group} of $(G,H)$,\\
+with \underline{the unit} $e_X=\{H\}$ and \underline{the inverse} $\mathrm{inv}_{X}(x)=\{Hg^{-1}H\}$,\\ where $x=\{HgH\}$.
+\end{thm}
+Each coset group of $(G,A,\varphi)$, admits a double coset realization on $X=A \backslash G'/A$ as a double
+coset group of $(G',A)$,\\ where $G'$ is the semidirect product of the groups $G$\, and\, $A$\\ with respect to the action of~$A$\, on\, $G$\; by means of $\varphi$.
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%   14
+\begin{frame}{Examples of the coset groups.}
+\bf{(1)} The $2$-valued group $(\mathbb{Z},\mathbb{Z}_2,\varphi)$ on $\mathbb{Z}_+$.\\[5pt]
+
+\bf{(2)} The additive $n$-valued group $(\mathbb{C},\mathbb{Z}_n,\varphi)$ on $\mathbb{C}$.\\[5pt]
+
+\bf{(3)} Let $G$ be the infinite dihedral group
+\[
+G=\{a,b\mid a^2=b^2=e\}.
+\]
+\text{The interchange of $a$ and $b$ generates the automorphism group $A$,}
+$\# A=2$. Then
+\vspace{-0.3cm}
+
+\[
+\qquad X=G/A=\{u_{2n}, u_{2n+1}\}, \quad n\geqslant 0,
+\]
+where\; $u_{2n} = \{(ab)^n, (ba)^n\}$,\quad $u_{2n+1} = \{b(ab)^n, a(ba)^n\}$.\\[3pt]
+Then the multiplication is given by the formula
+\vspace{-0.2cm}
+
+\[
+u_k*u_{\ell}=[u_{k+\ell},u_{|k-\ell|}].
+\]
+Thus $X$ is isomorphic to the $2$-valued group on~$\mathbb{Z}_+$.
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%   15
+\begin{frame}{Examples of the coset groups.}
+\bf{(4)} Let $G$ be a finite group, $\# G=n$.\\ Let $A=G$ acts by inner automorphisms
+\[
+g^a=a^{-1}g a,\quad g\in G,\; a\in A.
+\]
+Thus the \blue{set of characters} of $G$ is an $n$-valued coset group\\ on $X=G/A$.
+\vspace{0.2cm}
+
+Consider $G=\Sigma_3$.\\[6pt]
+Then $X=\{e, x_1,x_2\}$ is a $6$-valued group:
+\begin{align*}
+x_1*x_1 &= [e,e,e,x_1,x_1,x_1],\\
+x_1*x_2=x_2*x_1 &= [x_2,x_2,x_2,x_2,x_2,x_2],\\
+x_2*x_2 &= [e,e,x_1,x_1,x_1,x_1].
+\end{align*}
+
+Note, that this $6$-valued group on three elements is impossible to reduce to a $n$-valued group with $n<6$.
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%   16
+\begin{frame}{Examples of the coset groups.}
+\bf{(5)}  Consider the $n$-fold direct product $G^n$ of a group~$G$ by itself.\\
+The group $\Sigma_n$ acts on~$G^n$ by permuting the factors.
+\begin{fr}
+Therefore, for any group~$G$, the symmetric product $(G)^n$ is endowed with the structure of an $n!$-valued coset group.
+\end{fr}
+If~$G$ is commutative, with the operation  $\mu(g',g'') = g'+g''$,\\
+then we have an $n!$-valued group homomorphism
+\[ (\mu)^n : (G)^n \longrightarrow G, \quad [g_1, \ldots, g_n] \longrightarrow g_1+ \cdots + g_n, \]
+where $G$ is treated as an $n!$-valued group with the diagonal
+operation $\mu(g',g'') = [g'+g'', \ldots, g'+g'']$.\\[5pt]
+In this way we obtain the $n!$-valued group $\mathrm{Ker}(\mu)^n$.
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%   17
+\begin{frame}{}
+Take a smooth elliptic curve. It equips the torus  $T^2$\\ with a commutative group structure. \\
+The construction above produces a structure\\ of an $n!$-valued group on $(T^2)^n$ for each~$n$.
+\begin{fr}
+Thus this construction produces a structure\\ of an $n!$-valued group on the complex projective space\\[3pt]
+\qquad \qquad $\mathbb{C}P^{n-1}=\mathrm{Ker}((\mu)^n : (T^2)^n \to T^2)$.
+\end{fr}
+
+For $n=2$, this yields a structure of a $2$-valued group on $\mathbb{C}P^1$.
+\begin{fr}
+Using the automorphisms of a smooth elliptic curve, we obtain\\
+$2$-valued and $3$-valued coset group structures on $\mathbb{C}P^1$.
+\end{fr}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%   18
+\begin{frame}{A family of non-coset groups.}
+Consider the $(2k+1)$-valued group on $X(3)=\{x_0=e,x_1,x_2\}$ where the  multiplication is given by the formulas
+\begin{align*}
+x_1*x_1 &= [\underbrace{x_1,\dots,x_1}_{k},\underbrace{x_2,\dots,x_2}_{k+1}],\\[7pt]
+x_1*x_2=x_2*x_1 &= [e,\underbrace{x_1,\dots,x_1}_{k},\underbrace{x_2,\dots,x_2}_{k}],\\[7pt]
+x_2*x_2 &= [\underbrace{x_1,\dots,x_1}_{k+1},\underbrace{x_2,\dots,x_2}_{k}].
+\end{align*}
+\begin{thm}[S. Evdokimov, 2005]
+The $(2k+1)$-valued group $X(3)$ is a coset group if and only if $2k+1=p^s$, where $p$ is a prime number.
+\end{thm}
+
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%   19
+\begin{frame}{$n$-valued groups on sets\\ of irreducible unitary representations of groups.}
+Let~$G$ be a finite group, $\# G=m$\; and\; let $\rho_0, \rho_1, \ldots, \rho_k$ be\\
+the set of all its irreducible unitary representations,\\
+where $\rho_0$ is the trivial one-dimensional representation.
+\vspace{0.2cm}
+
+Consider the decomposition of tensor products of irreducible representations in direct sums of irreducible representations
+\[
+\rho_i \otimes \rho_j = \rho_i \rho_j = \sum_{l=0}^k a_{ij}^l \rho_l
+\]
+where $a_{ij}^l$ is the multiplicity of the representation $\rho_l$\\ in the product $\rho_i \rho_j$.
+\vspace{0.2cm}
+
+We have $a_{ij}^l=a_{ji}^l$ and, as the classical theory implies,
+\[
+a_{ij}^0 =
+\begin{cases}
+  1, & \mbox{if } \rho_j=\bar{\rho_i} \\
+  0, & \mbox{otherwise}.
+\end{cases}
+\]
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%   20
+\begin{frame}{}
+Let us denote the dimension of $\rho_l$ by $d_l$. We have $\sum\limits_{l=0}^k d_l^2=m$.\\[3pt]
+
+\text{Let $n$ be the least common multiple (LCM) of $d_id_j, \; 0 \leqslant i \leqslant j \leqslant k$.} \\[3pt]
+Introduce the set of integers $m_{ij}^l = n a_{ij}^l\, \dfrac{d_l}{d_id_j}$.\; We have
+\vspace{-0.4cm}
+
+\[
+ \sum_{l=0}^k m_{ij}^l = n.   \qquad \qquad \qquad {}
+ \]
+\vspace{-0.2cm}
+
+Set $x_l = \frac{1}{d_l}\rho_l$\; and consider the set $X=\{x_0,\ldots,x_k \}$.
+\begin{thm}
+The tensor product of representations defines on~$X$ a structure
+of an $n$-valued group with the product  $\mu : X \times X \to (X)^n$, where\\
+$\mu(x_i,x_j)=x_i*x_j$ is the $n$-multiset containing the element $x_l$\\
+with the multiplicity $m_{ij}^l $,\, the element $x_0$ is the unit,\\
+and the inverse $\mathrm{inv} : X \to X$ is given by the complex conjugation map,\;
+i.e., $\mathrm{inv}(x_l)=\bar{x}_l$, where $\bar{x}_l=\frac{1}{d_l}\bar{\rho}_l$.
+\end{thm}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%   21
+\begin{frame}{\textbf{Example.} $G=\Sigma_3$.}
+There are irreducible representations $\rho_0,\; \rho_1,\; \rho_2$,\\
+of dimensions $d_0=1, \; d_1=1$, and $d_2=2$, respectively,\\ with the tensor product table
+\vspace{-0.3cm}
+\begin{gather*}
+\rho_0 \rho_l = \rho_l, \quad l=0,1,2, \\
+\rho_1^2=\rho_0, \quad \rho_1 \rho_2=\rho_2, \quad \rho_2^2=\rho_0 \oplus \rho_1 \oplus \rho_2.
+\end{gather*}
+So $n=d_2^2=4$, and on the set $X= \{ x_0=\rho_0, x_1=\rho_1, x_2=\frac{1}{2}\rho_2 \}$
+we obtain  a 4-valued group with the multiplication
+\vspace{-0.3cm}
+\begin{align*}
+\qquad x_1*x_1 &=[x_0,x_0,x_0,x_0], \\
+\qquad x_1*x_2 &=[x_2,x_2,x_2,x_2], \\
+\qquad x_2*x_2 &=[x_0,x_1,x_2,x_2],
+\end{align*}
+\vskip-0.2cm
+the unit $e=x_0$, and the identity map $\mathrm{inv}$.
+\begin{fr}
+Note that in this case, the 4-valued group structure\\
+cannot be replaced by a less valued structure.
+\end{fr}
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%   22
+\begin{frame}{Generalization of Pontryagin's duality\\ to the case of non-commutative groups.}
+In the case of a commutative group~$G$, the identification\\ of
+irreducible unitary representations with the conjugacy classes
+of~$G$ corresponds to the Pontryagin duality.
+\vspace{0.4cm}
+
+For a general finite group~$G$, with $\#G=m$, we obtain on these isomorphic sets two
+structures: the structure of $m$-valued groups and the structure of $n$-valued groups where $n=\text{LCM}\{ d_id_j \}$.\\[2pt]
+\begin{fr}
+For a given noncommutative finite group, this construction yields an n-valued group dual to it.
+\end{fr}
+For example, for $G=\Sigma_3$ we have $m=6$ and $n=4$.\\ Thus, we obtain a 4-valued group dual to the 1-group $\Sigma_3$.
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%   23
+\begin{frame}{Action on a space.}
+An $n$-valued group $X$ \blue{acts on a space} $Y$ if there is a mapping
+\[
+\phi\colon X\times Y\to (Y)^n,
+\]
+also denoted $x\circ y=\phi(x,y)$, such that the two $n^2$-subsets of $Y$
+\[
+x_1\circ(x_2\circ y)\;\text{ and }\;(x_1*x_2)\circ y
+\]
+are equal for all $x_1,x_2\in X$ and $y\in Y$;\\[4pt]
+and also
+\[
+e\circ y=[y,y,\dots,y]\; \text{ for all } y\in Y.
+\]
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%  24
+\begin{frame}{The coset and double coset actions.}
+Let $G$ be a certain 1-valued group and $\varphi : A \to Aut\,G$, $\# A=n$.\\
+Suppose that $G$ and $A$ \blue{equivariantly} act  on some space $V$, i.e.
+\[
+(g(v))^a= g^a(v^a),\; \text{where} \; a\in A, \; g\in G, \; v\in V.
+\]
+\text{There is a natural action of the~$n$-valued coset group $X=G/\varphi(A)$}
+on the space of orbits $Y=V/A$.
+\vspace{0.2cm}
+
+Let~$G$ be a group and let $H \subset G$ be a subgroup, $\# H=n$.\\
+Suppose~$G$ acts on a space~$V$.\; Then the double coset group $X=H \backslash G/H$ acts on~$Y=V/H$ according to the formula
+\[
+\{HgH\}\{Hv\} = [H(gh)v : h \in H].
+\]
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%   25
+\begin{frame}{Algebraic action.}
+For a given action
+\[
+\phi\colon X\times Y\to (Y)^n,
+\]
+\text{define $\Gamma_x$, the \blue{graph of the action} of $x \in X$, as the subset of $Y \times Y$,}
+which consists of the pairs $(y_1,y_2)$ such that $y_2\in \phi(x, y_1)$.
+\begin{block}{Definition}
+The action of an~$n$-valued group~$X$ on an~algebraic variety $M$\\
+is called \blue{algebraic} if the action of any element of $X$\\
+is determined by an algebraic correspondence,\\
+i.e., its graph is an \blue{algebraic subset} in $M \times M$.
+\end{block}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%   26
+\begin{frame}{}
+\text{It is well known that treating an action of a group~$G$ on a space~$V$}
+as a dynamical system leads to fruitful investigations\\ in ergodic theory and geometry.
+\vskip.2cm
+Among the directions of these investigations, the study\\ of dynamical systems with discrete time,
+whose evolution\\ is described by a map of~$V$ into itself, plays a distinguished role.
+\vskip.2cm
+It is natural to apply the theory of $n$-valued groups to $n$-valued analogues of these systems.
+\begin{block}{Definition}
+An \blue{$n$-valued dynamics} $T$ with \blue{discrete time} on a space~$Y$\\ is a continuous map $T : Y \to (Y)^n$.
+\end{block}
+Thus, if we consider~$Y$ as a space of states, then an $n$-valued
+dynamics $T : Y \to (Y)^n$ determines possible states $T(y) = [y_1,
+\ldots, y_n]$ at the moment $(t+1)$ as functions\\ of the state $y$ of
+the system at the moment~$t$.
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%   27
+\begin{frame}{Example.}
+Let\; $T(x,y)=b_0(x)y^n+b_1(x)y^{n-1}+\cdots+b_n(x).$\\[5pt]
+The equation $T(x,y)=0$ defines an~$n$-valued map\\ (or a $n$-valued dynamics)
+$\mathbb{C}\to\mathbb{C}$ under which $x$ is taken\\ to the set of roots $[y_1,y_2,\dots, y_n]$ of equation $T(x,y)=0$.
+\vskip.4cm
+In general case the number of different images of a point grows exponentially with the number of iterations of the map.
+\vskip.4cm
+In exceptional case the growth is polynomial.
+
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%   28
+\begin{frame}{}
+The pictures demonstrates the difference between
+exceptional and general situations.
+\vskip .5cm
+
+\parbox[r][5cm][b]{8cm}{\hspace*{0.4cm}\includegraphics[totalheight=5cm]{fig1.jpg}}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%   29
+\begin{frame}{The Euler-Chasles correspondence.}
+The polynomial
+\[
+T(x,y)= A x^2 y^2  + Bxy(x + y) + C(x^2  + y^2 ) + Dxy + E(x + y) + F,
+\]
+where $A,B,C,D,F$ are constants, defines the $2$-valued dynamics,\\
+in which the number of different images after the $k$-th iteration is $k+1$,
+\blue{but not} $2^k$ as one could expect.
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%   30
+\begin{frame}{}
+The picture explains this fact as the curve $T(x,y)=0$\\
+describes the geometric situation in the famous \blue{Poncelet porism}\\
+for two conics on the plane.
+\vskip 1.5cm
+
+\parbox[r][5cm][b]{3.5cm}{\hspace*{1.5cm}
+\includegraphics[height=6cm]{fig2.jpg}}
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%   31
+\begin{frame}{}
+It is known that for Euler-Chasles correspondence there exists\\
+an even elliptic function $f(z)$ of the degree~$2$,\\
+such that if $x=f(z)$ then $[y_1,y_2]=[f(z+a),f(z-a)]$ for some $a$.
+\vskip.3cm
+This means that the Euler-Chasles correspondence is\\
+the projection of the mapping $z \to z+a$ of the \blue{elliptic curve} $E$\\
+\text{into itself to the projective line~$\mathbb{CP}^1$ which is a coset space $E/\mathbb{Z}_2$,}
+where $\mathbb{Z}_2$ is acting on $E$ as $z \to -z$.
+\vskip.3cm
+Thus, we have the representation of the two-valued group
+$\mathbb{Z}_{+}=\mathbb{Z}/\mathbb{Z}_2$ with the multiplication
+\vspace{-0.3cm}
+
+\[
+x*y=[x+y,|x-y|].
+\]
+\begin{thm} [V.B., A.Veselov, 1996]
+All algebraic actions of the two-valued group $\mathbb{Z}_{+}$ on $\mathbb{CP}^1$\\
+are generated either by the Euler-Chasles correspondence\\
+or by a reducible correspondence.
+\end{thm}
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%   32
+\begin{frame}{Integrable $n$-valued dynamics.}
+\begin{block}{Definition}
+An $n$-valued dynamics~$T$ with discrete time on a space~$Y$\\
+is said to be \blue{integrable} by means of an $n$-valued group~$X$\\
+with a single generator $a$ if the embedding $i : Y \to X \times Y$, \\
+$i(y)=(a,y),$ extends to an action $\varphi$ of the $n$-valued group~$X$ on~$Y$, i.e., the triangle
+\vspace{-0.5cm}
+
+$$
+\xymatrix{
+Y \ar[r]^T \ar[d]^i & (Y)^n \\
+X \times Y \ar[ur]_{\varphi} & }
+$$
+\vspace{-0.5cm}
+
+\quad is commutative.
+\vspace{0.2cm}
+\end{block}
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%   33
+\begin{frame}{Singly generated $n$-valued groups.}
+For 1-valued groups, the only singly generated group are
+ $\mathbb{Z}$ and its quotients, the cyclic groups
+$\mathbb{Z}_m$.\\
+The variety of singly generated $n$-valued groups is much wider.
+\begin{block}{Definition}
+An $n$-valued group $(X,*,e,\mathrm{inv})$  is said to be \blue{ singly generated}
+if there is an element $g \in X$ such that each element $x\in X$ belongs
+to the multiset $g^k*\bar{g}^l$ for some $k$ and $l$, where $\bar{g}=\mathrm{inv}(g)$.
+\end{block}
+Let $(X,*,e,\mathrm{inv})$ be a singly generated $n$-valued group with\\
+a generator $g$ such that $\bar{g}\in g^k$ for some $k\geqslant 1$.
+\vskip.2cm
+Define a graph $\Gamma_g$ in the following way:\\
+ - any $x\in X$ gives a node in $\Gamma_g$;\\
+ - there is an arrow of weight $l$ from $x_1$ to $x_2$ if $x_2$ belongs\\
+ to the multiset $g*x_1$ with multiplicity $l$.
+\vskip.2cm
+For example, there is an arrow of multiplicity $n$ from $e$ to $g$.
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%   34
+\begin{frame}{Finite groups with an irreducible exact representation.}
+William Burnside (1852--1927)
+\begin{thm}[W. Burnside]
+Let $\rho$ be an irreducible faithful representation of a
+finite group~$G$.
+
+Then each irreducible representation of~$G$ enters\\
+the decomposition of a power $\rho^k=\rho \otimes \cdots \otimes\rho$ into the sum\\
+of irreducible summands, for some $k$.
+\end{thm}
+\begin{cor}
+If a finite group~$G$ possesses a \blue{faithful irreducible} representation,
+then the $n$-valued group on the set of its irreducible representations is
+\blue{singly generated}.
+\end{cor}
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%   35
+\begin{frame}{Construction of integrable $n$-valued
+dynamical systems with discrete time.}
+\begin{fr}
+Any \blue{simple} finite group possesses a faithful irreducible
+representation.
+\end{fr}
+For example, for $G=\Sigma_3$ the $2$-dimensional
+irreducible representation $\rho_2$ is faithful, and the 4-valued
+group\\ on $X=(e,x_1,x_2)$ is singly generated, namely,
+$x_2*x_2=(e,x_1,x_2,x_2)$.
+\vskip.3cm
+A general condition for the existence of faithful irreducible representations
+for finite groups see in the paper W.Gaschutz (1954).
+\begin{fr}
+Singly generated $n$-valued groups define integrable $n$-valued
+dynamical systems with discrete time.
+\end{fr}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%   36
+\begin{frame}{$n$-Hopf algebras.}
+Associate to a space $X$ the ring $\mathbb{C}[X]$ of all continuous complex valued functions on~$X$.
+For any positive integer $k$, we have\\ the canonical map
+\vspace{-0.4cm}
+
+\[
+s_k : \mathbb{C}[X] \longrightarrow \mathbb{C}[(X)^k],
+\]
+such that  $s_k(f)[x_1, \ldots,x_k] = \sum_{i=1}^k f(x_i)$.
+\begin{block}{Definition}
+Let~$X$ be an~$n$-valued group with the multiplication
+$\mu : X \times X \longrightarrow (X)^n$.\; The \blue{diagonal map}
+\[
+\Delta : \mathbb{C}[X] \longrightarrow \mathbb{C}[X \times X]
+\approx \mathbb{C}[X] \widehat{\otimes} \mathbb{C}[X]
+\]
+is the linear map $\Delta = \frac{1}{n}F$, where
+\vspace{-0.5cm}
+
+\[
+F(f)(x,y) = s_n(f)(\mu(x,y)) = \sum_{i=1}^n f(z_i)
+\]
+\vspace{-0.5cm}
+
+and $\mu(x,y) = x*y = [z_1, \ldots, z_n]$.
+\end{block}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%   37
+\begin{frame}{}
+For $n=1$ the diagonal map $\Delta$ allows one to introduce\\ a Hopf algebra structure on $\mathbb{C}[X]$.
+\begin{lem}
+The ring of functions $\mathbb{C}[X]$ on an $n$-valued group $X$\\ is a coalgebra $(\mathbb{C}[X],\Delta,\varepsilon)$, where
+$\Delta$ is the introduced above diagonal map and the counit $\varepsilon : \mathbb{C}[X] \to \mathbb{C}$ is induced\\ by the unit $e \to X$.
+\end{lem}
+An action $\varphi : X \times Y \to (Y)^n$ of an $n$-valued group~$X$ on~$Y$\\
+defines a comodule $(\mathbb{C}[Y],\Delta_Y)$ over the coalgebra $(\mathbb{C}[X],\Delta,\varepsilon)$ where
+\[
+\Delta_Y : \mathbb{C}[Y] \longrightarrow \mathbb{C}[X \times Y] \approx \mathbb{C}[X] \widehat{\otimes} \mathbb{C}[Y],
+\]
+\[
+\Delta_Y(g)(x,y) = \frac{1}{n}\sum_{i=1}^n g(y_i)\; \text{ and }\; [y_1, \ldots, y_n]= \varphi(x,y).
+\]
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%   38
+\begin{frame}{}
+The $\mathrm{inv} : X \to X$ map axiom implies that there is a map
+$\mathrm{inv}^\bot : X \to (X)^{n-1}$ such that the diagram
+$$
+\xymatrix{
+X \ar[r]^-d \ar[rrd]_{\mathrm{inv}^\bot} & {X \times X \;\;} \ar[r]^{1\times \mathrm{inv}} & {\;\; X \times X} \ar[r]^{\;\mu} & (X)^n \\
+&& {(X)^{n-1} \quad} \ar[ru]_{i_n} &}
+$$
+is commutative; here $i_n[x_1,\ldots,x_{n-1}] = [x_1, \ldots,x_{n-1},e]$.
+\vskip.3cm
+This diagram states that the homomorphism
+$s_n(\cdot)(\mu(x,\mathrm{inv}\,x)) : \mathbb{C}[X] \to
+\mathbb{C}[X]$ is split into composition\\ of homomorphisms
+$(\mathrm{inv}^\bot)^* \,i_n^* \,s_n(\cdot)$.
+\vskip.3cm
+If $n=1$, then this algebraic condition determines the antipode
+$$(\mathrm{inv})^* : \mathbb{C}[X] \to \mathbb{C}[X]$$ in the Hopf algebra $\mathbb{C}[X]$.
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%   39
+\begin{frame}{}
+The multiplication and the comultiplication in a Hopf algebra
+are related by the fact that the diagonal map is an algebra
+homomorphism.
+\vskip.2cm
+In papers by E.~Rees and the author, a new algebraic notion,
+that of  an ring $n$-homomorphism, was introduced and\\
+a definition of $n$-Hopf algebra was given in order to characterize this relation in the case of $n$-valued groups.
+\vskip.2cm
+Applications of $n$-Hopf algebras were developed, based on the following generalization of a classical result about Hopf algebras:
+\begin{fr}
+If $X$ is a topological $n$-valued group, then the ring $\mathbb{C}[X]$ and\\
+the cohomology algebra $H^{2*}(X;\mathbb{C})$, in the case $H^{1+2*}(X;\mathbb{C})=0$,\\
+are $n$-Hopf algebras.
+\end{fr}
+\begin{cor}
+The spaces $\mathbb{C}P^m$ for $m>1$ do not admit the structure\\ of a 2-valued group.
+\end{cor}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%   40
+\begin{frame}{Frobenius recursion.}
+Let $f: \; A\to B$ be a linear map, where $A$ and $B$ are commutative algebras with unit
+over a field of characteristic 0.
+\vskip.3cm
+Define, by induction,  linear maps
+\[ \Phi_n(f):\; A^{\otimes n} \longrightarrow B\]
+starting with $\Phi_1(f) = f$
+$$ \Phi_2(f)(a_1,a_2)=f(a_1)f(a_2)-f(a_1a_2)$$
+and for $n\geqslant 2$
+\begin{multline*}
+\Phi_{n+1}(f)(a_1,\dots,a_{n+1})=f(a_1)\Phi_n(f)(a_2,\dots,a_{n+1})-\\[5pt]
+-\sum_{l=2}^{n+1}\Phi_{n}(f)(a_2,\dots,a_1a_l,\dots,a_{n+1}).
+\end{multline*}
+
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%   41
+\begin{frame}{Frobenius $n$-homomorphisms.}
+\begin{lem}
+If $B$ is a domain and $\Phi_{n+1}(f)\equiv 0$ but
+$\Phi_n(f)\not \equiv 0$ then $f(1)=n$.
+\end{lem}
+\begin{cor}
+If $f\,:\;A\rightarrow B$ satisfies $\Phi_{n+1}(f)\equiv 0$ and
+$B$ is a domain then $f(1)\in\{0,1,2,\ldots,n\}$
+\end{cor}
+\begin{block}{Definition (V.Buchstaber, E.Rees, 1997)}
+A linear map  $f\,:\;A\rightarrow B$ is a \blue{Frobenius $n$-homomorphism} if
+\[
+\Phi_{n+1}(f)\equiv 0 \quad  \rm{and} \quad f(1)=n.
+\]
+\end{block}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%   42
+\begin{frame}{Examples.}
+\underline{1-homomorphism }
+\[
+f(1)=1
+\]
+and
+\[
+f(a_1a_2)= f(a_1)f(a_2)
+\]
+that is,  a ring homomorphism.
+\vskip.3cm
+\underline{2-homomorphism }
+\[
+f(1)=2
+\]
+and
+\begin{multline*}
+2f(a_1a_2a_3) = f(a_1)f(a_2a_3)+f(a_1a_2)f(a_3)+\\
++f(a_2)f(a_1a_3)-f(a_1)f(a_2)f(a_3).
+\end{multline*}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%   43
+\begin{frame}{Solution of the recursion.}
+Let ${\mathcal D}_f(a_1,\ldots,a_{n+1})$ be the determinant of the matrix
+\vspace{-0.4cm}
+
+\bigskip
+\[
+\left(\begin{array}{llll}
+ f(a_1)&1&\ldots&0 \\
+  f(a_1a_2)&f(a_2)&\ldots&0\\
+  \vdots&\vdots&&\vdots\\
+  f(a_1\cdots a_n)&f(a_2\cdots a_n)&\ldots&n\\
+   f(a_1\cdots a_{n+1})&f(a_2\ldots a_{n+1})&\ldots&f(a_{n+1})
+  \end{array}\right)
+  \]
+\begin{thm}[V.Buchstaber, E.Rees, 1997]
+\vspace{-0.3cm}
+
+\[
+\Phi_{n+1}(f)(a_1,\ldots,a_{n+1})=\frac{1}{(n+1)!}\sum\limits_{\sigma\in\Sigma_{n+1}}
+{\mathcal D}_f\big(a_{\sigma(1)},\ldots,a_{\sigma(n+1)}\big).
+\]
+\end{thm}
+\begin{cor}
+The map $\Phi_{n+1}(f)$ is a symmetric multi-linear form.
+\end{cor}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%   44
+\begin{frame}{Multiplicative property.}
+We denote the sub-algebra of symmetric tensors in $A^{\otimes n}$ by
+${\mathcal S}^n A$.
+\vskip.3cm
+A typical element of ${\mathcal S}^n A$ is
+\[
+\mathbf{a}=\sum_{\sigma\in\Sigma_n} a_{\sigma(1)}\otimes\cdots\otimes a_{\sigma(n)}
+\]
+and
+\[
+\mathbf{ab}=\sum_{\sigma_1,\sigma_2\in\Sigma_n} a_{\sigma_1(1)}b_{\sigma_2(1)}\otimes\cdots\otimes a_{\sigma_1(n)}b_{\sigma_2(n)}.
+\]
+\begin{thm}[V.Buchstaber, E.Rees]
+The linear map $f:\;A\rightarrow B$ is a Frobenius $n$-homomorphism if and only if
+\[ \frac{1}{n!} \Phi_n(f):\; {\mathcal S}^nA\rightarrow B \]
+is a ring homomorphism.
+\end{thm}
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%   45
+\begin{frame}{References}
+\begin{thebibliography}{99}%\tiny
+\small{
+\bibitem[Bu79]{Bu79} V.M.Buchstaber,
+\newblock\emph{Characteristic cobordism classes and topological applications of the theories of one-valued and
+two-valued formal groups.}
+\newblock  J. Sov. Math. 11, 1979, 815-921.
+
+\bibitem[Bu90]{Bu90} V.M.Buchstaber,
+\newblock \emph{Functional equations that are associated with addition theorems for  elliptic functions, and two-valued algebraic groups.}
+\newblock Russian Math. Surveys 45, N~3, 1990,  213--215.
+
+\bibitem[Bu-Ve]{Bu-Ve96} V.M.Buchstaber, A.P.Veselov,
+\newblock \emph{Integrable correspondences and algebraic representations of multivalued  groups.}
+\newblock Internat. Math. Res. Notices, N~8, 1996, 381--400.
+
+\bibitem[BVEP]{BVEP96} V.M.Buchstaber, A.M.Vershik, S.A.Evdokimov, I.N.Ponomarenko,
+\newblock \emph{Combinatorial algebras and multivalued involutive groups.}
+\newblock Funct. Anal. Appl. 30, N~3, 1996, 158--162.
+}
+\end{thebibliography}
+
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%   46
+\begin{frame}{References}
+\begin{thebibliography}{99}%\tiny
+\small{
+\bibitem[BuRe]{BuRe97} V.M.Buchstaber, E.G.Rees,
+\newblock\emph{Multivalued groups, their representations and Hopf algebras.}
+\newblock Transform. Groups, v.~2, N~4, 1997, 325--349.
+
+\bibitem[BuDr]{BuDr18} V.M.Buchstaber, V.I.Dragovich,
+\newblock \emph{Two-Valued Groups, Kummer Varieties, and Integrable Billiards.}
+\newblock Arnold Math. J., 4:1 (2018), 27--57.
+
+\bibitem[Bu-Ve]{Bu-Ve19} V.M.Buchstaber, A.P.Veselov,
+\newblock \emph{Conway topograph, $PGL_2(\mathbb Z)$-dynamics and two-valued groups.}
+\newblock Russian Math. Surveys, 74:3(447), 2019, 387--430.
+
+\bibitem[BVG]{BVG22} V.M.Buchstaber, A.P.Veselov, A.A.Gaifullin,
+\newblock \emph{Classification of involutive commutative two-valued groups.}
+\newblock  Russian Math. Surveys, 77:4(466), 2022.
+}
+\end{thebibliography}
+
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%   47
+\begin{frame}
+\begin{center}
+\Huge \alert{Thank You for the Attention!}
+\end{center}
+\end{frame}
+
+
+\end{document}
+
+
