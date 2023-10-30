@@ -12,7 +12,9 @@
   .page__share,
   .page__related,
   .ads,
-  .author__avatar,
+  .author__avatar {
+    display: none;
+  }
   .page__footer {
     display: none;
   }
