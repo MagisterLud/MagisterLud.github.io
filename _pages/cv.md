@@ -11,15 +11,15 @@ redirect_from:
 
 Education
 ======
-* Specialist Degree Program in Lomonosov Moscow State University, 2022
-* PhD in [MI RAS](https://www.mi-ras.ru/index.php?c=main&l=1) (expected), 2026
+* Specialist Degree Program at Lomonosov Moscow State University, 2022
+* PhD at [MI RAS](https://www.mi-ras.ru/index.php?c=main&l=1) (expected), 2026
 
 Work experience
 ======
 * Fall 2022:
-  * Research Assistant in [MI RAS](https://www.mi-ras.ru/index.php?c=main&l=1)
-  * Research Assistant in HSE [Lab](https://cs.hse.ru/en/ata-lab/about) of Algebraic Topology and its Applications 
-  * Teaching Assistant, [Profi](https://profi.ru/profile/KornevMI3/)
+  * Research Assistant at [MI RAS](https://www.mi-ras.ru/index.php?c=main&l=1)
+  * Research Assistant at HSE [Lab](https://cs.hse.ru/en/ata-lab/about) of Algebraic Topology and its Applications 
+  * Teaching Assistant at [Profi](https://profi.ru/profile/KornevMI3/)
   
 
 
