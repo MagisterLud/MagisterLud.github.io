@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-[PDF file of Curriculum Vitae]  
+[Curriculum Vitae](https://github.com/MagisterLud/MagisterLud.github.io/blob/master/files/cv/cv.pdf)  
 
 
