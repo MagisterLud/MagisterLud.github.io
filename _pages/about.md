@@ -14,7 +14,9 @@ I am a PhD student and research assistant at [Steklov Mathematical Institute of 
 
 I am working on homotopy theory, higher geometry, group theory, derived differential geometry and $K$-theory.
 
-I am a co-host of the study seminar [Homotopy Theory & Applications](https://researchseminars.org/seminar/HomotopyTheoryAndApps).    
+I am a co-host of the study seminar [Homotopy Theory & Applications](https://researchseminars.org/seminar/HomotopyTheoryAndApps).
+
+My [Curriculum Vitae](https://magisterlud.github.io//files/cv/cv.pdf).    
 
 
 
