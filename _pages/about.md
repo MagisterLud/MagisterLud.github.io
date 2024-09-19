@@ -10,11 +10,9 @@ redirect_from:
 
 Welcome to my page! 
 
-I am a PhD student and research assistant at [Steklov Mathematical Institute of RAS](https://www.mi-ras.ru/index.php?c=main&l=1) and research assistant at the [Lab of Algebraic Topology and its Applications at HSE University](https://cs.hse.ru/en/ata-lab/about).
+I am a PhD student and research assistant at the [Steklov Mathematical Institute of RAS](https://www.mi-ras.ru/index.php?c=main&l=1) and a research assistant at the [Lab of Algebraic Topology and its Applications at HSE University](https://cs.hse.ru/en/ata-lab/about).
 
-I am working on homotopy theory, higher geometry, group theory, derived differential geometry and $K$-theory.
-
-I am a co-host of the study seminar [Homotopy Theory & Applications](https://researchseminars.org/seminar/HomotopyTheoryAndApps).
+I am working on Homotopy Theory, Higher Geometry, Group Theory, and Combinatorics.
 
 My [Curriculum Vitae](https://magisterlud.github.io//files/cv/cv.pdf).    
 
