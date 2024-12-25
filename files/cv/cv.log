@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  21 MAR 2024 20:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  25 DEC 2024 19:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -870,9 +870,9 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <10.95> not ava
 ilable
 (Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
-input line 153.
+input line 152.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 153.
+(Font)              scaled to size 10.95pt on input line 152.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -882,7 +882,7 @@ al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
 2023/texmf-dist/fonts/enc/dvips/ebgaramond-maths/a_w5zv5t.enc}{/usr/local/texli
 ve/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}]
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 2
-51.
+55.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
@@ -899,7 +899,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  18128 strings out of 476025
  291451 string characters out of 5790017
- 1866388 words of memory out of 5000000
+ 1867388 words of memory out of 5000000
  38197 multiletter control sequences out of 15000+600000
  597919 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -912,7 +912,7 @@ lic/tex-gyre/qhvb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm
 -super/sfss1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-s
 uper/sftt1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/
 txsys.pfb>
-Output written on cv.pdf (4 pages, 368656 bytes).
+Output written on cv.pdf (4 pages, 368391 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
