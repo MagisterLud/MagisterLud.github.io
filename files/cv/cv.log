@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  25 DEC 2024 19:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  21 JUN 2025 17:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -880,41 +880,48 @@ al/texlive/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tcdnmr.enc}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
 /texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/
 2023/texmf-dist/fonts/enc/dvips/ebgaramond-maths/a_w5zv5t.enc}{/usr/local/texli
-ve/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}]
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 2
-55.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [2] [3] [4]
-(./cv.aux)
+ve/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}] [2]
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' in size <10.95> not ava
+ilable
+(Font)              Font shape `OT1/EBGaramond-LF/regular/sw' tried instead on 
+input line 270.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/sw' will be
+(Font)              scaled to size 10.95pt on input line 270.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' in size <8> not availab
+le
+(Font)              Font shape `OT1/EBGaramond-LF/regular/sw' tried instead on 
+input line 270.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/sw' will be
+(Font)              scaled to size 8.0pt on input line 270.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' in size <6.1> not avail
+able
+(Font)              Font shape `OT1/EBGaramond-LF/regular/sw' tried instead on 
+input line 270.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/sw' will be
+(Font)              scaled to size 6.1pt on input line 270.
+ [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_rtavnu.e
+nc}] [4] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18128 strings out of 476025
- 291451 string characters out of 5790017
- 1867388 words of memory out of 5000000
- 38197 multiletter control sequences out of 15000+600000
- 597919 words of font info for 122 fonts, out of 8000000 for 9000
+ 18112 strings out of 476025
+ 291057 string characters out of 5790017
+ 1869388 words of memory out of 5000000
+ 38179 multiletter control sequences out of 15000+600000
+ 599291 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,76p,1059b,661s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,76p,1059b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-
 Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ebgaramond/EBGa
 ramond-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ebgara
 mond/EBGaramond-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
 lic/tex-gyre/qhvb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm
--super/sfss1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-s
-uper/sftt1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/
-txsys.pfb>
-Output written on cv.pdf (4 pages, 368391 bytes).
+-super/sftt1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newt
+x/txsys.pfb>
+Output written on cv.pdf (4 pages, 369311 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
  40449 words of extra memory for PDF output out of 42996 (max. 10000000)
