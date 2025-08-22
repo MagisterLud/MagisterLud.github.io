@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  21 JUN 2025 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  22 AUG 2025 12:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -870,9 +870,9 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <10.95> not ava
 ilable
 (Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
-input line 152.
+input line 153.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 152.
+(Font)              scaled to size 10.95pt on input line 153.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -900,18 +900,18 @@ input line 270.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/sw' will be
 (Font)              scaled to size 6.1pt on input line 270.
  [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_rtavnu.e
-nc}] [4] (./cv.aux)
+nc}] [4] [5] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18112 strings out of 476025
- 291057 string characters out of 5790017
+ 18116 strings out of 476025
+ 291150 string characters out of 5790017
  1869388 words of memory out of 5000000
  38179 multiletter control sequences out of 15000+600000
- 599291 words of font info for 126 fonts, out of 8000000 for 9000
+ 599573 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,76p,1059b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,76p,1059b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-
 Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ebgaramond/EBGa
 ramond-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ebgara
@@ -919,10 +919,10 @@ mond/EBGaramond-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
 lic/tex-gyre/qhvb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm
 -super/sftt1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newt
 x/txsys.pfb>
-Output written on cv.pdf (4 pages, 369302 bytes).
+Output written on cv.pdf (5 pages, 369852 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 79 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  40449 words of extra memory for PDF output out of 42996 (max. 10000000)
 
