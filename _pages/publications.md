@@ -18,13 +18,13 @@ author_profile: true
 
 {% for post in site.publications reversed %}
 <article class="archive__item">
-  <h2 class="archive__item-title no_toc">
+  <h1 class="archive__item-title no_toc">
     {% if post.paperurl %}
       <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
     {% else %}
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     {% endif %}
-  </h2>
+  </h1>
 
   {% assign cap = post.caption | default: post.pub_caption %}
   <div class="page__meta">
