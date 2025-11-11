@@ -11,7 +11,12 @@ author_profile: true
 
 {% include base_path %}
 
-{% {% for post in site.publications reversed %}
+
+
+
+
+
+{% for post in site.publications reversed %}
 <article class="archive__item">
   <h2 class="archive__item-title no_toc">
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -30,3 +35,6 @@ author_profile: true
 </article>
 <hr/>
 {% endfor %}
+
+
+
