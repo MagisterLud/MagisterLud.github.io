@@ -11,25 +11,20 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% {% for post in site.publications reversed %}
 <article class="archive__item">
   <h2 class="archive__item-title no_toc">
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </h2>
 
   {% assign cap = post.caption | default: post.pub_caption %}
-  {% if cap and cap != blank %}
-    <div class="page__meta">
+  <div class="page__meta">
+    {% if cap and cap != blank %}
       {{ cap | markdownify }}
-    </div>
-  {% else %}
-    <div class="page__meta">
-      <em>
-        Published {% if post.venue | downcase contains 'arxiv' %}on{% else %}in{% endif %}
-        {{ post.venue }}, {{ post.date | date: "%Y" }}
-      </em>
-    </div>
-  {% endif %}
+    {% else %}
+      &nbsp;  <!-- empty line -->
+    {% endif %}
+  </div>
 
   {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
 </article>
