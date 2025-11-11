@@ -19,7 +19,11 @@ author_profile: true
 {% for post in site.publications reversed %}
 <article class="archive__item">
   <h2 class="archive__item-title no_toc">
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
+    {% else %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% endif %}
   </h2>
 
   {% assign cap = post.caption | default: post.pub_caption %}
@@ -27,7 +31,7 @@ author_profile: true
     {% if cap and cap != blank %}
       {{ cap | markdownify }}
     {% else %}
-      &nbsp;  <!-- empty line -->
+      &nbsp;
     {% endif %}
   </div>
 
@@ -35,6 +39,11 @@ author_profile: true
 </article>
 <hr/>
 {% endfor %}
+
+
+
+
+
 
 
 
