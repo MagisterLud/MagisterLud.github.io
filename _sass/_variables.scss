@@ -47,16 +47,16 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
-$gray                       : #9524a3;
-$dark-gray                  : #800080;
-$darker-gray                : #760276;
-$light-gray                 : #db5adb;
-$lighter-gray               : #fbd9ff;
+$gray                       : #6b21a8;
+$dark-gray                  : #3b0764;
+$darker-gray                : #2e0249;
+$light-gray                 : #c084fc;
+$lighter-gray               : #f3e8ff;
 
 $body-color                 : #fff;
 $background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
+$code-background-color      : #faf7fc;
+$code-background-color-dark : #eadcff;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
@@ -90,11 +90,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : #581c87;
+$link-color-hover           : #2e1065;
+$link-color-visited         : #7e22ce;
+$masthead-link-color        : #4c1d95;
+$masthead-link-color-hover  : #2e1065;
 
 
 /*
