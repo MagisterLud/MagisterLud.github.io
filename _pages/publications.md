@@ -15,7 +15,7 @@ author_profile: true
 {% assign preprints = all_publications | where: "publication_status", "preprint" %}
 {% assign manuscripts = all_publications | where: "publication_status", "manuscript" %}
 
-<h2>Published papers</h2>
+<h2>Published Papers</h2>
 
 {% for post in all_publications %}
   {% assign status = post.publication_status | default: "published" %}
