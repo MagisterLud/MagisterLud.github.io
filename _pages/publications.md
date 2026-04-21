@@ -11,11 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-
-
-
-
-
 {% assign all_publications = site.publications | sort: "date" | reverse %}
 {% assign preprints = all_publications | where: "publication_status", "preprint" %}
 {% assign manuscripts = all_publications | where: "publication_status", "manuscript" %}
@@ -27,6 +22,7 @@ author_profile: true
 
   {% unless status == "preprint" %}
   {% unless status == "manuscript" %}
+
 <article class="archive__item">
   <h3 class="archive__item-title no_toc">
     {% if post.paperurl %}
@@ -48,6 +44,7 @@ author_profile: true
   {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
 </article>
 <hr/>
+
   {% endunless %}
   {% endunless %}
 {% endfor %}
@@ -107,7 +104,3 @@ author_profile: true
 <hr/>
 {% endfor %}
 {% endif %}
-
-
-
-
