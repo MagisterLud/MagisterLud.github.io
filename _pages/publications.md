@@ -15,16 +15,29 @@ author_profile: true
 {% assign preprints = all_publications | where: "publication_status", "preprint" %}
 {% assign manuscripts = all_publications | where: "publication_status", "manuscript" %}
 
-<h2>Published Papers</h2>
+{% assign published_total = 0 %}
+{% for post in all_publications %}
+  {% assign status = post.publication_status | default: "published" %}
+  {% unless status == "preprint" %}
+    {% unless status == "manuscript" %}
+      {% assign published_total = published_total | plus: 1 %}
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
 
+<h2>Published papers ({{ published_total }})</h2>
+
+{% assign published_number = 0 %}
 {% for post in all_publications %}
   {% assign status = post.publication_status | default: "published" %}
 
   {% unless status == "preprint" %}
-  {% unless status == "manuscript" %}
+    {% unless status == "manuscript" %}
+      {% assign published_number = published_number | plus: 1 %}
 
 <article class="archive__item">
   <h3 class="archive__item-title no_toc">
+    {{ published_number }}.
     {% if post.paperurl %}
       <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
     {% else %}
@@ -45,16 +58,20 @@ author_profile: true
 </article>
 <hr/>
 
-  {% endunless %}
+    {% endunless %}
   {% endunless %}
 {% endfor %}
 
 {% if preprints.size > 0 %}
-<h2>Preprints</h2>
+<h2>Preprints ({{ preprints.size }})</h2>
 
+{% assign preprint_number = 0 %}
 {% for post in preprints %}
+  {% assign preprint_number = preprint_number | plus: 1 %}
+
 <article class="archive__item">
   <h3 class="archive__item-title no_toc">
+    {{ preprint_number }}.
     {% if post.paperurl %}
       <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
     {% else %}
@@ -74,15 +91,20 @@ author_profile: true
   {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
 </article>
 <hr/>
+
 {% endfor %}
 {% endif %}
 
 {% if manuscripts.size > 0 %}
-<h2>Manuscripts</h2>
+<h2>Manuscripts ({{ manuscripts.size }})</h2>
 
+{% assign manuscript_number = 0 %}
 {% for post in manuscripts %}
+  {% assign manuscript_number = manuscript_number | plus: 1 %}
+
 <article class="archive__item">
   <h3 class="archive__item-title no_toc">
+    {{ manuscript_number }}.
     {% if post.paperurl %}
       <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
     {% else %}
@@ -102,5 +124,6 @@ author_profile: true
   {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
 </article>
 <hr/>
+
 {% endfor %}
 {% endif %}
