@@ -25,7 +25,7 @@ author_profile: true
   {% endunless %}
 {% endfor %}
 
-<h2>Published papers ({{ published_total }})</h2>
+<h2>Published papers</h2>
 
 {% assign published_number = 0 %}
 {% for post in all_publications %}
@@ -63,7 +63,7 @@ author_profile: true
 {% endfor %}
 
 {% if preprints.size > 0 %}
-<h2>Preprints ({{ preprints.size }})</h2>
+<h2>Preprints</h2>
 
 {% assign preprint_number = 0 %}
 {% for post in preprints %}
@@ -96,7 +96,7 @@ author_profile: true
 {% endif %}
 
 {% if manuscripts.size > 0 %}
-<h2>Manuscripts ({{ manuscripts.size }})</h2>
+<h2>Manuscripts</h2>
 
 {% assign manuscript_number = 0 %}
 {% for post in manuscripts %}
