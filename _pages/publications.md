@@ -17,14 +17,16 @@ author_profile: true
 
 
 {% assign all_publications = site.publications | sort: "date" | reverse %}
-
-{% assign published_papers = all_publications | where_exp: "post", "post.publication_status != 'preprint' and post.publication_status != 'manuscript'" %}
 {% assign preprints = all_publications | where: "publication_status", "preprint" %}
 {% assign manuscripts = all_publications | where: "publication_status", "manuscript" %}
 
 <h2>Published papers</h2>
 
-{% for post in published_papers %}
+{% for post in all_publications %}
+  {% assign status = post.publication_status | default: "published" %}
+
+  {% unless status == "preprint" %}
+  {% unless status == "manuscript" %}
 <article class="archive__item">
   <h3 class="archive__item-title no_toc">
     {% if post.paperurl %}
@@ -46,6 +48,8 @@ author_profile: true
   {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
 </article>
 <hr/>
+  {% endunless %}
+  {% endunless %}
 {% endfor %}
 
 {% if preprints.size > 0 %}
@@ -103,10 +107,6 @@ author_profile: true
 <hr/>
 {% endfor %}
 {% endif %}
-
-
-
-
 
 
 
