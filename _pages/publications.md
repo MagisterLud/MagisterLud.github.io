@@ -16,7 +16,15 @@ author_profile: true
 
 
 
-{% for post in site.publications reversed %}
+{% assign all_publications = site.publications | sort: "date" | reverse %}
+
+{% assign published_papers = all_publications | where_exp: "post", "post.publication_status != 'preprint' and post.publication_status != 'manuscript'" %}
+{% assign preprints = all_publications | where: "publication_status", "preprint" %}
+{% assign manuscripts = all_publications | where: "publication_status", "manuscript" %}
+
+<h2>Published papers</h2>
+
+{% for post in published_papers %}
 <article class="archive__item">
   <h3 class="archive__item-title no_toc">
     {% if post.paperurl %}
@@ -39,6 +47,62 @@ author_profile: true
 </article>
 <hr/>
 {% endfor %}
+
+{% if preprints.size > 0 %}
+<h2>Preprints</h2>
+
+{% for post in preprints %}
+<article class="archive__item">
+  <h3 class="archive__item-title no_toc">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
+    {% else %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% endif %}
+  </h3>
+
+  {% assign cap = post.caption | default: post.pub_caption %}
+  <div class="page__meta">
+    {% if cap and cap != blank %}
+      {{ cap | markdownify }}
+    {% else %}
+      &nbsp;
+    {% endif %}
+  </div>
+
+  {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
+</article>
+<hr/>
+{% endfor %}
+{% endif %}
+
+{% if manuscripts.size > 0 %}
+<h2>Manuscripts</h2>
+
+{% for post in manuscripts %}
+<article class="archive__item">
+  <h3 class="archive__item-title no_toc">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
+    {% else %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% endif %}
+  </h3>
+
+  {% assign cap = post.caption | default: post.pub_caption %}
+  <div class="page__meta">
+    {% if cap and cap != blank %}
+      {{ cap | markdownify }}
+    {% else %}
+      &nbsp;
+    {% endif %}
+  </div>
+
+  {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
+</article>
+<hr/>
+{% endfor %}
+{% endif %}
 
 
 
