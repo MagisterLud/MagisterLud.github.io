@@ -8,10 +8,11 @@
 
 \usepackage[T1]{fontenc} % output T1 font encoding (8-bit) for accented characters as single glyph
 \usepackage[cmintegrals,cmbraces]{newtxmath}
+\usepackage[lining]{ebgaramond}
 \usepackage{ebgaramond-maths}
 \usepackage[strict,autostyle]{csquotes} % smart and nestable quote marks
 \usepackage[USenglish]{babel} % regionalize hyphens, quote marks, etc automatically
-\usepackage{microtype}% improve text appearance with kerning, etc
+%\usepackage{microtype}% improve text appearance with kerning, etc
 \usepackage{datetime} % enable formatting of date output
 \usepackage{tabto}    % make nice tabbing
 \usepackage{hyperref} % enable hyperlinks and pdf metadata
@@ -19,6 +20,14 @@
 \usepackage{enumitem} % enumerate with [resume] option
 \usepackage{titlesec} % allow custom section fonts
 \usepackage{setspace} % custom line spacing
+
+\usepackage[tracking = true, letterspace = 50]{microtype}
+\SetTracking{encoding=T1, shape=sc}{50}
+\SetTracking{encoding=T1}{50} 
+
+\let\openbox\undefined
+
+
 
 % what is your name?
 \newcommand{\myname}{Mikhail Kornev}
@@ -108,7 +117,9 @@
         % contact info details, right-aligned
         Nationality: Russian\\
         E-mail: \href{mailto:michaelkorneff@gmail.com}{\tt michaelkorneff@gmail.com}\\
-        Web-page: \href{https://magisterlud.github.io}{\tt https://magisterlud.github.io}
+        Web-page: \href{https://magisterlud.github.io}{\tt https://magisterlud.github.io}\\
+        ORCID: \href{https://orcid.org/0009-0005-5408-3248}{\tt https://orcid.org/0009-0005-5408-3248}
+
     \end{minipage}
     
     \section*{Research Areas}
@@ -124,7 +135,7 @@
         \item[Sep. 2022 --]   \tab{}PhD student and research assistant at Steklov Mathematical Institute of RAS  \\
                               Department of Geometry and Topology
                               
-        \item[Mar. 2026 --] \tab{} at HSE University\\
+        \item[Mar. 2026 --] \tab{}Research assistant at HSE University\\
                               International Laboratory for Mirror Symmetry and Automorphic Forms
 
         \item[Sep. 2021 -- 2025]  \tab{}Research assistant at HSE University \\
@@ -152,7 +163,7 @@
       \subsection*{Mathematics}
 
     \begin{tablist}
-    
+        \item[Apr. 2026] \tab{\it Buchstaber, Ochanine, Krichever, and Witten genera}\\ Journal of Geometry and Physics, {\bf 226} (2026), 105855\\ \href{https://doi.org/10.1016/j.geomphys.2026.105855}{\tt https://doi.org/10.1016/j.geomphys.2026.105855}
         \item[Jan. 2026] \tab{{\it $n$-Valued Monoids on $\mathbb{C}P^1$ and Discriminants}} \\ joint with Victor Buchstaber \\ Uspekhi Mat. Nauk, {\bf 81}:1(487) (2026),  207–208 \\ \href{https://doi.org/10.4213/rm10280}{\tt https://doi.org/10.4213/rm10280}
 	\item[Jan. 2026] \tab{\it On the Classification of $n$-Valued Monoids and Groups of Order $3$} \\ Mat. Zametki, {\bf 119}:2 (2026), 244–252 \\ \href{https://doi.org/10.4213/mzm14803}{\tt https://doi.org/10.4213/mzm14803} 
 	\item[Jan. 2024] \tab{}{\it $n$-Valued Coset Groups and Dynamics}\\ Mathematical Notes, {\bf 116}:1 (2024), 66–76, 2024 \\ \href{https://doi.org/10.4213/mzm14243}{\tt https://doi.org/10.4213/mzm14243}
@@ -172,10 +183,10 @@
           \section*{Preprints}
           
            \begin{tablist}
-           \item[Mar. 2026]\tab{Buchstaber, Ochanine, Krichever, and Witten genera}\\ \href{https://doi.org/10.48550/arXiv.2603.21118}{\tt arXiv:2603.21118}
+           \item[Mar. 2026]\tab{\it Buchstaber, Ochanine, Krichever, and Witten genera}\\ \href{https://doi.org/10.48550/arXiv.2603.21118}{\tt arXiv:2603.21118}
           \item[Oct. 2025] \tab{\it Algebraic $n$-Valued Monoids on $\mathbb{C}P^1$, Discriminants and Projective Duality}\\ 	 joint with Victor Buchstaber\\ \href{https://doi.org/10.48550/arXiv.2510.14010}{\tt arXiv:2510.14010}
 	 \item[Aug. 2025] \tab{\it On the Classification of $n$-Valued Monoids and Groups of Order $3$}\\ 	\href{https://doi.org/10.48550/arXiv.2508.04454}{\tt arXiv:2508.04454}
-	 \item[May 2025] \tab{{\it $n$-Valued Groups, Kronecker Sums, and Wendt's $(x, y, z)$-Matrices}}\\  joint with Victor Buchstaber \\ \href{https://doi.org/10.48550/arXiv.2505.04296}{\tt arXiv:2505.04296}
+	 \item[May 2025] \tab{{\it $n$-Valued Groups, Kronecker Sums, and Wendt's Matrices}}\\  joint with Victor Buchstaber \\ \href{https://doi.org/10.48550/arXiv.2505.04296}{\tt arXiv:2505.04296}
          \item[Jan 2024]\tab{$n$-valued Coset Groups and Dynamics}\\  \href{https://doi.org/10.48550/arXiv.2401.12718}{\tt arXiv:2401.12718}
     
            \end{tablist}
@@ -211,17 +222,19 @@
       
       \begin{tablist}
       
-      \item{Dec. 2025}	\tab{}{\it Fermat hypersurfaces, projective duality, and algebraic n-valued monoids}\\ Seminar of the Department of Geometry and Topology ``Geometry, Topology and Mathematical Physics'', Steklov Mathematical Institute of RAS (Novikov Seminar), Moscow, Russia
+      \item{May 2026} \tab{}{\it Buchstaber genus and formal groups}\\ Seminar ``Toric Topology, Combinatorics, and Homotopy Theory''\\ jointly with the Laboratory of Topology and Complex Networks of the Faculty of Mathematics, HSE University,\\ Moscow Center for Continuous Mathematical Education (MCCME), Moscow, Russia
+      
+      \item{Dec. 2025}	\tab{}{\it Fermat hypersurfaces, projective duality, and algebraic n-valued monoids}\\ Seminar of the Department of Geometry and Topology ``Geometry, Topology and Mathematical Physics'' (Novikov Seminar),\\ Steklov Mathematical Institute of RAS, Moscow, Russia
     
-      \item{Dec. 2025} \tab{}{\it Discrete and Algebraic $n$-Valued Groups}\\ Seminar on Discrete Geometry and Geometry of Numbers, Moscow State University
+      \item{Dec. 2025} \tab{}{\it Discrete and Algebraic $n$-Valued Groups}\\ Seminar on Discrete Geometry and Geometry of Numbers,\\ Moscow State University, Moscow, Russia
       
       \item{Nov. 2025} \tab{}{\it $n$-Valued Algebraic Monoids, Cubics, and Discriminants}\\ The Seminar of International Laboratory of Algebraic Topology and Its Applications, HSE University, Moscow, Russia
       
-      \item{May 2025} \tab{}{\it $n$-Valued Groups, Kronecker Sums, and Wendt Matrices}\\ Joint work with Victor Buchstaber\\ Seminar of the Department of Geometry and Topology ``Geometry, Topology and Mathematical Physics'', Steklov Mathematical Institute of RAS (Novikov Seminar), Moscow, Russia
+      \item{May 2025} \tab{}{\it $n$-Valued Groups, Kronecker Sums, and Wendt Matrices}\\ Joint work with Victor Buchstaber\\ Seminar of the Department of Geometry and Topology ``Geometry, Topology and Mathematical Physics'',\\ Steklov Mathematical Institute of RAS (Novikov Seminar), Moscow, Russia
       
        \item{Apr. 2023} \tab{}{\it Acyclic groups and Kan-Thurston theorem}\\ Seminar by I. G. Lysenok and A. L. Talambutsa ``Seminar on geometric group theory'', Steklov Mathematical Institute of RAS, Moscow, Russia
        
-       \item{Dec. 2022} \tab{}{\it Fundamental groups of homology spheres}\\ Seminar ``Geometry, Topology and their applications'' at Sobolev Institute of Mathematics
+       \item{Dec. 2022} \tab{}{\it Fundamental groups of homology spheres}\\ Seminar ``Geometry, Topology and their applications'' at Sobolev Institute of Mathematics,\\ Online
        
       
     \end{tablist}
@@ -236,7 +249,7 @@
 
     \begin{tablist}
 
-        \item[2021 --] \tab{}{\it The Russian Science Foundation Grant No. 23-11-00143} 
+        \item[2021 -- 2023] \tab{}{\it The Russian Science Foundation Grant No. 23-11-00143} 
         \item[2019] \tab{}{\it Winner of the olympiad on Partial Differential Equations}\\ Moscow State University
         \item[2018] \tab{}{\it Winner of the olympiad on Ordinary Differential Equations}\\ Moscow State University
 
@@ -356,7 +369,7 @@ Petersburg, Russia
 
     \begin{tablist}
     
-       \item{May 2022 --} \tab{}{\it Teaching various courses (e. g., Algebraic Geometry, Algebraic Topology, Abstract Algebra, Differential Geometry, Linear Algebra, Probability Theory, Discrete Mathematics, Calculus, etc.) on Profi}\\ \href{https://profi.ru/profile/KornevMI3/}{\tt https://profi.ru/profile/KornevMI3/} 
+       \item{May 2022 -- 2024} \tab{}{\it Teaching various courses (e. g., Algebraic Geometry, Algebraic Topology, Abstract Algebra, Differential Geometry, Linear Algebra, Probability Theory, Discrete Mathematics, Calculus, etc.) on Profi}\\ \href{https://profi.ru/profile/KornevMI3/}{\tt https://profi.ru/profile/KornevMI3/} 
 
         \item{Sep. 2016 -- 2022} \tab{}{\it Little Mech-Math courses}\\ An olympiad Math class at Lomonosov Moscow State University\\ \href{http://mmmf.msu.ru/about/person.html}{\tt http://mmmf.msu.ru/about/person.html}
         
@@ -384,7 +397,7 @@ Petersburg, Russia
 
     \begin{itemize}
 
-       \item[] {\it Victor Buchstaber}, Steklov Mathematical Institute of RAS\\ \href{mailto:buchstab@mi-ras.ru}{\tt buchstab@mi-ras.ru} 
+       \item[] {\it Victor Buchstaber}, \\ Steklov Mathematical Institute of RAS\\ \href{mailto:buchstab@mi-ras.ru}{\tt buchstab@mi-ras.ru} 
 
     \end{itemize}
     

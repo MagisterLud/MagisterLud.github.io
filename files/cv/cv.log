@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  1 APR 2026 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  6 MAY 2026 13:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -239,12 +239,7 @@ LaTeX Font Info:    Redeclaring math accent \ddot on input line 951.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 2020.
 LaTeX Info: Redefining \Bbbk on input line 2810.
 LaTeX Info: Redefining \not on input line 2959.
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/ebgaramond-maths/ebgaramond-maths
-.sty
-Package: ebgaramond-maths 2019/09/24 v1.2 ebgaramond-maths for use with EBGaram
-ond
- (/usr/local/texlive/2023/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
 Package: ebgaramond 2022/09/10 (Bob Tennent and autoinst) Style file for EB Gar
 amond fonts.
 
@@ -270,6 +265,10 @@ LaTeX Info: Redefining \textulc on input line 49.
 LaTeX Info: Redefining \oldstylenums on input line 161.
 LaTeX Info: Redefining \textsw on input line 169.
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ebgaramond-maths/ebgaramond-maths
+.sty
+Package: ebgaramond-maths 2019/09/24 v1.2 ebgaramond-maths for use with EBGaram
+ond
 LaTeX Font Info:    Redeclaring symbol font `letters' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
 (Font)                  OML/ntxmi/m/it --> OML/EBGaramond-Maths/m/it on input l
@@ -303,8 +302,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/b/it --> OT1/EBGaramond-LF/bx/it on input line 
 36.
 LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 38.
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
 \csq@reset=\count277
 \csq@gtype=\count278
@@ -352,33 +350,7 @@ Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 .tex
 Package babel Info: Importing font and identification data for USenglish
 (babel)             from babel-en-US.ini. Reported on input line 11.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
-\MT@toks=\toks27
-\MT@tempbox=\box53
-\MT@count=\count285
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
-LaTeX Info: Redefining \leftprotrusion on input line 1060.
-\MT@prot@toks=\toks28
-LaTeX Info: Redefining \rightprotrusion on input line 1078.
-LaTeX Info: Redefining \textls on input line 1368.
-\MT@outer@kern=\dimen151
-LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
-\MT@listname@count=\count286
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 902.
-LaTeX Info: Redefining \lslig on input line 902.
-\MT@outer@space=\skip53
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
-))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/datetime/datetime.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fmtcount/fmtcount.sty
@@ -389,10 +361,10 @@ Package: fcprefix 2012/09/28
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count287
+\fc@digit@counter=\count285
 ))
-\c@padzeroesN=\count288
-\fc@tmpcatcode=\count289
+\c@padzeroesN=\count286
+\fc@tmpcatcode=\count287
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
@@ -400,46 +372,46 @@ File: fc-english.def 2016/01/12
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fmtcount/fc-USenglish.def
 File: fc-USenglish.def 2013/08/17
 )
-\@DT@modctr=\count290
-\@ordinalctr=\count291
-\@orgargctr=\count292
-\@strctr=\count293
-\@tmpstrctr=\count294
-\@DT@loopN=\count295
-\@DT@X=\count296
+\@DT@modctr=\count288
+\@ordinalctr=\count289
+\@orgargctr=\count290
+\@strctr=\count291
+\@tmpstrctr=\count292
+\@DT@loopN=\count293
+\@DT@X=\count294
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count297
-\@month=\count298
-\@year=\count299
-\c@HOUR=\count300
-\c@HOURXII=\count301
-\c@MINUTE=\count302
-\c@TOHOUR=\count303
-\c@TOMINUTE=\count304
-\c@SECOND=\count305
-\currenthour=\count306
-\currentminute=\count307
-\currentsecond=\count308
+\@day=\count295
+\@month=\count296
+\@year=\count297
+\c@HOUR=\count298
+\c@HOURXII=\count299
+\c@MINUTE=\count300
+\c@TOHOUR=\count301
+\c@TOMINUTE=\count302
+\c@SECOND=\count303
+\currenthour=\count304
+\currentminute=\count305
+\currentsecond=\count306
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count309
-\dayofyear=\count310
-\dayofweek=\count311
+\@dtctr=\count307
+\dayofyear=\count308
+\dayofweek=\count309
 LaTeX Info: Redefining \today on input line 736.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/datetime/dt-USenglish.def
 File: dt-USenglish.def 2013/09/10
 )
-\dt@a=\toks29
-\dt@b=\toks30
+\dt@a=\toks27
+\dt@b=\toks28
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tabto-ltx/tabto.sty
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
-\CurrentLineWidth=\dimen152
-\TabPrevPos=\dimen153
+\CurrentLineWidth=\dimen151
+\TabPrevPos=\dimen152
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
@@ -488,11 +460,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count312
+\c@section@level=\count310
 )
-\@linkdim=\dimen154
-\Hy@linkcounter=\count313
-\Hy@pagecounter=\count314
+\@linkdim=\dimen153
+\Hy@linkcounter=\count311
+\Hy@pagecounter=\count312
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
@@ -505,7 +477,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count315
+\Hy@SavedSpaceFactor=\count313
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
@@ -519,14 +491,14 @@ Package hyperref Info: Plain pages OFF on input line 4192.
 Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count316
+\c@Hy@tempcnt=\count314
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen155
+\XeTeXLinkMargin=\dimen154
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -535,9 +507,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count317
-\Field@Width=\dimen156
-\Fld@charsize=\dimen157
+\Fld@menulength=\count315
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -550,9 +522,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count318
-\c@Item=\count319
-\c@Hfootnote=\count320
+\Hy@abspage=\count316
+\c@Item=\count317
+\c@Hfootnote=\count318
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -564,8 +536,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count321
-\c@bookmark@seq@number=\count322
+\Fld@listcount=\count319
+\c@bookmark@seq@number=\count320
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -576,71 +548,102 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip54
+\Hy@SectionHShift=\skip53
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count323
-\Gm@cntv=\count324
-\c@Gm@tempcnt=\count325
-\Gm@bindingoffset=\dimen158
-\Gm@wd@mp=\dimen159
-\Gm@odd@mp=\dimen160
-\Gm@even@mp=\dimen161
-\Gm@layoutwidth=\dimen162
-\Gm@layoutheight=\dimen163
-\Gm@layouthoffset=\dimen164
-\Gm@layoutvoffset=\dimen165
-\Gm@dimlist=\toks31
+\Gm@cnth=\count321
+\Gm@cntv=\count322
+\c@Gm@tempcnt=\count323
+\Gm@bindingoffset=\dimen157
+\Gm@wd@mp=\dimen158
+\Gm@odd@mp=\dimen159
+\Gm@even@mp=\dimen160
+\Gm@layoutwidth=\dimen161
+\Gm@layoutheight=\dimen162
+\Gm@layouthoffset=\dimen163
+\Gm@layoutvoffset=\dimen164
+\Gm@dimlist=\toks29
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\enitkv@toks@=\toks32
-\labelindent=\skip55
-\enit@outerparindent=\dimen166
-\enit@toks=\toks33
-\enit@inbox=\box54
-\enit@count@id=\count326
-\enitdp@description=\count327
+\enitkv@toks@=\toks30
+\labelindent=\skip54
+\enit@outerparindent=\dimen165
+\enit@toks=\toks31
+\enit@inbox=\box53
+\enit@count@id=\count324
+\enitdp@description=\count325
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box55
-\beforetitleunit=\skip56
-\aftertitleunit=\skip57
-\ttl@plus=\dimen167
-\ttl@minus=\dimen168
-\ttl@toksa=\toks34
-\titlewidth=\dimen169
-\titlewidthlast=\dimen170
-\titlewidthfirst=\dimen171
+\ttl@box=\box54
+\beforetitleunit=\skip55
+\aftertitleunit=\skip56
+\ttl@plus=\dimen166
+\ttl@minus=\dimen167
+\ttl@toksa=\toks32
+\titlewidth=\dimen168
+\titlewidthlast=\dimen169
+\titlewidthfirst=\dimen170
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks33
+\MT@tempbox=\box55
+\MT@count=\count326
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks34
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen171
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count327
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip57
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+))
+
+Package microtype Warning: tracking amount list `cv.tex/26' will
+(microtype)                override list `default' for 
+(microtype)                font `T1////' on input line 26.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tex-gyre/tgheros.sty
 Package: tgheros 2009/09/27 v1.2 TeX Gyre Heros as default sans serif family
 )
 \enitdp@tablist=\count328
-Package hyperref Info: Option `colorlinks' set `true' on input line 92.
+Package hyperref Info: Option `colorlinks' set `true' on input line 101.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-LaTeX Font Info:    Trying to load font information for T1+EBGaramond-OsF on in
-put line 94.
+LaTeX Font Info:    Trying to load font information for T1+EBGaramond-LF on inp
+ut line 103.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-OsF.fd
-File: T1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for T1/EBGaram
-ond-OsF.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-LF.fd
+File: T1EBGaramond-LF.fd 2019/10/22 (autoinst) Font definitions for T1/EBGaramo
+nd-LF.
 )
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <10.95> not avai
-lable
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
-nput line 94.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 94.
+LaTeX Font Info:    Font shape `T1/EBGaramond-LF/m/n' in size <10.95> not avail
+able
+(Font)              Font shape `T1/EBGaramond-LF/regular/n' tried instead on in
+put line 103.
+LaTeX Font Info:    Font shape `T1/EBGaramond-LF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 103.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
@@ -651,89 +654,67 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/EBGaramond-Maths/m/it on input li
-ne 94.
+ne 103.
 LaTeX Font Info:    Trying to load font information for OML+EBGaramond-Maths on
- input line 94.
+ input line 103.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ebgaramond-maths/OMLEBGaramond-Ma
 ths.fd
 File: OMLEBGaramond-Maths.fd 2019/09/24 font definitions for OML/EBGaramond-Mat
 hs.
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/EBGaramond-LF/m/n on input line 9
-4.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/EBGaramond-LF/m/n on input line 1
+03.
 LaTeX Font Info:    Trying to load font information for OT1+EBGaramond-LF on in
-put line 94.
+put line 103.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-LF.fd
 File: OT1EBGaramond-LF.fd 2019/10/22 (autoinst) Font definitions for OT1/EBGara
 mond-LF.
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 103.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-94.
+103.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 103.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 94.
+ 103.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 103.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 94.
+e 103.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Info: Command `\dddot' is already robust on input line 94.
-LaTeX Info: Command `\ddddot' is already robust on input line 94.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Info: Command `\dddot' is already robust on input line 103.
+LaTeX Info: Command `\ddddot' is already robust on input line 103.
 \c@mv@tabular=\count330
 \c@mv@boldtabular=\count331
-LaTeX Info: Redefining \microtypecontext on input line 94.
-Package microtype Info: Applying patch `item' on input line 94.
-Package microtype Info: Applying patch `toc' on input line 94.
-Package microtype Info: Applying patch `eqnum' on input line 94.
 
-
-Package microtype Warning: Unable to apply patch `footnote' on input line 94.
-
-Package microtype Info: Applying patch `verbatim' on input line 94.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 94.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-EBGaramond.cfg
-File: mt-EBGaramond.cfg 2021/10/25 v2.0 microtype config. file: EB Garamond / A
-dobe Garamond (RS)
-)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
@@ -759,7 +740,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \makeMPintoPDFobject=\count337
 \everyMPtoPDFconversion=\toks36
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 94.
+Package hyperref Info: Link coloring ON on input line 103.
 
 (./cv.out) (./cv.out)
 \@outlinefile=\write3
@@ -800,20 +781,44 @@ Package hyperref Info: Link coloring ON on input line 94.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <10.95> not avai
-lable
-(Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
-t line 98.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 98.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <24.88> not avai
-lable
-(Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
-t line 98.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 24.88pt on input line 98.
+LaTeX Info: Redefining \microtypecontext on input line 103.
+Package microtype Info: Applying patch `item' on input line 103.
+Package microtype Info: Applying patch `toc' on input line 103.
+Package microtype Info: Applying patch `eqnum' on input line 103.
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 103.
+
+Package microtype Info: Applying patch `verbatim' on input line 103.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 103.
+Package microtype Info: Tracking enabled.
+Package microtype Info: Using default tracking set `smallcaps'.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-EBGaramond.cfg
+File: mt-EBGaramond.cfg 2021/10/25 v2.0 microtype config. file: EB Garamond / A
+dobe Garamond (RS)
+)
+LaTeX Font Info:    Font shape `T1/EBGaramond-LF/b/n' in size <10.95> not avail
+able
+(Font)              Font shape `T1/EBGaramond-LF/bold/n' tried instead on input
+ line 107.
+LaTeX Font Info:    Font shape `T1/EBGaramond-LF/bold/n' will be
+(Font)              scaled to size 10.95pt on input line 107.
+LaTeX Font Info:    Font shape `T1/EBGaramond-LF/b/n' in size <24.88> not avail
+able
+(Font)              Font shape `T1/EBGaramond-LF/bold/n' tried instead on input
+ line 107.
+LaTeX Font Info:    Font shape `T1/EBGaramond-LF/bold/n' will be
+(Font)              scaled to size 24.88pt on input line 107.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-10.
+19.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -821,9 +826,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 11
-4.
 
+Overfull \hbox (31.45215pt too wide) in paragraph at lines 118--122
+\T1/EBGaramond-LF/regular/n/10.95 (-20) ORCID: [][]\T1/cmtt/m/n/10.95 https://o
+rcid.org/0009-0005-5408-3248[][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 12
+5.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
@@ -834,85 +844,85 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <10.95> not avai
 lable
 (Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on i
-nput line 114.
+nput line 125.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 114.
+(Font)              scaled to size 10.95pt on input line 125.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <8> not availabl
 e
 (Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on i
-nput line 114.
+nput line 125.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 114.
+(Font)              scaled to size 8.0pt on input line 125.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <6.1> not availa
 ble
 (Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on i
-nput line 114.
+nput line 125.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
-(Font)              scaled to size 6.1pt on input line 114.
+(Font)              scaled to size 6.1pt on input line 125.
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-114.
+125.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-114.
+125.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-114.
+125.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <10.95> not ava
-ilable
-(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
-input line 156.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 156.
+LaTeX Font Info:    Font shape `T1/EBGaramond-LF/m/it' in size <10.95> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-LF/regular/it' tried instead on i
+nput line 166.
+LaTeX Font Info:    Font shape `T1/EBGaramond-LF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line 166.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tcdnmr.enc}{/usr/loc
+al/texlive/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ldtcgl.enc}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
 /texlive/2023/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/
+2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_utfkrl.enc}{/usr/local/texlive/
 2023/texmf-dist/fonts/enc/dvips/ebgaramond-maths/a_w5zv5t.enc}{/usr/local/texli
-ve/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}{/usr/local/texli
-ve/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_gfppum.enc}] [2]
+ve/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_gfppum.enc}] [2] [3]
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' in size <10.95> not ava
 ilable
 (Font)              Font shape `OT1/EBGaramond-LF/regular/sw' tried instead on 
-input line 292.
+input line 305.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/sw' will be
-(Font)              scaled to size 10.95pt on input line 292.
+(Font)              scaled to size 10.95pt on input line 305.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' in size <8> not availab
 le
 (Font)              Font shape `OT1/EBGaramond-LF/regular/sw' tried instead on 
-input line 292.
+input line 305.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/sw' will be
-(Font)              scaled to size 8.0pt on input line 292.
+(Font)              scaled to size 8.0pt on input line 305.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' in size <6.1> not avail
 able
 (Font)              Font shape `OT1/EBGaramond-LF/regular/sw' tried instead on 
-input line 292.
+input line 305.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/sw' will be
-(Font)              scaled to size 6.1pt on input line 292.
- [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_rtavnu.e
-nc}] [4] [5] (./cv.aux)
+(Font)              scaled to size 6.1pt on input line 305.
+ [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_rtavnu.e
+nc}] [5] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18118 strings out of 476025
- 291153 string characters out of 5790017
- 1867388 words of memory out of 5000000
- 38179 multiletter control sequences out of 15000+600000
- 600128 words of font info for 129 fonts, out of 8000000 for 9000
+ 18104 strings out of 476025
+ 290394 string characters out of 5790017
+ 1868388 words of memory out of 5000000
+ 38140 multiletter control sequences out of 15000+600000
+ 602131 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,76p,1059b,706s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,76p,1059b,668s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-
 Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ebgaramond/EBGa
 ramond-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ebgara
@@ -921,10 +931,10 @@ lic/tex-gyre/qhvb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm
 -super/sftt1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfo
 nts/txsyb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsy
 s.pfb>
-Output written on cv.pdf (5 pages, 378768 bytes).
+Output written on cv.pdf (5 pages, 378869 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
- 42497 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 51713 words of extra memory for PDF output out of 61914 (max. 10000000)
 
