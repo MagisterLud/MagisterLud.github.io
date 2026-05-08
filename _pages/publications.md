@@ -27,13 +27,12 @@ author_profile: false
 
 <h2>Published papers</h2>
 
-{% assign published_number = 0 %}
+{% assign published_number = published_total %}
 {% for post in all_publications %}
   {% assign status = post.publication_status | default: "published" %}
 
   {% unless status == "preprint" %}
     {% unless status == "manuscript" %}
-      {% assign published_number = published_number | plus: 1 %}
 
 <article class="archive__item">
   <h3 class="archive__item-title no_toc">
@@ -58,6 +57,7 @@ author_profile: false
 </article>
 <hr/>
 
+      {% assign published_number = published_number | minus: 1 %}
     {% endunless %}
   {% endunless %}
 {% endfor %}
@@ -65,9 +65,8 @@ author_profile: false
 {% if preprints.size > 0 %}
 <h2>Preprints</h2>
 
-{% assign preprint_number = 0 %}
+{% assign preprint_number = preprints.size %}
 {% for post in preprints %}
-  {% assign preprint_number = preprint_number | plus: 1 %}
 
 <article class="archive__item">
   <h3 class="archive__item-title no_toc">
@@ -92,15 +91,15 @@ author_profile: false
 </article>
 <hr/>
 
+  {% assign preprint_number = preprint_number | minus: 1 %}
 {% endfor %}
 {% endif %}
 
 {% if manuscripts.size > 0 %}
 <h2>Manuscripts</h2>
 
-{% assign manuscript_number = 0 %}
+{% assign manuscript_number = manuscripts.size %}
 {% for post in manuscripts %}
-  {% assign manuscript_number = manuscript_number | plus: 1 %}
 
 <article class="archive__item">
   <h3 class="archive__item-title no_toc">
@@ -125,5 +124,6 @@ author_profile: false
 </article>
 <hr/>
 
+  {% assign manuscript_number = manuscript_number | minus: 1 %}
 {% endfor %}
 {% endif %}
