@@ -12,31 +12,55 @@ author_profile: false
 {% include base_path %}
 
 {% assign all_publications = site.publications | sort: "date" | reverse %}
-{% assign preprints = all_publications | where: "publication_status", "preprint" %}
-{% assign manuscripts = all_publications | where: "publication_status", "manuscript" %}
 
-{% assign published_total = 0 %}
-{% for post in all_publications %}
-  {% assign status = post.publication_status | default: "published" %}
-  {% unless status == "preprint" %}
-    {% unless status == "manuscript" %}
-      {% assign published_total = published_total | plus: 1 %}
-    {% endunless %}
-  {% endunless %}
-{% endfor %}
+{% comment %}
+To add, remove, or reorder sections, edit only this line.
 
-<h2>Published papers</h2>
+Each publication should have a front-matter field like:
 
-{% assign published_number = published_total %}
-{% for post in all_publications %}
-  {% assign status = post.publication_status | default: "published" %}
+publication_section: "Published Papers"
 
-  {% unless status == "preprint" %}
-    {% unless status == "manuscript" %}
+Possible examples:
+publication_section: "Published Papers"
+publication_section: "Preprints"
+publication_section: "Music & Mathematics"
+publication_section: "Manuscripts"
+{% endcomment %}
+
+{% assign publication_sections = "Published Papers|Preprints|Music & Mathematics|Manuscripts" | split: "|" %}
+
+{% comment %}
+Publications without a publication_section will appear under this default section.
+{% endcomment %}
+
+{% assign default_publication_section = "Published Papers" %}
+
+{% for section in publication_sections %}
+
+  {% assign section_total = 0 %}
+
+  {% for post in all_publications %}
+    {% assign post_section = post.publication_section | default: default_publication_section %}
+
+    {% if post_section == section %}
+      {% assign section_total = section_total | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+
+  {% if section_total > 0 %}
+
+<h2>{{ section | escape }}</h2>
+
+    {% assign section_number = section_total %}
+
+    {% for post in all_publications %}
+      {% assign post_section = post.publication_section | default: default_publication_section %}
+
+      {% if post_section == section %}
 
 <article class="archive__item">
   <h3 class="archive__item-title no_toc">
-    {{ published_number }}.
+    {{ section_number }}.
     {% if post.paperurl %}
       <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
     {% else %}
@@ -57,73 +81,9 @@ author_profile: false
 </article>
 <hr/>
 
-      {% assign published_number = published_number | minus: 1 %}
-    {% endunless %}
-  {% endunless %}
+        {% assign section_number = section_number | minus: 1 %}
+
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
-
-{% if preprints.size > 0 %}
-<h2>Preprints</h2>
-
-{% assign preprint_number = preprints.size %}
-{% for post in preprints %}
-
-<article class="archive__item">
-  <h3 class="archive__item-title no_toc">
-    {{ preprint_number }}.
-    {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
-    {% else %}
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    {% endif %}
-  </h3>
-
-  {% assign cap = post.caption | default: post.pub_caption %}
-  <div class="page__meta">
-    {% if cap and cap != blank %}
-      {{ cap | markdownify }}
-    {% else %}
-      &nbsp;
-    {% endif %}
-  </div>
-
-  {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
-</article>
-<hr/>
-
-  {% assign preprint_number = preprint_number | minus: 1 %}
-{% endfor %}
-{% endif %}
-
-{% if manuscripts.size > 0 %}
-<h2>Manuscripts</h2>
-
-{% assign manuscript_number = manuscripts.size %}
-{% for post in manuscripts %}
-
-<article class="archive__item">
-  <h3 class="archive__item-title no_toc">
-    {{ manuscript_number }}.
-    {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
-    {% else %}
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    {% endif %}
-  </h3>
-
-  {% assign cap = post.caption | default: post.pub_caption %}
-  <div class="page__meta">
-    {% if cap and cap != blank %}
-      {{ cap | markdownify }}
-    {% else %}
-      &nbsp;
-    {% endif %}
-  </div>
-
-  {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
-</article>
-<hr/>
-
-  {% assign manuscript_number = manuscript_number | minus: 1 %}
-{% endfor %}
-{% endif %}
