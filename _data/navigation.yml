@@ -13,5 +13,5 @@ main:
  # - title: "Teaching"
  #   url: /teaching/    
     
- # - title: "Musica"
- #   url: /musica/
+  - title: "Musica"
+    url: /musica/

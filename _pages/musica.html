@@ -7,7 +7,8 @@ author_profile: false
 
 {% include base_path %}
 
+{% assign all_musica = site.musica | sort: "date" | reverse %}
 
-{% for post in site.musica %}
+{% for post in all_musica %}
   {% include archive-single.html %}
 {% endfor %}
