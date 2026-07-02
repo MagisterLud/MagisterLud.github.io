@@ -236,12 +236,12 @@ defaults:
       layout: talk
       author_profile: false
       share: true
-  # _musica
+  # _music
   - scope:
       path: ""
-      type: musica
+      type: music
     values:
-      layout: musica
+      layout: music
       author_profile: false
       share: true
 
