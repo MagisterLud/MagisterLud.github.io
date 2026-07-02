@@ -1,7 +1,7 @@
 ---
 title: "The Technique of Musical Icosahedra"
-collection: musica
-permalink: /musica/2025-09-23-the-technique-of-musical-icosahedra
+collection: music
+permalink: /music/2025-09-23-the-technique-of-musical-icosahedra
 date: 2025-09-23
 ---
 

@@ -184,7 +184,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  musica:
+  music:
     output: true
     permalink: /:collection/:path/
 

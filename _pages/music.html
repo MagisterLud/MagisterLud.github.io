@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Music"
+permalink: /music/
+author_profile: false
+---
+
+{% include base_path %}
+
+{% assign all_music = site.music | sort: "date" | reverse %}
+
+{% for post in all_music %}
+  {% include archive-single.html %}
+{% endfor %}
