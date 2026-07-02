@@ -6,14 +6,33 @@ author_profile: false
 ---
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{ author.googlescholar }}">my Google Scholar profile</a>.</u>
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
 
 {% assign all_publications = site.publications | sort: "date" | reverse %}
 
+{% comment %}
+To add, remove, or reorder sections, edit only this line.
+
+Each publication should have a front-matter field like:
+
+publication_section: "Published Papers"
+
+Possible examples:
+publication_section: "Published Papers"
+publication_section: "Preprints"
+publication_section: "Music & Mathematics"
+publication_section: "Manuscripts"
+{% endcomment %}
+
 {% assign publication_sections = "Published Papers|Preprints|Music & Mathematics|Manuscripts" | split: "|" %}
+
+{% comment %}
+Publications without a publication_section will appear under this default section.
+{% endcomment %}
+
 {% assign default_publication_section = "Published Papers" %}
 
 {% for section in publication_sections %}
@@ -22,6 +41,7 @@ author_profile: false
 
   {% for post in all_publications %}
     {% assign post_section = post.publication_section | default: default_publication_section %}
+
     {% if post_section == section %}
       {% assign section_total = section_total | plus: 1 %}
     {% endif %}
@@ -29,11 +49,7 @@ author_profile: false
 
   {% if section_total > 0 %}
 
-{% if section == "Preprints" %}
-<h2>Preprints (Including Published Versions)</h2>
-{% else %}
 <h2>{{ section | escape }}</h2>
-{% endif %}
 
     {% assign section_number = section_total %}
 
@@ -61,11 +77,8 @@ author_profile: false
     {% endif %}
   </div>
 
-  {% if post.excerpt %}
-    {{ post.excerpt | markdownify }}
-  {% endif %}
+  {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
 </article>
-
 <hr/>
 
         {% assign section_number = section_number | minus: 1 %}
