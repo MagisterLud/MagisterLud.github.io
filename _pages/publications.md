@@ -49,7 +49,11 @@ Publications without a publication_section will appear under this default sectio
 
   {% if section_total > 0 %}
 
-<h2>{{ section | escape }}</h2>
+{% if section == "Preprints" %}
+## Preprints (Including Published Versions)
+{% else %}
+## {{ section | escape }}
+{% endif %}
 
     {% assign section_number = section_total %}
 
