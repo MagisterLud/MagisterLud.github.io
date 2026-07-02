@@ -241,7 +241,7 @@ defaults:
       path: ""
       type: music
     values:
-      layout: music
+      layout: single
       author_profile: false
       share: true
 
