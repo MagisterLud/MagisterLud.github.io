@@ -27,7 +27,7 @@ publication_section: "Music & Mathematics"
 publication_section: "Manuscripts"
 {% endcomment %}
 
-{% assign publication_sections = "Published Papers|Preprints (Including Published Versions)|Music & Mathematics|Manuscripts" | split: "|" %}
+{% assign publication_sections = "Published Papers|Preprints|Music & Mathematics|Manuscripts" | split: "|" %}
 
 {% comment %}
 Publications without a publication_section will appear under this default section.
@@ -49,7 +49,11 @@ Publications without a publication_section will appear under this default sectio
 
   {% if section_total > 0 %}
 
+{% if section == "Preprints" %}
+<h2>Preprints (Including Published Versions)</h2>
+{% else %}
 <h2>{{ section | escape }}</h2>
+{% endif %}
 
     {% assign section_number = section_total %}
 
