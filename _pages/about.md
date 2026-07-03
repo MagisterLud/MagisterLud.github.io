@@ -10,9 +10,9 @@ redirect_from:
 
 Welcome to my page!
 
-I am a PhD student and research assistant at the [Steklov Mathematical Institute of the Russian Academy of Sciences](https://www.mi-ras.ru/index.php?c=main&l=1), as well as a research assistant at the [International Laboratory for Mirror Symmetry and Automorphic Forms](https://ms.hse.ru/en/).
+I work at the [Steklov Mathematical Institute of the Russian Academy of Sciences](https://www.mi-ras.ru/index.php?c=main&l=1) and at the [International Laboratory for Mirror Symmetry and Automorphic Forms](https://ms.hse.ru/en/).
 
-My research interests include Algebraic Topology, Homotopy Theory, Group Theory, and Combinatorics.
+My research interests include Algebraic Topology and Homotopy Theory.
 
 My [Curriculum Vitae](https://magisterlud.github.io//files/cv/cv.pdf).    
 
