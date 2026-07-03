@@ -1,5 +1,5 @@
 ---
-title: "NOT ALLOWED"
+title: "ТАКЪ НЕЛЬЗЯ (NOT ALLOWED)"
 collection: music
 layout: single
 permalink: /music/2026-06-22-NOT-ALLOWED
