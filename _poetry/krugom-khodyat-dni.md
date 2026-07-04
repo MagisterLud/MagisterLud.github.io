@@ -1,5 +1,5 @@
 ---
-title: "Слова"
+title: "кругом ходят дни"
 collection: music
 layout: single
 permalink: /music/2022-12-03-krugom-khodyat-dni
