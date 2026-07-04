@@ -1,7 +1,7 @@
 ---
 title: "горький салат"
 collection: poetry
-permalink: /poetry/2022-08-31-slova-druzya-lubov-dusha
+permalink: /poetry/2022-08-31-gorkyi-salad
 date: 2022-08-31
 ---
 
