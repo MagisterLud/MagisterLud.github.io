@@ -1,7 +1,6 @@
 ---
 title: "ТАКЪ НЕЛЬЗЯ (NOT ALLOWED)"
 collection: music
-layout: single
 permalink: /music/2026-06-22-NOT-ALLOWED
 date: 2026-06-22
 ---
