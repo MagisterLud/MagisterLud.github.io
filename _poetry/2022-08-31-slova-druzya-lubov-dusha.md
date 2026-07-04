@@ -1,5 +1,5 @@
 ---
-title: "Слова. Друзья. Любовь. Душа"
+title: "Слова"
 collection: music
 layout: single
 permalink: /music/2022-08-31-slova-druzya-lubov-dusha
