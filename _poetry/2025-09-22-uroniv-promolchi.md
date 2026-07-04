@@ -1,12 +1,12 @@
 ---
-title: "уронив — промолчи"
+title: "равновесие"
 collection: poetry
 permalink: /poetry/2025-09-22-uroniv-promolchi
 date: 2025-09-22
 ---
 
 
-<div style="max-width: 520px;">
+<div style="width: fit-content;">
   <div style="display: grid; grid-template-columns: max-content max-content; column-gap: 4em; row-gap: 0.9em; align-items: center;">
     <div style="grid-column: 1; grid-row: 1;">уронив</div>
     <div style="grid-column: 2; grid-row: 2;">промолчи</div>
@@ -34,4 +34,3 @@ date: 2025-09-22
     подними
   </div>
 </div>
-  
