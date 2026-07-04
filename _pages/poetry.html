@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Poetry"
+permalink: /poetry/
+author_profile: false
+---
+
+{% include base_path %}
+
+{% assign all_poetry = site.poetry | sort: "date" | reverse %}
+
+{% for post in all_poetry %}
+  {% include archive-single-poetry.html %}
+{% endfor %}
