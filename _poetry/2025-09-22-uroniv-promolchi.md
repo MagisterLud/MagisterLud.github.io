@@ -6,8 +6,8 @@ date: 2025-09-22
 ---
 
 
-<div style="max-width: 360px; line-height: 1.8;">
-  <div style="display: grid; grid-template-columns: max-content max-content; column-gap: 2.5em;">
+<div style="font-family: inherit; font-size: 1.9em; font-weight: 700; line-height: 2.25; max-width: 520px;">
+  <div style="display: flex; column-gap: 2.4em; align-items: flex-start;">
     <div>
       уронив<br>
       захватив<br>
@@ -18,7 +18,7 @@ date: 2025-09-22
       угодив
     </div>
 
-    <div style="padding-top: 1.8em;">
+    <div style="margin-top: 1.125em;">
       промолчи<br>
       отпусти<br>
       провались<br>
@@ -29,7 +29,7 @@ date: 2025-09-22
     </div>
   </div>
 
-  <div style="text-align: center; margin-top: 1.8em;">
+  <div style="text-align: center; margin-top: 2.25em;">
     подними
   </div>
 </div>
