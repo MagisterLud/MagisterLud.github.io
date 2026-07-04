@@ -1,5 +1,5 @@
 ---
-title: "........................................................................"
+title: "..."
 collection: poetry
 permalink: /poetry/2024-02-23-proplyvat-v-plastakh-sandalovogo-efira
 date: 2024-02-23

@@ -1,5 +1,5 @@
 ---
-title: "Люди кругом, кругом человеки"
+title: "люди кругом, кругом человеки"
 collection: poetry
 permalink: /poetry/2023-04-13-lyudi-krugom-krugom-cheloveki
 date: 2023-04-13
