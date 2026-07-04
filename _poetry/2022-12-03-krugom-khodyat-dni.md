@@ -1,8 +1,8 @@
 ---
 title: "кругом ходят дни"
-collection: music
+collection: poetry
 layout: single
-permalink: /music/2022-12-03-krugom-khodyat-dni
+permalink: /poetry/2022-12-03-krugom-khodyat-dni
 date: 2022-12-03
 ---
 

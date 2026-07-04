@@ -1,8 +1,8 @@
 ---
 title: "Слова"
-collection: music
+collection: poetry
 layout: single
-permalink: /music/2022-08-31-slova-druzya-lubov-dusha
+permalink: /poetry/2022-08-31-slova-druzya-lubov-dusha
 date: 2022-08-31
 ---
 
