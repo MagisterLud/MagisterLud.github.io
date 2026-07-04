@@ -1,7 +1,6 @@
 ---
 title: "Сидел я под грецким орехом"
 collection: poetry
-layout: poetry-single
 permalink: /poetry/2021-06-26-sidel-ya-pod-gretskim-orekhom
 date: 2021-06-26
 ---

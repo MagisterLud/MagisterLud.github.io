@@ -1,7 +1,6 @@
 ---
 title: "кругом ходят дни"
 collection: poetry
-layout: poetry-single
 permalink: /poetry/2022-12-03-krugom-khodyat-dni
 date: 2022-12-03
 ---

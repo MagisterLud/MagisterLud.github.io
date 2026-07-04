@@ -1,7 +1,6 @@
 ---
 title: "Слова"
 collection: poetry
-layout: poetry-single
 permalink: /poetry/2022-08-31-slova-druzya-lubov-dusha
 date: 2022-08-31
 ---

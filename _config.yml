@@ -252,7 +252,7 @@ defaults:
       path: ""
       type: music
     values:
-      layout: single
+      layout: poetry-single
       author_profile: false
       share: true
 
