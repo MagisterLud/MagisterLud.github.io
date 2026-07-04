@@ -6,31 +6,31 @@ date: 2025-09-22
 ---
 
 
-<div style="max-width: 520px; font-size: 1.4em; line-height: 2.1;">
-  <div style="display: grid; grid-template-columns: 1fr 1fr; column-gap: 4em;">
+<div style="max-width: 360px; line-height: 1.8;">
+  <div style="display: grid; grid-template-columns: max-content max-content; column-gap: 2.5em;">
     <div>
-      Уронив<br>
-      Захватив<br>
-      Возжелав<br>
-      Преломив<br>
-      Вопросив<br>
-      Заразив<br>
-      Угодив
+      уронив<br>
+      захватив<br>
+      возжелав<br>
+      преломив<br>
+      вопросив<br>
+      заразив<br>
+      угодив
     </div>
 
-    <div style="padding-top: 1.4em;">
-      Промолчи<br>
-      Отпусти<br>
-      Провались<br>
-      Отрази<br>
-      Отлети<br>
-      Пролечи<br>
-      Одари
+    <div style="padding-top: 1.8em;">
+      промолчи<br>
+      отпусти<br>
+      провались<br>
+      отрази<br>
+      отлети<br>
+      пролечи<br>
+      одари
     </div>
   </div>
 
-  <div style="text-align: center; margin-top: 1.5em;">
-    Подними
+  <div style="text-align: center; margin-top: 1.8em;">
+    подними
   </div>
 </div>
   
