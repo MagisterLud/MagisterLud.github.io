@@ -2,7 +2,7 @@
 title: "равновесие"
 collection: poetry
 permalink: /poetry/2025-09-22-uroniv-promolchi
-date: 2025-09-22
+date: 2025-09-22 22:00
 ---
 
 
