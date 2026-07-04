@@ -250,7 +250,7 @@ defaults:
   # _poetry
   - scope:
       path: ""
-      type: music
+      type: poetry
     values:
       layout: poetry-single
       author_profile: false
