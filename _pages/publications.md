@@ -50,8 +50,7 @@ Publications without a publication_section will appear under this default sectio
   {% if section_total > 0 or section == "Preprints" %}
 
 {% if section == "Preprints" %}
-## Preprints
-[A list of my preprints is available on arXiv](https://arxiv.org/search/math?searchtype=author&query=Kornev,+M).
+## [Preprints on arXiv](https://arxiv.org/search/math?searchtype=author&query=Kornev,+M)
 {% else %}
 ## {{ section | escape }}
 {% endif %}
