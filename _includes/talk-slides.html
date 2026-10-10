@@ -1,0 +1,8 @@
+{% if include.talk.slides %}
+  <p class="talk-slides">
+    <strong>Slides:</strong>
+    {% for slide in include.talk.slides %}
+      <a href="{{ base_path }}{{ slide.url | escape }}">{{ slide.label | escape }}</a>{% unless forloop.last %} &middot;{% endunless %}
+    {% endfor %}
+  </p>
+{% endif %}

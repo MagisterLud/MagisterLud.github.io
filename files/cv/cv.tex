@@ -21,7 +21,13 @@
 \usepackage{titlesec} % allow custom section fonts
 \usepackage{setspace} % custom line spacing
 
-\usepackage[tracking = true, letterspace = 50]{microtype}
+\usepackage{iftex}
+\ifPDFTeX
+    \usepackage[tracking = true, letterspace = 50]{microtype}
+\else
+    \usepackage[tracking = false]{microtype}
+    \renewcommand*{\lsstyle}{}
+\fi
 \SetTracking{encoding=T1, shape=sc}{50}
 \SetTracking{encoding=T1}{50} 
 
@@ -109,8 +115,10 @@
     % affiliation and contact info blocks
     \vspace{1em}
     \begin{minipage}[t]{2.5in}
-        % current primary affiliation, left-aligned
-        Steklov Mathematical Institute of RAS 
+        % academic degree and current affiliations, left-aligned
+        PhD in Mathematics\\
+        Steklov Mathematical Institute of RAS\\
+        HSE University
     \end{minipage}
     \hfill
     \begin{minipage}[t]{3in}
@@ -118,7 +126,7 @@
         Nationality: Russian\\
         E-mail: \href{mailto:michaelkorneff@gmail.com}{\tt michaelkorneff@gmail.com}\\
         Web-page: \href{https://magisterlud.github.io}{\tt https://magisterlud.github.io}\\
-        ORCID: \href{https://orcid.org/0009-0005-5408-3248}{\tt https://orcid.org/0009-0005-5408-3248}
+        ORCID: \href{https://orcid.org/0009-0005-5408-3248}{\tt 0009-0005-5408-3248}
 
     \end{minipage}
     
@@ -132,7 +140,7 @@
 
     \begin{tablist}
 
-        \item[Sep. 2022 --]   \tab{}PhD student and research assistant at Steklov Mathematical Institute of RAS  \\
+        \item[Sep. 2022 --]   \tab{}Research assistant at Steklov Mathematical Institute of RAS  \\
                               Department of Geometry and Topology
                               
         \item[Mar. 2026 --] \tab{}Research assistant at HSE University\\
@@ -149,6 +157,9 @@
     \section*{Education}
 
     \begin{tablist}
+
+        \item[2022 -- 2026]  \tab{}PhD in Mathematics, Steklov Mathematical Institute of RAS\\
+                              Department of Geometry and Topology
 
         \item[Sep. 2016 -- May 2022]  \tab{}Specialist degree Diploma with honors in Mathematics (equivalent to M.S.)\\ Lomonosov Moscow State University 
 
@@ -184,6 +195,7 @@
           \section*{Preprints}
           
            \begin{tablist}
+          \item[Sep. 2026]\tab{Buchstaber V.M., Kornev M.I.}\\ {\it Logarithm of the Universal Two-Valued Formal Group}\\ \href{https://doi.org/10.48550/arXiv.2609.15878}{\tt arXiv:2609.15878}
           \item[Apr. 2026]\tab{Buchstaber V.M., Kornev M.I., Rubtsov V.N.}\\ {\it Two-Valued Groups, Chazy Equation, Dubrovin-Frobenius Structures, and QYBE}\\ \href{https://doi.org/10.48550/arXiv.2604.26641}{\tt arXiv:2604.26641}
           \item[Mar. 2026]\tab{Kornev M.I.,}\\ {\it Buchstaber, Ochanine, Krichever, and Witten genera}\\ \href{https://doi.org/10.48550/arXiv.2603.21118}{\tt arXiv:2603.21118}
           \item[Oct. 2025] \tab{Buchstaber V.M., Kornev M.I.}\\ {\it Algebraic $n$-Valued Monoids on $\mathbb{C}P^1$, Discriminants and Projective Duality}\\ \href{https://doi.org/10.48550/arXiv.2510.14010}{\tt arXiv:2510.14010}
@@ -197,9 +209,12 @@
     
     
     
-     \section*{Conference Talks}
+    \section*{Conference Talks}
 
     \begin{tablist}
+
+        % Programme: https://www.mathnet.ru/ConfLogos/2728/2728-Schedule.pdf
+        \item{Oct. 8, 2026} \tab{}{\it Two-Valued Groups, Chazy Equation, Dubrovin-Frobenius Structures, and QYBE}\\ International Conference ``Integrable Systems and Quantum Theory'', dedicated to the 80th anniversary of A. K. Pogrebkov,\\ Saint Petersburg State University, Saint Petersburg, Russia
     
         \item{May. 2026} \tab{}{\it Buchstaber Genus and Formal Groups}\\ Conference ``Algebraic Topology, Group Actions, and Combinatorics,'' Sirius, Sochi, Russia
         
@@ -225,6 +240,10 @@
     \section*{Seminar Talks}
       
       \begin{tablist}
+
+      % Announcements: https://ms.hse.ru/announcements/1201130824.html
+      % and https://ms.hse.ru/announcements/1204750364.html (continuation).
+      \item{Sep. 22, 29, 2026} \tab{}{\it Buchstaber, Witten, Krichever, and Ochanine Genera} (2 talks)\\ Seminar ``Automorphic Forms and Their Applications'',\\ Faculty of Mathematics, HSE University, Moscow, Russia
       
       \item{May 2026} \tab{}{\it Buchstaber genus and formal groups}\\ Seminar ``Toric Topology, Combinatorics, and Homotopy Theory''\\ jointly with the Laboratory of Topology and Complex Networks of the Faculty of Mathematics, HSE University,\\ Moscow Center for Continuous Mathematical Education (MCCME), Moscow, Russia
       
@@ -238,7 +257,7 @@
       
        \item{Apr. 2023} \tab{}{\it Acyclic groups and Kan-Thurston theorem}\\ Seminar by I. G. Lysenok and A. L. Talambutsa ``Seminar on geometric group theory'', Steklov Mathematical Institute of RAS, Moscow, Russia
        
-       \item{Dec. 2022} \tab{}{\it Fundamental groups of homology spheres}\\ Seminar ``Geometry, Topology and their applications'' at Sobolev Institute of Mathematics,\\ Online
+       \item{Dec. 2022} \tab{}{\it Fundamental groups of homology spheres}\\* Seminar ``Geometry, Topology and their applications'' at Sobolev Institute of Mathematics,\\* Online
        
       
     \end{tablist}
