@@ -37,7 +37,15 @@
     {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }}, {{post.location}}</p>{% endif %}
-    {% if post.excerpt %}<div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>{% endif %}
+    {% if post.excerpt %}
+      {% assign talk_abstract_words = post.excerpt | markdownify | strip_html | number_of_words %}
+      {% if talk_abstract_words > 50 %}
+        <div class="archive__item-excerpt talk__abstract talk__abstract--long" itemprop="description">{{ post.excerpt | markdownify }}</div>
+        <a class="talk__read-more" href="{{ base_path }}{{ post.url }}" rel="permalink">Read More</a>
+      {% else %}
+        <div class="archive__item-excerpt talk__abstract" itemprop="description">{{ post.excerpt | markdownify }}</div>
+      {% endif %}
+    {% endif %}
     {% include talk-slides.html talk=post %}
   </article>
 </div>

@@ -66,6 +66,21 @@
   }
 }
 
+.archive__item-excerpt.talk__abstract {
+  font-size: inherit;
+}
+
+.talk__abstract--long > p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+}
+
+.talk__read-more {
+  font-weight: bold;
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
