@@ -66,8 +66,12 @@
   }
 }
 
-.archive__item-excerpt.talk__abstract {
-  font-size: inherit;
+.page__content {
+  .archive__item-excerpt.talk__abstract,
+  .talk-slides,
+  .talk__read-more {
+    font-size: 1rem;
+  }
 }
 
 .talk__abstract--long > p {
