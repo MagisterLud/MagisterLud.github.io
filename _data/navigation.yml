@@ -16,5 +16,5 @@ main:
   - title: "Music"
     url: /music/
 
- # - title: "Poetry"
- #   url: /poetry/
+  - title: "Writing"
+    url: /poetry/
