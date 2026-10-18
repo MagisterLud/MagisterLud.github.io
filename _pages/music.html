@@ -8,7 +8,11 @@ author_profile: false
 {% include base_path %}
 
 {% assign all_music = site.music | sort: "date" | reverse %}
+{% assign music_by_date = all_music | group_by: "date" %}
 
-{% for post in all_music %}
-  {% include archive-single-music.html %}
+{% for date_group in music_by_date %}
+  {% assign ordered_music = date_group.items | sort: "music_order" %}
+  {% for post in ordered_music %}
+    {% include archive-single-music.html %}
+  {% endfor %}
 {% endfor %}
