@@ -7,4 +7,4 @@ date_precision: month
 music_order: 1
 ---
 
-[View the score](/files/music/a-pentagonal-drum-path.pdf).
+[View the score](/files/music/a-pentagonal-drum-path.pdf). [Listen to a performance](https://disk.360.yandex.com/d/b_vlpD89LfLX5A).
