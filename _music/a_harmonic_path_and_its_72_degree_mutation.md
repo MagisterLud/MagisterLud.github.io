@@ -4,7 +4,7 @@ collection: music
 permalink: /music/2024-07-a-harmonic-path-and-its-72-degree-mutation
 date: 2024-07-01
 date_precision: month
-music_order: 1
+music_order: 2
 ---
 
 [View the score](/files/music/a-harmonic-path-and-its-72-degree-mutation.pdf).
