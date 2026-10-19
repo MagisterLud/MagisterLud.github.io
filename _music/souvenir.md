@@ -6,4 +6,4 @@ date: 2021-05-01
 date_precision: month
 ---
 
-[View the score](/files/music/souvenir.pdf).
+[View the score.](/files/music/souvenir.pdf)

@@ -6,4 +6,4 @@ date: 2021-08-01
 date_precision: month
 ---
 
-[View the score](/files/music/eventio.pdf).
+[View the score.](/files/music/eventio.pdf)

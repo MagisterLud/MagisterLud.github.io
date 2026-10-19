@@ -130,10 +130,7 @@ html[data-theme] .theme-toggle {
     color: #fff;
   }
 
-  html[data-theme="dark"] .page__meta,
-  html[data-theme="dark"] .page__date,
   html[data-theme="dark"] figcaption,
-  html[data-theme="dark"] .archive h3 + p,
   html[data-theme="dark"] .highlight * {
     color: #fff;
   }
@@ -144,6 +141,11 @@ html[data-theme] .theme-toggle {
   html[data-theme="dark"] h4,
   html[data-theme="dark"] h5,
   html[data-theme="dark"] h6,
+  html[data-theme="dark"] .page__meta,
+  html[data-theme="dark"] .page__date,
+  html[data-theme="dark"] .talk__venue,
+  html[data-theme="dark"] .archive h3 + p,
+  html[data-theme="dark"] time,
   html[data-theme="dark"] .theme-toggle {
     color: #87cefa;
   }
@@ -167,6 +169,10 @@ html[data-theme] .theme-toggle {
   html[data-theme="dark"] .greedy-nav a:hover,
   html[data-theme="dark"] .greedy-nav a:visited {
     color: #87cefa;
+  }
+
+  html[data-theme="dark"] h2 > a.research-title-link {
+    color: #87cefa !important;
   }
 
   html[data-theme="dark"] .greedy-nav .hidden-links a:hover,
