@@ -72,14 +72,12 @@ Publications without a publication_section will appear under this default sectio
     {% endif %}
   </h3>
 
-  {% assign cap = post.caption | default: post.pub_caption %}
+  {% assign cap = post.caption | default: post.pub_caption | default: '' | strip %}
+  {% if cap != '' %}
   <div class="page__meta">
-    {% if cap and cap != blank %}
-      {{ cap | markdownify }}
-    {% else %}
-      &nbsp;
-    {% endif %}
+    {{ cap | markdownify }}
   </div>
+  {% endif %}
 
   {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
 </article>
