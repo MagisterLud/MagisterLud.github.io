@@ -5,7 +5,7 @@
   var root = document.documentElement;
 
   function applyTheme(theme) {
-    var dark = theme === 'dark';
+    var dark = theme !== 'light';
     root.setAttribute('data-theme', dark ? 'dark' : 'light');
 
     var toggle = document.querySelector('.theme-toggle');
@@ -20,9 +20,9 @@
     }
   }
 
-  var savedTheme = 'light';
+  var savedTheme = 'dark';
   try {
-    savedTheme = window.localStorage.getItem(storageKey) || 'light';
+    savedTheme = window.localStorage.getItem(storageKey);
   } catch (error) {
     // The toggle still works when browser storage is unavailable.
   }
