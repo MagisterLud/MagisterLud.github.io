@@ -74,7 +74,8 @@
   }
 }
 
-.talk__abstract--long > p {
+/* WebKit's line clamp can cut MathJax subscripts inside a visible line. */
+.talk__abstract--long:not(.talk__abstract--math) > p {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
