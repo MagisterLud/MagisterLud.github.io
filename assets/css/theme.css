@@ -19,13 +19,6 @@ html a[data-link-kind="resource"] {
   color: var(--resource-link-color) !important;
 }
 
-/* Research titles stay blue even when they open papers on another website. */
-@media screen {
-  html[data-theme="dark"] a.research-title-link {
-    color: #87cefa !important;
-  }
-}
-
 /* Keep the theme control outside the greedy navigation's overflow menu. */
 .masthead__menu {
   display: flex;
@@ -102,7 +95,7 @@ html[data-theme] .theme-toggle {
 
 @media screen {
   html[data-theme="dark"] {
-    --resource-link-color: #e4c8ff;
+    --resource-link-color: #ff9e3d;
     color-scheme: dark;
     background: #000;
     color: #fff;
@@ -137,12 +130,10 @@ html[data-theme] .theme-toggle {
     color: #fff;
   }
 
-  html[data-theme="dark"] a,
   html[data-theme="dark"] .page__meta,
   html[data-theme="dark"] .page__date,
   html[data-theme="dark"] figcaption,
   html[data-theme="dark"] .archive h3 + p,
-  html[data-theme="dark"] .archive h3 + p a,
   html[data-theme="dark"] .highlight * {
     color: #fff;
   }
@@ -153,16 +144,28 @@ html[data-theme] .theme-toggle {
   html[data-theme="dark"] h4,
   html[data-theme="dark"] h5,
   html[data-theme="dark"] h6,
+  html[data-theme="dark"] .theme-toggle {
+    color: #87cefa;
+  }
+
+  /* Flower-orange links and entry titles; section headings stay sky blue. */
+  html[data-theme="dark"] a,
+  html[data-theme="dark"] a:hover,
+  html[data-theme="dark"] a:visited,
   html[data-theme="dark"] h1 a,
   html[data-theme="dark"] h2 a,
   html[data-theme="dark"] h3 a,
   html[data-theme="dark"] h4 a,
   html[data-theme="dark"] h5 a,
   html[data-theme="dark"] h6 a,
+  html[data-theme="dark"] .archive__item-title,
+  html[data-theme="dark"] .archive h3 + p a {
+    color: #ff9e3d;
+  }
+
   html[data-theme="dark"] .greedy-nav a,
-  html[data-theme="dark"] .greedy-nav .hidden-links a:hover,
-  html[data-theme="dark"] a:hover,
-  html[data-theme="dark"] .theme-toggle {
+  html[data-theme="dark"] .greedy-nav a:hover,
+  html[data-theme="dark"] .greedy-nav a:visited {
     color: #87cefa;
   }
 
@@ -176,6 +179,10 @@ html[data-theme] .theme-toggle {
   html[data-theme="dark"] .btn {
     color: #fff !important; /* The original theme uses !important for buttons. */
     border: 1px solid #87cefa;
+  }
+
+  html[data-theme="dark"] a.btn {
+    color: #ff9e3d !important;
   }
 
   html[data-theme="dark"] .masthead,

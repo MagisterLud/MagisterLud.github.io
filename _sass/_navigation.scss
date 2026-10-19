@@ -120,7 +120,7 @@
     }
   }
 
-  /* next/previous buttons */
+  /* Plain next/previous links with a generous click target. */
   &--pager {
     display: block;
     padding: 1em 2em;
@@ -131,27 +131,17 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: mix(#fff, $gray, 50%);
-    border: 1px solid $light-gray;
-    border-radius: $border-radius;
+    color: $link-color;
+    border: 0;
+    border-radius: 0;
 
     &:hover {
       color: $link-color-hover;
     }
 
-    &:first-child {
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
-    }
-
-    &:last-child {
-      margin-left: -1px;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-    }
-
     &.disabled {
-      color: mix(#fff, $gray, 75%);
+      color: $link-color;
+      opacity: 0.5;
       pointer-events: none;
       cursor: not-allowed;
     }
@@ -164,7 +154,20 @@
 .page__comments + .pagination {
   margin-top: 2em;
   padding-top: 2em;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid $link-color;
+}
+
+html[data-theme="dark"] {
+  .pagination--pager.disabled {
+    color: #87cefa;
+  }
+
+  .page__content + .pagination,
+  .page__meta + .pagination,
+  .page__share + .pagination,
+  .page__comments + .pagination {
+    border-top-color: #87cefa;
+  }
 }
 
 
