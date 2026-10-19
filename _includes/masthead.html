@@ -6,7 +6,11 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a class="masthead-home" href="{{ base_path }}/" aria-label="{{ site.title | escape }}" title="{{ site.title | escape }} — home">
+              <img src="{{ base_path }}/images/flower-home.png" alt="" width="48" height="48">
+            </a>
+          </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

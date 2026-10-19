@@ -38,6 +38,31 @@ html a[data-link-kind="resource"] {
   min-width: 0;
 }
 
+/* Show the complete flower as the home link without a rectangular frame. */
+.greedy-nav a.masthead-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.masthead-home img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.greedy-nav .visible-links a.masthead-home::before {
+  display: none;
+}
+
 .theme-toggle {
   display: none;
   flex: none;
