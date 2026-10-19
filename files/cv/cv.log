@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.11)  19 OCT 2026 15:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.11)  19 OCT 2026 15:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -888,23 +888,23 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 6.1pt on input line 136.
 LaTeX Font Info:    Font shape `T1/EBGaramond-LF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 182.
+(Font)              scaled to size 10.95pt on input line 165.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_ldtcgl.enc}{/usr/loca
 l/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/
 texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2
-026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_utfkrl.enc}{/usr/local/texlive/20
-26/texmf-dist/fonts/enc/dvips/ebgaramond-maths/oml-ebgaramond-1.enc}{/usr/local
+026/texmf-dist/fonts/enc/dvips/ebgaramond-maths/oml-ebgaramond-1.enc}{/usr/loca
+l/texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_utfkrl.enc}{/usr/local
 /texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_dacnth.enc}] [2] [3] [4
 ]
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' will be
-(Font)              scaled to size 10.95pt on input line 366.
+(Font)              scaled to size 10.95pt on input line 365.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' will be
-(Font)              scaled to size 8.0pt on input line 366.
+(Font)              scaled to size 8.0pt on input line 365.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' will be
-(Font)              scaled to size 6.1pt on input line 366.
+(Font)              scaled to size 6.1pt on input line 365.
  [5{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_76r3mr.en
 c}] [6]
 [7] (./cv.aux)
@@ -916,10 +916,10 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18267 strings out of 467525
- 290366 string characters out of 5418982
+ 18271 strings out of 467525
+ 290412 string characters out of 5418982
  803107 words of memory out of 5000000
- 46787 multiletter control sequences out of 15000+600000
+ 46791 multiletter control sequences out of 15000+600000
  717156 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,1059b,736s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -931,7 +931,7 @@ lic/tex-gyre/qhvb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm
 -super/sftt1095.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newt
 x/txsym.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txsys.
 pfb>
-Output written on cv.pdf (7 pages, 158616 bytes).
+Output written on cv.pdf (7 pages, 158796 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
