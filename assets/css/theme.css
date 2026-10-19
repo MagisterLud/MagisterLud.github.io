@@ -1,3 +1,28 @@
+:root {
+  --resource-link-color: #7435a8;
+}
+
+/* Remove both normal and hover underlines, including legacy link wrappers. */
+html a:any-link,
+html a:any-link:hover,
+html a:any-link:focus,
+html a:any-link:active,
+html .archive__item:hover .archive__item-title,
+html a u,
+html u:has(a) {
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+html .greedy-nav .visible-links a::before {
+  display: none;
+}
+
+/* Resource links override heading colors and the original theme's buttons. */
+html a[data-link-kind="resource"] {
+  color: var(--resource-link-color) !important;
+}
+
 /* Keep the theme control outside the greedy navigation's overflow menu. */
 .masthead__menu {
   display: flex;
@@ -14,12 +39,13 @@
   display: none;
   flex: none;
   align-items: center;
-  gap: 0.5em;
+  justify-content: center;
+  width: 44px;
   min-height: 44px;
   margin: 0;
-  padding: 0.5em 0.75em;
-  border: 1px solid #494e52;
-  border-radius: 4px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
   background: transparent;
   color: #494e52;
   font: inherit;
@@ -34,8 +60,8 @@ html[data-theme] .theme-toggle {
 }
 
 .theme-toggle__indicator {
-  width: 0.8em;
-  height: 0.8em;
+  width: 1.1rem;
+  height: 1.1rem;
   border: 1px solid currentColor;
   border-radius: 50%;
   background: linear-gradient(90deg, currentColor 50%, transparent 50%);
@@ -48,6 +74,7 @@ html[data-theme] .theme-toggle {
 
 @media screen {
   html[data-theme="dark"] {
+    --resource-link-color: #e4c8ff;
     color-scheme: dark;
     background: #000;
     color: #fff;

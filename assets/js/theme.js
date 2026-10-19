@@ -33,6 +33,23 @@
   document.addEventListener('DOMContentLoaded', function () {
     applyTheme(root.getAttribute('data-theme'));
 
+    // Resolve URLs so internal pages keep their color and files stay distinct.
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      try {
+        var url = new URL(link.getAttribute('href'), document.baseURI);
+        if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
+
+        var file = link.hasAttribute('download') || /\/files\//i.test(url.pathname) ||
+          /\.(pdf|ps|eps|docx?|xlsx?|pptx?|od[tpst]|rtf|txt|tex|csv|tsv|json|xml|ya?ml|zip|rar|7z|tar|gz|bz2|mp3|wav|ogg|flac|m4a|mp4|webm|mov|midi?|mxl|musicxml|png|jpe?g|gif|svg|webp|ipynb)$/i.test(url.pathname);
+        var internal = url.hostname === window.location.hostname ||
+          url.hostname === 'magisterlud.github.io';
+
+        if (file || !internal) link.setAttribute('data-link-kind', 'resource');
+      } catch (error) {
+        // Ignore malformed URLs without interrupting the theme control.
+      }
+    });
+
     var toggle = document.querySelector('.theme-toggle');
     if (!toggle) return;
 
