@@ -20,6 +20,7 @@
 \usepackage{enumitem} % enumerate with [resume] option
 \usepackage{titlesec} % allow custom section fonts
 \usepackage{setspace} % custom line spacing
+\usepackage{needspace} % keep section headings with their first entry
 
 \usepackage{iftex}
 \ifPDFTeX
@@ -51,7 +52,7 @@
 % set section heading fonts and before/after spacing
 \SetTracking{encoding=*, family=\sfdefault}{30} % increase sans serif headings tracking
 \titleformat{\section}{\lsstyle\sffamily\small\bfseries\uppercase}{}{}{}{}
-\titlespacing{\section}{0pt}{30pt plus 4pt minus 4pt}{8pt plus 2pt minus 2pt}
+\titlespacing{\section}{0pt}{24pt plus 4pt minus 4pt}{8pt plus 2pt minus 2pt}
 
 % set subsection heading fonts and before/after spacing
 \titleformat{\subsection}{\lsstyle\sffamily\footnotesize\bfseries}{}{}{}{}
@@ -88,7 +89,8 @@
     partopsep=0em,
     itemsep=\listitemspace,
     parsep=\listitemspace,
-    font=\normalfont}
+    font=\normalfont,
+    before={\interlinepenalty=10000}}
 
 % print only the month and year when using \today
 \newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEYEAR}
@@ -100,7 +102,7 @@
     citecolor   = black,
     linkcolor   = black,
     pdfauthor   = {\myname},
-    pdfkeywords = {city planning, housing, street networks, transportation, urban design, urban informatics},
+    pdfkeywords = {mathematics, geometry, topology, n-valued groups, formal groups},
     pdftitle    = {\myname: Curriculum Vitae},
     pdfsubject  = {Curriculum Vitae},
     pdfpagemode = UseNone
@@ -159,8 +161,9 @@
 
     \begin{tablist}
 
-        \item[2026]  \tab{}PhD in Mathematics, Steklov Mathematical Institute of RAS\\
-                              Doctoral studies: 2022 -- 2026\\
+        \item[2026]  \tab{}PhD in Mathematics, Steklov Mathematical Institute of RAS
+
+        \item[2022 -- 2026]  \tab{}Doctoral studies, Steklov Mathematical Institute of RAS\\
                               Department of Geometry and Topology
 
         \item[Sep. 2016 -- May 2022]  \tab{}Specialist degree Diploma with honors in Mathematics (equivalent to M.S.)\\ Lomonosov Moscow State University 
@@ -197,6 +200,7 @@
           \section*{Preprints}
           
            \begin{tablist}
+          \item[Oct. 2026]\tab{Kornev M.I.}\\ {\it $n$-Valued Analogue of Abel's Theorem}\\ \href{https://doi.org/10.48550/arXiv.2610.14044}{\tt arXiv:2610.14044}
           \item[Sep. 2026]\tab{Buchstaber V.M., Kornev M.I.}\\ {\it Logarithm of the Universal Two-Valued Formal Group}\\ \href{https://doi.org/10.48550/arXiv.2609.15878}{\tt arXiv:2609.15878}
           \item[Apr. 2026]\tab{Buchstaber V.M., Kornev M.I., Rubtsov V.N.}\\ {\it Two-Valued Groups, Chazy Equation, Dubrovin-Frobenius Structures, and QYBE}\\ \href{https://doi.org/10.48550/arXiv.2604.26641}{\tt arXiv:2604.26641}
           \item[Mar. 2026]\tab{Kornev M.I.,}\\ {\it Buchstaber, Ochanine, Krichever, and Witten genera}\\ \href{https://doi.org/10.48550/arXiv.2603.21118}{\tt arXiv:2603.21118}
@@ -211,12 +215,15 @@
     
     
     
+    \Needspace{8\baselineskip}
     \section*{Conference Talks}
 
     \begin{tablist}
 
         % Programme: https://www.mathnet.ru/ConfLogos/2728/2728-Schedule.pdf
-        \item{Oct. 8, 2026} \tab{}{\it Two-Valued Groups, Chazy Equation, Dubrovin-Frobenius Structures, and QYBE}\\ International Conference ``Integrable Systems and Quantum Theory'', dedicated to the 80th anniversary of A. K. Pogrebkov,\\ Saint Petersburg State University, Saint Petersburg, Russia
+        \item{Oct. 2026} \tab{}{\it Two-Valued Groups, Chazy Equation, Dubrovin-Frobenius Structures, and QYBE}\\ International Conference ``Integrable Systems and Quantum Theory'', dedicated to the 80th anniversary of A. K. Pogrebkov,\\ Saint Petersburg State University, Saint Petersburg, Russia
+
+        \item{Aug. 2026} \tab{}{\it Buchstaber Genus, Formal Groups, and Cohomology Theories}\\ 6th Conference of Mathematical Centers of Russia, Kazan, Russia
     
         \item{May. 2026} \tab{}{\it Buchstaber Genus and Formal Groups}\\ Conference ``Algebraic Topology, Group Actions, and Combinatorics,'' Sirius, Sochi, Russia
         
@@ -224,7 +231,7 @@
              
        \item{May 2024} \tab{}{\it Homology Spheres, Acyclic Groups and Kan-Thurston Theorem}\\ Conference ``From Analysis to Homotopy Theory'' , University of Greifswald, Greifswald, Germany 
     
-       \item{Apr. 2023} \tab{}{\it Dynamics and multivalued groups}\\ Conference ``SIMC Youth Race'', Steklov Mathematical Institute of RAS, Moscow, Russia
+       \item{Mar. 2023} \tab{}{\it Dynamics and multivalued groups}\\ Conference ``SIMC Youth Race'', Steklov Mathematical Institute of RAS, Moscow, Russia
        
         \item{Oct. 2022} \tab{}{\it Inconcretness of homotopy categories}\\ International School ``Toric topology, combinatorics and data analysis'', Euler International Mathematical Institute, Saint Petersburg, Russia
        
@@ -245,7 +252,7 @@
 
       % Announcements: https://ms.hse.ru/announcements/1201130824.html
       % and https://ms.hse.ru/announcements/1204750364.html (continuation).
-      \item{Sep. 22, 29, 2026} \tab{}{\it Buchstaber, Witten, Krichever, and Ochanine Genera} (2 talks)\\ Seminar ``Automorphic Forms and Their Applications'',\\ Faculty of Mathematics, HSE University, Moscow, Russia
+      \item{Sep. 2026} \tab{}{\it Buchstaber, Witten, Krichever, and Ochanine Genera} (2 talks)\\ Seminar ``Automorphic Forms and Their Applications'',\\ Faculty of Mathematics, HSE University, Moscow, Russia
       
       \item{May 2026} \tab{}{\it Buchstaber genus and formal groups}\\ Seminar ``Toric Topology, Combinatorics, and Homotopy Theory''\\ jointly with the Laboratory of Topology and Complex Networks of the Faculty of Mathematics, HSE University,\\ Moscow Center for Continuous Mathematical Education (MCCME), Moscow, Russia
       
@@ -255,7 +262,7 @@
       
       \item{Nov. 2025} \tab{}{\it $n$-Valued Algebraic Monoids, Cubics, and Discriminants}\\ The Seminar of International Laboratory of Algebraic Topology and Its Applications, HSE University, Moscow, Russia
       
-      \item{May 2025} \tab{}{\it $n$-Valued Groups, Kronecker Sums, and Wendt Matrices}\\ Joint work with Victor Buchstaber\\ Seminar of the Department of Geometry and Topology ``Geometry, Topology and Mathematical Physics'',\\ Steklov Mathematical Institute of RAS (Novikov Seminar), Moscow, Russia
+      \item{May 2025} \tab{}{\it $n$-Valued Groups, Kronecker Sums, and Wendt Matrices}\\* Joint work with Victor Buchstaber\\* Seminar of the Department of Geometry and Topology ``Geometry, Topology and Mathematical Physics'',\\* Steklov Mathematical Institute of RAS (Novikov Seminar), Moscow, Russia
       
        \item{Apr. 2023} \tab{}{\it Acyclic groups and Kan-Thurston theorem}\\ Seminar by I. G. Lysenok and A. L. Talambutsa ``Seminar on geometric group theory'', Steklov Mathematical Institute of RAS, Moscow, Russia
        
@@ -270,11 +277,40 @@
     
      \section*{Grants and Awards}
 
-    \subsection*{Prizes, fellowships and grants}
+    \subsection*{Research Grants}
 
     \begin{tablist}
 
-        \item[2021 -- 2023] \tab{}{\it The Russian Science Foundation Grant No. 23-11-00143} 
+        \item[2026 -- present] \tab{}Research Team Member, Russian Science Foundation Grant No. 26-11-00052,\\
+        {\it Topology of Group Actions and Mapping Class Groups}\\
+        Principal Investigator: Alexander A. Gaifullin\\
+        Steklov Mathematical Institute, Russian Academy of Sciences
+
+        \item[2023 -- 2025] \tab{}Research Team Member, Russian Science Foundation Grant No. 23-11-00143,\\
+        {\it Problems of Group Actions in Topology, Geometry and Combinatorics}\\
+        Principal Investigator: Victor M. Buchstaber\\
+        Steklov Mathematical Institute, Russian Academy of Sciences
+
+        \item[2022] \tab{}Research Team Member, Russian Science Foundation Grant No. 22-71-00106,\\
+        {\it Polyhedral Products in Topology, Geometry and Combinatorics}\\
+        Principal Investigator: Ivan Yu. Limonchenko\\
+        HSE University
+
+    \end{tablist}
+
+    \subsection*{Additional Research Support}
+
+    \begin{tablist}
+
+        \item[2022 -- 2026] \tab{}Research supported by the Steklov International Mathematical Center,\\
+        Steklov Mathematical Institute, Russian Academy of Sciences
+
+    \end{tablist}
+
+    \subsection*{Awards}
+
+    \begin{tablist}
+
         \item[2019] \tab{}{\it Winner of the olympiad on Partial Differential Equations}\\ Moscow State University
         \item[2018] \tab{}{\it Winner of the olympiad on Ordinary Differential Equations}\\ Moscow State University
 
@@ -349,12 +385,42 @@
     \section*{Conferences, Workshops and Schools}
       
       \begin{tablist}
+
+      % Event: https://www.mathnet.ru/php/conference.phtml?confid=2728&option_lang=eng
+      \item{Oct. 2026} \tab{}{\it International Conference ``Integrable Systems and Quantum Theory'', dedicated to the 80th anniversary of A. K. Pogrebkov}\\ Saint Petersburg State University, Saint Petersburg, Russia
+
+      % Event: https://www.mathnet.ru/php/conference.phtml?confid=2789&option_lang=eng
+      \item{Sep. 2026} \tab{}{\it Conference ``Modern Algebraic Geometry'', dedicated to the 60th anniversary of Dmitri Orlov}\\ Steklov Mathematical Institute of RAS, Moscow, Russia (listener; selected talks)
+
+      % Event: https://mathcenter.kpfu.ru/mc-conf
+      \item{Aug. 2026} \tab{}{\it 6th Conference of Mathematical Centers of Russia}\\ Kazan Federal University, Kazan, Russia
+
+      % Event: https://ag.hse.ru/announcements/1174735403.html
+      \item{Jul. -- Aug. 2026} \tab{}{\it International Summer Mathematical School and Conference ``Algebra and Geometry''}\\ HSE University, Steklov Mathematical Institute of RAS, Suzdal, Russia
+
+      % Event: https://siriusmathcenter.ru/022s
+      \item{May 2026} \tab{}{\it School ``Toric Topology, Hyperbolic Geometry, and Combinatorial Group Theory''}\\ Sirius Mathematics Center, Sochi, Russia
+
+      % Event: https://siriusmathcenter.ru/069w
+      \item{May 2026} \tab{}{\it Conference ``Algebraic Topology, Group Actions, and Combinatorics''}\\ Sirius Mathematics Center, Sochi, Russia
+
+      % Event: https://kmc.sfu-kras.ru/conf2025/
+      \item{Aug. 2025} \tab{}{\it 5th Conference of Mathematical Centers of Russia}\\ Siberian Federal University, Krasnoyarsk, Russia
+
+      % Event: https://puremaths.ru/school25.html
+      \item{Jun. -- Jul. 2025} \tab{}{\it Summer School ``Fundamental Aspects of Geometry and Topology''}\\ Centre of Fundamental Mathematics, Moscow Institute of Physics and Technology, Dolgoprudny, Russia
+
+      % Event: https://puremaths.ru/school24.html
+      \item{Jul. 2024} \tab{}{\it Summer School ``Classical, Derived, and Condensed Geometry''}\\ Centre of Fundamental Mathematics, Moscow Institute of Physics and Technology, Dolgoprudny, Russia; participation continued online
        
       \item{May 2024} \tab{}{\it Conference ``From Analysis to Homotopy Theory''}\\ University of Greifswald, Greifswald, Germany 
       
       \item{Jul. 2023} \tab{}{\it Summer School ``Algebra and Geometry''}\\ HSE University, Steklov Mathematical Institute of RAS, Suzdal, Russia
       
-      \item{Jul. 2023}  \tab{}{\it Summer school on non-commutative and derived geometry of matrix factorisations}\\ Centre of Pure Mathematics, Moscow Institute of Physics and Technology, Dolgoprudny, Russia
+      \item{Jul. 2023}  \tab{}{\it Summer school on non-commutative and derived geometry of matrix factorisations}\\* Centre of Pure Mathematics, Moscow Institute of Physics and Technology, Dolgoprudny, Russia
+
+      % Event: https://ms.hse.ru/news/847445270.html
+      \item{Jun. -- Jul. 2023} \tab{}{\it Second Summer School ``Algebra and Number Theory''}\\ HSE University, Voronovo, Russia
       
       \item{Jun. 2023} \tab{}{\it Conference on algebra, algebraic geometry, and number theory on the occasion of academician Igor Rostislavovich Shafarevich 100th birthday}\\ Steklov Mathematical Institute of RAS, Moscow, Russia
       
@@ -373,9 +439,10 @@ Petersburg, Russia
       
        \item{Nov. 2020} \tab{}{\it Topology and Geometry of Group Actions}\\ HSE University, online
        
-       \item{Nov. 2019} \tab{}{7th Summer School On Geometrical Methods Of Mathematical Physiques}\\ Landau Institute for Theoretical Physics, Lomonosov Moscow State University, Chernogolovka, Russia
+       % Event: https://www.mathnet.ru/rus/conf1665
+       \item{Jul. 2020} \tab{}{\it 7th Summer School-Conference on Geometric Methods of Mathematical Physics}\\ Online
        
-       \item{Nov. 2019} \tab{}{\it Geometry, Topology And Mathematical Physics}\\ Landau Institute for Theoretical Physics, Lomonosov Moscow State University, Chernogolovka, Russia
+       \item{Sep. 2019} \tab{}{\it Geometry, Topology And Mathematical Physics}\\ Landau Institute for Theoretical Physics, Lomonosov Moscow State University, Chernogolovka, Russia
        
         \item{Nov. 2018} \tab{}{\it Geometry, Topology And Mathematical Physics}\\ Landau Institute for Theoretical Physics, Lomonosov Moscow State University, Chernogolovka, Russia
        
@@ -396,7 +463,7 @@ Petersburg, Russia
     
        \item{May 2022 -- 2024} \tab{}{\it Teaching various courses (e. g., Algebraic Geometry, Algebraic Topology, Abstract Algebra, Differential Geometry, Linear Algebra, Probability Theory, Discrete Mathematics, Calculus, etc.) on Profi}\\ \href{https://profi.ru/profile/KornevMI3/}{\tt https://profi.ru/profile/KornevMI3/} 
 
-        \item{Sep. 2016 -- 2022} \tab{}{\it Little Mech-Math courses}\\ An olympiad Math class at Lomonosov Moscow State University\\ \href{http://mmmf.msu.ru/about/person.html}{\tt http://mmmf.msu.ru/about/person.html}
+        \item{Sep. 2016 -- 2022} \tab{}{\it Little Mech-Math courses}\\ An olympiad Math class at Lomonosov Moscow State University
         
     \end{tablist}
     
@@ -430,6 +497,7 @@ Petersburg, Russia
     
     
     
+     \Needspace{7\baselineskip}
      \section*{Languages}
 
     \begin{itemize}
