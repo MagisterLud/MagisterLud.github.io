@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.11)  12 OCT 2026 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.11)  19 OCT 2026 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -596,6 +596,9 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 (/usr/local/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
+(/usr/local/texlive/2026/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2025/03/13 v1.3e reserve vertical space
+)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
 \MT@toks=\toks35
@@ -626,26 +629,26 @@ File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 )
 
-Package microtype Warning: tracking amount list `cv.tex/32' will
+Package microtype Warning: tracking amount list `cv.tex/33' will
 (microtype)                override list `default' for 
-(microtype)                font `T1////' on input line 32.
+(microtype)                font `T1////' on input line 33.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/tex-gyre/tgheros.sty
 Package: tgheros 2009/09/27 v1.2 TeX Gyre Heros as default sans serif family
 )
 \enitdp@tablist=\count352
-Package hyperref Info: Option `colorlinks' set `true' on input line 107.
+Package hyperref Info: Option `colorlinks' set `true' on input line 109.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 LaTeX Font Info:    Trying to load font information for T1+EBGaramond-LF on inp
-ut line 109.
+ut line 111.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-LF.fd
 File: T1EBGaramond-LF.fd 2023/03/19 (autoinst) Font definitions for T1/EBGaramo
 nd-LF.
 )
 LaTeX Font Info:    Font shape `T1/EBGaramond-LF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 109.
+(Font)              scaled to size 10.95pt on input line 111.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
@@ -655,64 +658,64 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/EBGaramond-Maths/m/it on input li
-ne 109.
+ne 111.
 LaTeX Font Info:    Trying to load font information for OML+EBGaramond-Maths on
- input line 109.
+ input line 111.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/ebgaramond-maths/OMLEBGaramond-Ma
 ths.fd
 File: ebgaramond-maths.dtx 2025/02/19 v1.3 (SVN Rev: 10827) OMLEBGaramond-Maths
 .fd: font definitions for OML/EBGaramond-Maths.
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
 LaTeX Font Info:    Checking defaults for OT1/EBGaramond-LF/m/n on input line 1
-09.
+11.
 LaTeX Font Info:    Trying to load font information for OT1+EBGaramond-LF on in
-put line 109.
+put line 111.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-LF.fd
 File: OT1EBGaramond-LF.fd 2023/03/19 (autoinst) Font definitions for OT1/EBGara
 mond-LF.
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 111.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-109.
+111.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 111.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 109.
+ 111.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 111.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 109.
+e 111.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Info: Command `\dddot' is already robust on input line 109.
-LaTeX Info: Command `\ddddot' is already robust on input line 109.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Info: Command `\dddot' is already robust on input line 111.
+LaTeX Info: Command `\ddddot' is already robust on input line 111.
 \c@mv@tabular=\count354
 \c@mv@boldtabular=\count355
 
@@ -741,7 +744,7 @@ File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 \makeMPintoPDFobject=\count361
 \everyMPtoPDFconversion=\toks38
 )) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 109.
+Package hyperref Info: Link coloring ON on input line 111.
 
 (./cv.out) (./cv.out)
 \@outlinefile=\write3
@@ -782,15 +785,15 @@ Package hyperref Info: Link coloring ON on input line 109.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 109.
-Package microtype Info: Applying patch `item' on input line 109.
-Package microtype Info: Applying patch `toc' on input line 109.
-Package microtype Info: Applying patch `eqnum' on input line 109.
+LaTeX Info: Redefining \microtypecontext on input line 111.
+Package microtype Info: Applying patch `item' on input line 111.
+Package microtype Info: Applying patch `toc' on input line 111.
+Package microtype Info: Applying patch `eqnum' on input line 111.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 109.
+Package microtype Warning: Unable to apply patch `footnote' on input line 111.
 
-Package microtype Info: Applying patch `verbatim' on input line 109.
-LaTeX Info: Redefining \microtypesetup on input line 109.
+Package microtype Info: Applying patch `verbatim' on input line 111.
+LaTeX Info: Redefining \microtypesetup on input line 111.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -807,15 +810,15 @@ File: mt-EBGaramond.cfg 2021/10/25 v2.0 microtype config. file: EB Garamond / A
 dobe Garamond (RS)
 )
 LaTeX Font Info:    Font shape `T1/EBGaramond-LF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 113.
+(Font)              scaled to size 10.95pt on input line 115.
 LaTeX Font Info:    Font shape `T1/EBGaramond-LF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 113.
+(Font)              scaled to size 24.88pt on input line 115.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 13
-3.
+6.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
@@ -825,67 +828,67 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 133.
+(Font)              scaled to size 10.95pt on input line 136.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 133.
+(Font)              scaled to size 8.0pt on input line 136.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' will be
-(Font)              scaled to size 6.1pt on input line 133.
+(Font)              scaled to size 6.1pt on input line 136.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.95pt on input line 133.
+(Font)              scaled to size 10.95pt on input line 136.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.0pt on input line 133.
+(Font)              scaled to size 8.0pt on input line 136.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.1pt on input line 133.
+(Font)              scaled to size 6.1pt on input line 136.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.95pt on input line 133.
+(Font)              scaled to size 10.95pt on input line 136.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 133.
+(Font)              scaled to size 8.0pt on input line 136.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.1pt on input line 133.
+(Font)              scaled to size 6.1pt on input line 136.
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-133.
+136.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.95pt on input line 133.
+(Font)              scaled to size 10.95pt on input line 136.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.0pt on input line 133.
+(Font)              scaled to size 8.0pt on input line 136.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.1pt on input line 133.
+(Font)              scaled to size 6.1pt on input line 136.
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-133.
+136.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.95pt on input line 133.
+(Font)              scaled to size 10.95pt on input line 136.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 133.
+(Font)              scaled to size 8.0pt on input line 136.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.1pt on input line 133.
+(Font)              scaled to size 6.1pt on input line 136.
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-133.
+136.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.95pt on input line 133.
+(Font)              scaled to size 10.95pt on input line 136.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.0pt on input line 133.
+(Font)              scaled to size 8.0pt on input line 136.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.1pt on input line 133.
+(Font)              scaled to size 6.1pt on input line 136.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.95pt on input line 133.
+(Font)              scaled to size 10.95pt on input line 136.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.0pt on input line 133.
+(Font)              scaled to size 8.0pt on input line 136.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.1pt on input line 133.
+(Font)              scaled to size 6.1pt on input line 136.
 LaTeX Font Info:    Font shape `T1/EBGaramond-LF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 177.
+(Font)              scaled to size 10.95pt on input line 182.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -894,16 +897,17 @@ l/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/
 texlive/2026/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2
 026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_utfkrl.enc}{/usr/local/texlive/20
 26/texmf-dist/fonts/enc/dvips/ebgaramond-maths/oml-ebgaramond-1.enc}{/usr/local
-/texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_dacnth.enc}] [2] [3]
+/texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_dacnth.enc}] [2] [3] [4
+]
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' will be
-(Font)              scaled to size 10.95pt on input line 328.
+(Font)              scaled to size 10.95pt on input line 366.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' will be
-(Font)              scaled to size 8.0pt on input line 328.
+(Font)              scaled to size 8.0pt on input line 366.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' will be
-(Font)              scaled to size 6.1pt on input line 328.
- [4{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_76r3mr.en
-c}] [5] [6]
-(./cv.aux)
+(Font)              scaled to size 6.1pt on input line 366.
+ [5{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_76r3mr.en
+c}] [6]
+[7] (./cv.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -912,13 +916,13 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18243 strings out of 467525
- 289720 string characters out of 5418982
- 800993 words of memory out of 5000000
- 46768 multiletter control sequences out of 15000+600000
+ 18267 strings out of 467525
+ 290366 string characters out of 5418982
+ 803107 words of memory out of 5000000
+ 46787 multiletter control sequences out of 15000+600000
  717156 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,1059b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,1059b,736s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-
 Bold.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/ebgaramond/EBGa
 ramond-Italic.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/ebgara
@@ -927,10 +931,10 @@ lic/tex-gyre/qhvb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm
 -super/sftt1095.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newt
 x/txsym.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txsys.
 pfb>
-Output written on cv.pdf (6 pages, 156751 bytes).
+Output written on cv.pdf (7 pages, 158616 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
  49665 words of extra memory for PDF output out of 51595 (max. 10000000)
 
