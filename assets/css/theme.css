@@ -1,0 +1,184 @@
+/* Keep the theme control outside the greedy navigation's overflow menu. */
+.masthead__menu {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.masthead__menu .greedy-nav {
+  flex: 1;
+  min-width: 0;
+}
+
+.theme-toggle {
+  display: none;
+  flex: none;
+  align-items: center;
+  gap: 0.5em;
+  min-height: 44px;
+  margin: 0;
+  padding: 0.5em 0.75em;
+  border: 1px solid #494e52;
+  border-radius: 4px;
+  background: transparent;
+  color: #494e52;
+  font: inherit;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+html[data-theme] .theme-toggle {
+  display: inline-flex;
+}
+
+.theme-toggle__indicator {
+  width: 0.8em;
+  height: 0.8em;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background: linear-gradient(90deg, currentColor 50%, transparent 50%);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid #2471a3;
+  outline-offset: 3px;
+}
+
+@media screen {
+  html[data-theme="dark"] {
+    color-scheme: dark;
+    background: #000;
+    color: #fff;
+  }
+
+  html[data-theme="dark"] body,
+  html[data-theme="dark"] .masthead,
+  html[data-theme="dark"] .greedy-nav,
+  html[data-theme="dark"] .greedy-nav .hidden-links,
+  html[data-theme="dark"] .author__urls,
+  html[data-theme="dark"] .page__footer,
+  html[data-theme="dark"] .page__related,
+  html[data-theme="dark"] .toc,
+  html[data-theme="dark"] .toc .nav__title,
+  html[data-theme="dark"] .nav__list .active,
+  html[data-theme="dark"] .notice,
+  html[data-theme="dark"] .container .header,
+  html[data-theme="dark"] pre,
+  html[data-theme="dark"] code,
+  html[data-theme="dark"] .highlight,
+  html[data-theme="dark"] table,
+  html[data-theme="dark"] thead,
+  html[data-theme="dark"] tbody,
+  html[data-theme="dark"] tr,
+  html[data-theme="dark"] th,
+  html[data-theme="dark"] td,
+  html[data-theme="dark"] button,
+  html[data-theme="dark"] input,
+  html[data-theme="dark"] select,
+  html[data-theme="dark"] textarea {
+    background-color: #000;
+    color: #fff;
+  }
+
+  html[data-theme="dark"] a,
+  html[data-theme="dark"] .page__meta,
+  html[data-theme="dark"] .page__date,
+  html[data-theme="dark"] figcaption,
+  html[data-theme="dark"] .archive h3 + p,
+  html[data-theme="dark"] .archive h3 + p a,
+  html[data-theme="dark"] .highlight * {
+    color: #fff;
+  }
+
+  html[data-theme="dark"] h1,
+  html[data-theme="dark"] h2,
+  html[data-theme="dark"] h3,
+  html[data-theme="dark"] h4,
+  html[data-theme="dark"] h5,
+  html[data-theme="dark"] h6,
+  html[data-theme="dark"] h1 a,
+  html[data-theme="dark"] h2 a,
+  html[data-theme="dark"] h3 a,
+  html[data-theme="dark"] h4 a,
+  html[data-theme="dark"] h5 a,
+  html[data-theme="dark"] h6 a,
+  html[data-theme="dark"] .greedy-nav a,
+  html[data-theme="dark"] .greedy-nav .hidden-links a:hover,
+  html[data-theme="dark"] a:hover,
+  html[data-theme="dark"] .theme-toggle {
+    color: #87cefa;
+  }
+
+  html[data-theme="dark"] .greedy-nav .hidden-links a:hover,
+  html[data-theme="dark"] .btn,
+  html[data-theme="dark"] .btn:hover,
+  html[data-theme="dark"] .toc__menu a:hover {
+    background-color: #000;
+  }
+
+  html[data-theme="dark"] .btn {
+    color: #fff !important; /* The original theme uses !important for buttons. */
+    border: 1px solid #87cefa;
+  }
+
+  html[data-theme="dark"] .masthead,
+  html[data-theme="dark"] hr,
+  html[data-theme="dark"] .archive__subtitle,
+  html[data-theme="dark"] .page__content h2,
+  html[data-theme="dark"] .page__share,
+  html[data-theme="dark"] .page__related,
+  html[data-theme="dark"] .greedy-nav .hidden-links,
+  html[data-theme="dark"] .greedy-nav .hidden-links li,
+  html[data-theme="dark"] .author__urls,
+  html[data-theme="dark"] .author__avatar img,
+  html[data-theme="dark"] .theme-toggle,
+  html[data-theme="dark"] .container,
+  html[data-theme="dark"] blockquote,
+  html[data-theme="dark"] code,
+  html[data-theme="dark"] th,
+  html[data-theme="dark"] td,
+  html[data-theme="dark"] input,
+  html[data-theme="dark"] select,
+  html[data-theme="dark"] textarea {
+    border-color: #87cefa;
+  }
+
+  html[data-theme="dark"] .greedy-nav .hidden-links::after,
+  html[data-theme="dark"] .author__urls::after {
+    border-color: #000 transparent;
+  }
+
+  html[data-theme="dark"] .greedy-nav .hidden-links::before,
+  html[data-theme="dark"] .author__urls::before {
+    border-color: #87cefa transparent;
+  }
+
+  html[data-theme="dark"] .navicon,
+  html[data-theme="dark"] .navicon::before,
+  html[data-theme="dark"] .navicon::after,
+  html[data-theme="dark"] .greedy-nav .visible-links a::before {
+    background-color: #87cefa;
+  }
+
+  html[data-theme="dark"] .close .navicon {
+    background-color: transparent;
+  }
+
+  html[data-theme="dark"] :focus-visible {
+    outline: 2px solid #87cefa;
+    outline-offset: 3px;
+  }
+
+  html[data-theme="dark"] ::selection {
+    background: #87cefa;
+    color: #000;
+  }
+}
+
+@media print {
+  html[data-theme] .theme-toggle {
+    display: none;
+  }
+}
