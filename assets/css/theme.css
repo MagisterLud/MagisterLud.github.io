@@ -1,5 +1,5 @@
 :root {
-  --resource-link-color: #7435a8;
+  --resource-link-color: #1d5fa8;
 }
 
 /* Remove both normal and hover underlines, including legacy link wrappers. */
@@ -50,7 +50,7 @@ html a[data-link-kind="resource"] {
   border: 0;
   border-radius: 50%;
   background: transparent;
-  color: #494e52;
+  color: #1b4f82;
   font: inherit;
   font-size: 0.75rem;
   line-height: 1.5;

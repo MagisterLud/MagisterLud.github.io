@@ -83,7 +83,6 @@ Publications without a publication_section will appear under this default sectio
 
   {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
 </article>
-<hr/>
 
         {% assign section_number = section_number | minus: 1 %}
 
