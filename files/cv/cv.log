@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.11)  19 OCT 2026 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.11)  19 OCT 2026 15:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -813,6 +813,8 @@ LaTeX Font Info:    Font shape `T1/EBGaramond-LF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 115.
 LaTeX Font Info:    Font shape `T1/EBGaramond-LF/b/n' will be
 (Font)              scaled to size 24.88pt on input line 115.
+LaTeX Font Info:    Font shape `T1/EBGaramond-LF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 117.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -900,11 +902,11 @@ l/texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_utfkrl.enc}{/usr/local
 /texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_dacnth.enc}] [2] [3] [4
 ]
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' will be
-(Font)              scaled to size 10.95pt on input line 365.
+(Font)              scaled to size 10.95pt on input line 359.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' will be
-(Font)              scaled to size 8.0pt on input line 365.
+(Font)              scaled to size 8.0pt on input line 359.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/sw' will be
-(Font)              scaled to size 6.1pt on input line 365.
+(Font)              scaled to size 6.1pt on input line 359.
  [5{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_76r3mr.en
 c}] [6]
 [7] (./cv.aux)
@@ -916,11 +918,11 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18271 strings out of 467525
- 290412 string characters out of 5418982
+ 18282 strings out of 467525
+ 290741 string characters out of 5418982
  803107 words of memory out of 5000000
- 46791 multiletter control sequences out of 15000+600000
- 717156 words of font info for 147 fonts, out of 8000000 for 9000
+ 46793 multiletter control sequences out of 15000+600000
+ 722994 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,1059b,736s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-
@@ -931,10 +933,10 @@ lic/tex-gyre/qhvb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm
 -super/sftt1095.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newt
 x/txsym.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/newtx/txsys.
 pfb>
-Output written on cv.pdf (7 pages, 158807 bytes).
+Output written on cv.pdf (7 pages, 158810 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
- 49665 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 53761 words of extra memory for PDF output out of 61914 (max. 10000000)
 
