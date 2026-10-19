@@ -50,7 +50,7 @@ Publications without a publication_section will appear under this default sectio
   {% if section_total > 0 or section == "Preprints" %}
 
 {% if section == "Preprints" %}
-## [Preprints on arXiv](https://arxiv.org/search/math?searchtype=author&query=Kornev,+M)
+## <a class="research-title-link" href="https://arxiv.org/search/math?searchtype=author&query=Kornev,+M">Preprints on arXiv</a>
 {% else %}
 ## {{ section | escape }}
 {% endif %}
@@ -66,9 +66,9 @@ Publications without a publication_section will appear under this default sectio
   <h3 class="archive__item-title no_toc">
     {{ section_number }}.
     {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
+      <a class="research-title-link" href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
     {% else %}
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a class="research-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
     {% endif %}
   </h3>
 

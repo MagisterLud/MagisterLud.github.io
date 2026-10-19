@@ -14,13 +14,16 @@ html u:has(a) {
   border-bottom: 0;
 }
 
-html .greedy-nav .visible-links a::before {
-  display: none;
-}
-
 /* Resource links override heading colors and the original theme's buttons. */
 html a[data-link-kind="resource"] {
   color: var(--resource-link-color) !important;
+}
+
+/* Research titles stay blue even when they open papers on another website. */
+@media screen {
+  html[data-theme="dark"] a.research-title-link {
+    color: #87cefa !important;
+  }
 }
 
 /* Keep the theme control outside the greedy navigation's overflow menu. */
