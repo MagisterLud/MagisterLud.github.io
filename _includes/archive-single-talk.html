@@ -35,7 +35,7 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
+    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %-d, %Y' }}</p>{% endif %}
     {% if post.venue %}<p class="archive__item-excerpt talk__venue" itemprop="description">{{post.type}}, {{ post.venue }}, {{post.location}}</p>{% endif %}
     {% if post.excerpt %}
       {% assign talk_abstract_source = post.excerpt | append: '' %}
