@@ -35,12 +35,17 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }}, {{post.location}}</p>{% endif %}
+    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %-d, %Y' }}</p>{% endif %}
+    {% if post.venue %}<p class="archive__item-excerpt talk__venue" itemprop="description">{{post.type}}, {{ post.venue }}, {{post.location}}</p>{% endif %}
     {% if post.excerpt %}
+      {% assign talk_abstract_source = post.excerpt | append: '' %}
       {% assign talk_abstract_words = post.excerpt | markdownify | strip_html | number_of_words %}
+      {% assign talk_abstract_math_class = '' %}
+      {% if talk_abstract_source contains '$' or talk_abstract_source contains '\(' or talk_abstract_source contains '\[' %}
+        {% assign talk_abstract_math_class = ' talk__abstract--math' %}
+      {% endif %}
       {% if talk_abstract_words > 50 %}
-        <div class="archive__item-excerpt talk__abstract talk__abstract--long" itemprop="description">{{ post.excerpt | markdownify }}</div>
+        <div class="archive__item-excerpt talk__abstract talk__abstract--long{{ talk_abstract_math_class }}" itemprop="description">{{ post.excerpt | markdownify }}</div>
         <a class="talk__read-more" href="{{ base_path }}{{ post.url }}" rel="permalink">Read More</a>
       {% else %}
         <div class="archive__item-excerpt talk__abstract" itemprop="description">{{ post.excerpt | markdownify }}</div>

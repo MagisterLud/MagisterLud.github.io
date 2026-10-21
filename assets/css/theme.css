@@ -1,0 +1,252 @@
+:root {
+  --resource-link-color: #1d5fa8;
+}
+
+/* Remove both normal and hover underlines, including legacy link wrappers. */
+html a:any-link,
+html a:any-link:hover,
+html a:any-link:focus,
+html a:any-link:active,
+html .archive__item:hover .archive__item-title,
+html a u,
+html u:has(a) {
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+/* Resource links override heading colors and the original theme's buttons. */
+html a[data-link-kind="resource"] {
+  color: var(--resource-link-color) !important;
+}
+
+/* Keep the theme control outside the greedy navigation's overflow menu. */
+.masthead__menu {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.masthead__menu .greedy-nav {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Show the complete flower as the home link without a rectangular frame. */
+.greedy-nav a.masthead-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.masthead-home img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.greedy-nav .visible-links a.masthead-home::before {
+  display: none;
+}
+
+.theme-toggle {
+  display: none;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  min-height: 44px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #1b4f82;
+  font: inherit;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+html[data-theme] .theme-toggle {
+  display: inline-flex;
+}
+
+.theme-toggle__indicator {
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background: linear-gradient(90deg, currentColor 50%, transparent 50%);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid #2471a3;
+  outline-offset: 3px;
+}
+
+@media screen {
+  html[data-theme="dark"] {
+    --resource-link-color: #ff9e3d;
+    color-scheme: dark;
+    background: #000;
+    color: #fff;
+  }
+
+  html[data-theme="dark"] body,
+  html[data-theme="dark"] .masthead,
+  html[data-theme="dark"] .greedy-nav,
+  html[data-theme="dark"] .greedy-nav .hidden-links,
+  html[data-theme="dark"] .author__urls,
+  html[data-theme="dark"] .page__footer,
+  html[data-theme="dark"] .page__related,
+  html[data-theme="dark"] .toc,
+  html[data-theme="dark"] .toc .nav__title,
+  html[data-theme="dark"] .nav__list .active,
+  html[data-theme="dark"] .notice,
+  html[data-theme="dark"] .container .header,
+  html[data-theme="dark"] pre,
+  html[data-theme="dark"] code,
+  html[data-theme="dark"] .highlight,
+  html[data-theme="dark"] table,
+  html[data-theme="dark"] thead,
+  html[data-theme="dark"] tbody,
+  html[data-theme="dark"] tr,
+  html[data-theme="dark"] th,
+  html[data-theme="dark"] td,
+  html[data-theme="dark"] button,
+  html[data-theme="dark"] input,
+  html[data-theme="dark"] select,
+  html[data-theme="dark"] textarea {
+    background-color: #000;
+    color: #fff;
+  }
+
+  html[data-theme="dark"] figcaption,
+  html[data-theme="dark"] .highlight * {
+    color: #fff;
+  }
+
+  html[data-theme="dark"] h1,
+  html[data-theme="dark"] h2,
+  html[data-theme="dark"] h3,
+  html[data-theme="dark"] h4,
+  html[data-theme="dark"] h5,
+  html[data-theme="dark"] h6,
+  html[data-theme="dark"] .page__meta,
+  html[data-theme="dark"] .page__date,
+  html[data-theme="dark"] .talk__venue,
+  html[data-theme="dark"] .archive h3 + p,
+  html[data-theme="dark"] time,
+  html[data-theme="dark"] .theme-toggle {
+    color: #87cefa;
+  }
+
+  /* Flower-orange links and entry titles; section headings stay sky blue. */
+  html[data-theme="dark"] a,
+  html[data-theme="dark"] a:hover,
+  html[data-theme="dark"] a:visited,
+  html[data-theme="dark"] h1 a,
+  html[data-theme="dark"] h2 a,
+  html[data-theme="dark"] h3 a,
+  html[data-theme="dark"] h4 a,
+  html[data-theme="dark"] h5 a,
+  html[data-theme="dark"] h6 a,
+  html[data-theme="dark"] .archive__item-title,
+  html[data-theme="dark"] .archive h3 + p a {
+    color: #ff9e3d;
+  }
+
+  html[data-theme="dark"] .greedy-nav a,
+  html[data-theme="dark"] .greedy-nav a:hover,
+  html[data-theme="dark"] .greedy-nav a:visited {
+    color: #87cefa;
+  }
+
+  html[data-theme="dark"] h2 > a.research-title-link {
+    color: #87cefa !important;
+  }
+
+  html[data-theme="dark"] .greedy-nav .hidden-links a:hover,
+  html[data-theme="dark"] .btn,
+  html[data-theme="dark"] .btn:hover,
+  html[data-theme="dark"] .toc__menu a:hover {
+    background-color: #000;
+  }
+
+  html[data-theme="dark"] .btn {
+    color: #fff !important; /* The original theme uses !important for buttons. */
+    border: 1px solid #87cefa;
+  }
+
+  html[data-theme="dark"] a.btn {
+    color: #ff9e3d !important;
+  }
+
+  html[data-theme="dark"] .masthead,
+  html[data-theme="dark"] hr,
+  html[data-theme="dark"] .archive__subtitle,
+  html[data-theme="dark"] .page__content h2,
+  html[data-theme="dark"] .page__share,
+  html[data-theme="dark"] .page__related,
+  html[data-theme="dark"] .greedy-nav .hidden-links,
+  html[data-theme="dark"] .greedy-nav .hidden-links li,
+  html[data-theme="dark"] .author__urls,
+  html[data-theme="dark"] .author__avatar img,
+  html[data-theme="dark"] .theme-toggle,
+  html[data-theme="dark"] .container,
+  html[data-theme="dark"] blockquote,
+  html[data-theme="dark"] code,
+  html[data-theme="dark"] th,
+  html[data-theme="dark"] td,
+  html[data-theme="dark"] input,
+  html[data-theme="dark"] select,
+  html[data-theme="dark"] textarea {
+    border-color: #87cefa;
+  }
+
+  html[data-theme="dark"] .greedy-nav .hidden-links::after,
+  html[data-theme="dark"] .author__urls::after {
+    border-color: #000 transparent;
+  }
+
+  html[data-theme="dark"] .greedy-nav .hidden-links::before,
+  html[data-theme="dark"] .author__urls::before {
+    border-color: #87cefa transparent;
+  }
+
+  html[data-theme="dark"] .navicon,
+  html[data-theme="dark"] .navicon::before,
+  html[data-theme="dark"] .navicon::after,
+  html[data-theme="dark"] .greedy-nav .visible-links a::before {
+    background-color: #87cefa;
+  }
+
+  html[data-theme="dark"] .close .navicon {
+    background-color: transparent;
+  }
+
+  html[data-theme="dark"] :focus-visible {
+    outline: 2px solid #87cefa;
+    outline-offset: 3px;
+  }
+
+  html[data-theme="dark"] ::selection {
+    background: #87cefa;
+    color: #000;
+  }
+}
+
+@media print {
+  html[data-theme] .theme-toggle {
+    display: none;
+  }
+}

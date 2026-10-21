@@ -45,7 +45,7 @@
         {% if post.date_precision == "month" %}
           {{ post.date | date: '%B %Y' }}
         {% else %}
-          {{ post.date | date: '%B %d, %Y' }}
+          {{ post.date | date: '%B %-d, %Y' }}
         {% endif %}
       </p>
     {% endif %}

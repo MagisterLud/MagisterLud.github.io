@@ -7,4 +7,4 @@ date_precision: month
 music_order: 2
 ---
 
-[View the score](/files/music/a-harmonic-path-and-its-72-degree-mutation.pdf). [Listen to a performance](https://disk.360.yandex.com/d/E0sxE_SNEGJCkA).
+[View the score.](/files/music/a-harmonic-path-and-its-72-degree-mutation.pdf) [Listen to a performance.](https://disk.360.yandex.com/d/E0sxE_SNEGJCkA)

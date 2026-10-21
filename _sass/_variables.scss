@@ -13,7 +13,7 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : Georgia, Garamond, serif; //Georgia, Times, serif
+$serif                      : Georgia, Garamond, serif;
 $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
@@ -47,16 +47,16 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
-$gray                       : #6b21a8;
-$dark-gray                  : #3b0764;
-$darker-gray                : #2e0249;
-$light-gray                 : #c084fc;
-$lighter-gray               : #f3e8ff;
+$gray                       : #174a7e;
+$dark-gray                  : #123b63;
+$darker-gray                : #0b2540;
+$light-gray                 : #93c5fd;
+$lighter-gray               : #e8f3ff;
 
 $body-color                 : #fff;
 $background-color           : #fff;
-$code-background-color      : #faf7fc;
-$code-background-color-dark : #eadcff;
+$code-background-color      : #f6faff;
+$code-background-color-dark : #dcecff;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
@@ -90,11 +90,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : #581c87;
-$link-color-hover           : #2e1065;
-$link-color-visited         : #7e22ce;
-$masthead-link-color        : #4c1d95;
-$masthead-link-color-hover  : #2e1065;
+$link-color                 : #1d5fa8;
+$link-color-hover           : #123f73;
+$link-color-visited         : #3975b7;
+$masthead-link-color        : #1b4f82;
+$masthead-link-color-hover  : #10365c;
 
 
 /*
