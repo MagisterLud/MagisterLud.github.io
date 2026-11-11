@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-[Curriculum Vitae](https://magisterlud.github.io//files/cv/cv.pdf) 
+[Curriculum Vitae]({{ '/files/cv/v2/cv.pdf' | relative_url }})
+
+<small><a href="{{ '/files/cv/v1/cv.pdf' | relative_url }}">Previous version (v1)</a></small>
 
 

@@ -12,7 +12,7 @@ I work at the [Steklov Mathematical Institute of the Russian Academy of Sciences
 
 My research interests include Geometry and Topology.
 
-My [Curriculum Vitae.](https://magisterlud.github.io//files/cv/cv.pdf)
+My [Curriculum Vitae.]({{ '/files/cv/v2/cv.pdf' | relative_url }})
 
 
 

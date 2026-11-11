@@ -1,0 +1,274 @@
+\documentclass[12pt,a4paper,dvipsnames]{extarticle}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[cmintegrals,cmbraces]{newtxmath}
+\usepackage[lining]{ebgaramond}
+\usepackage{ebgaramond-maths}
+\usepackage{euscript}
+\usepackage{mathtools}
+% Restore the newtx italic partial derivative after ebgaramond-maths.
+\makeatletter
+\DeclareSymbolFont{ntxletters}{OML}{ntxmi}{m}{it}
+\SetSymbolFont{ntxletters}{bold}{OML}{ntxmi}{b}{it}
+\re@DeclareMathSymbol{\partial}{\mathord}{ntxletters}{"40}
+\makeatother
+\newcommand{\bmmax}{0}
+\newcommand{\hmmax}{0}
+\usepackage{bm}
+\usepackage[tracking=true,letterspace=50]{microtype}
+\SetTracking{encoding=T1,shape=sc}{50}
+\SetTracking{encoding=T1}{50}
+\usepackage[a4paper,left=20mm,right=20mm,top=20mm,bottom=20mm,footskip=10mm]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem,tabularx,needspace}
+\usepackage{csquotes}
+\usepackage{xurl}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor={red!50!black},citecolor={blue!50!black},urlcolor={blue!80!black},pdfauthor={Mikhail Kornev}}
+\urlstyle{same}
+\setlength{\emergencystretch}{2em}
+\setlength{\parindent}{1.35em}
+\setlength{\parskip}{0pt}
+\setlength{\abovedisplayskip}{7pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{7pt plus 2pt minus 2pt}
+\setlength{\abovedisplayshortskip}{4pt plus 2pt}
+\setlength{\belowdisplayshortskip}{5pt plus 2pt minus 1pt}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{12pt plus 2pt minus 1pt}{6pt}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+\titlespacing*{\subsection}{0pt}{9pt plus 1pt minus 1pt}{4pt}
+\pagestyle{plain}
+\raggedbottom
+\newcommand{\C}{\mathbb C}
+\newcommand{\arxiv}[1]{\href{https://arxiv.org/abs/#1}{arXiv:#1}}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{doi: #1}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\newcommand{\entry}[3]{\par\needspace{3\baselineskip}\noindent\begin{minipage}[t]{0.17\textwidth}\raggedright #1\end{minipage}\hfill\begin{minipage}[t]{0.805\textwidth}#2\if\relax\detokenize{#3}\relax\else\\#3\fi\end{minipage}\par\vspace{2pt}}
+\hypersetup{pdftitle={Mikhail Kornev: Curriculum Vitae},pdfsubject={Academic curriculum vitae},pdfkeywords={multivalued groups, formal groups, discriminants, cobordism, Hirzebruch genera, integrable systems, topology of manifolds, homology spheres, higher homotopy theory, infinity-categories}}
+
+\usepackage[backend=biber,style=alphabetic,giveninits=true,maxbibnames=99,doi=true,url=true,isbn=false,eprint=true]{biblatex}
+\DeclareSortingTemplate{newest}{
+  \sort[direction=descending]{\field{sortkey}\field{sortyear}\field{year}}
+  \sort{\field{sortname}\field{author}\field{editor}}
+  \sort{\field{sorttitle}\field{title}}
+}
+\ExecuteBibliographyOptions{sorting=newest}
+\addbibresource{cv.bib}
+\DeclareFieldFormat{eprint:arxiv}{\arxiv{#1}}
+\AtEveryBibitem{\ifkeyword{preprint}{\clearfield{doi}}{}}
+\renewbibmacro{in:}{}
+\renewcommand*{\multicitedelim}{\addcomma\space}
+\setlength{\bibitemsep}{4pt}
+\setlength{\bibhang}{1.6em}
+\AtBeginBibliography{\small\raggedright}
+
+\begin{document}
+
+\thispagestyle{plain}
+{\huge\bfseries Mikhail Kornev}\\[4pt]
+{\large Curriculum Vitae}\\[9pt]
+\begin{minipage}[t]{0.54\textwidth}
+Steklov Mathematical Institute of RAS\\
+HSE University
+\end{minipage}\hfill
+\begin{minipage}[t]{0.435\textwidth}
+\raggedright
+\href{mailto:michaelkorneff@gmail.com}{michaelkorneff@gmail.com}\\
+\href{https://magisterlud.github.io}{magisterlud.github.io}\\
+ORCID: \href{https://orcid.org/0009-0005-5408-3248}{0009-0005-5408-3248}\\
+Nationality: Russian
+\end{minipage}
+
+\section*{Research interests}
+Geometry and topology; multivalued algebraic and formal groups; complex, symplectic cobordism and Hirzebruch genera; discriminants and projective duality; geometry and topology of manifolds; higher homotopy theory and $\infty$-categories.
+
+\section*{Appointments}
+\entry{Mar. 2026--\\present}{Researcher, HSE University}{International Laboratory for Mirror Symmetry and Automorphic Forms}
+\entry{Sep. 2022--\\present}{Researcher, Steklov Mathematical Institute of RAS}{Department of Geometry and Topology}
+\entry{Sep. 2021--2025}{Researcher, HSE University}{Laboratory of Algebraic Topology and Applications}
+
+\section*{Education}
+\entry{2022--2026}{PhD in Mathematics, Steklov Mathematical Institute of RAS}{Thesis successfully defended on 17 September 2026\\
+Thesis: \textit{$n$-Valued Monoids and Groups: Algebraic Theory and Topological Applications}\\
+Supervisor: Victor M.~Buchstaber}
+\entry{Sep. 2016--\\May 2022}{Specialist degree in Mathematics, with honors}{Lomonosov Moscow State University; equivalent to a master's degree}
+
+\begingroup
+\small
+\setlength{\parskip}{1pt}
+\titlespacing*{\section}{0pt}{8pt}{5pt}
+\section*{Research grants}
+\entry{2026--\\present}{Research Team Member, Russian Science Foundation Grant No.~26-11-00052}{``Topology of Group Actions and Mapping Class Groups''\\
+Principal Investigator: Alexander A.~Gaifullin\\
+Steklov Mathematical Institute, Russian Academy of Sciences}
+\entry{2023--2025}{Research Team Member, Russian Science Foundation Grant No.~23-11-00143}{``Problems of Group Actions in Topology, Geometry and Combinatorics''\\
+Principal Investigator: Victor M.~Buchstaber\\
+Steklov Mathematical Institute, Russian Academy of Sciences}
+\entry{2022}{Research Team Member, Russian Science Foundation Grant No.~22-71-00106}{``Polyhedral Products in Topology, Geometry and Combinatorics''\\
+Principal Investigator: Ivan Yu.~Limonchenko \\ HSE University}
+\entry{2022--2026}{Support from the Steklov International Mathematical Center}{Steklov Mathematical Institute, Russian Academy of Sciences}
+\endgroup
+
+\newpage
+
+\section*{Research profile}
+In my PhD thesis, I described universal objects in the classes of symmetric $n$-algebraic $n$-valued groups for $n=2,3$, giving a new algebraic proof of the classification for $n=2$. In this case the universal family is defined by the Buchstaber polynomial. Buchstaber, Gaiur and Rubtsov related it to their generalized Kontsevich polynomial, extending a construction from the geometric Langlands programme. I also obtained explicit polynomial addition laws for elliptic coset groups of multiplicities $2,3,4,6$, together with their degenerations to singular cubics. I represented the Buchstaber--Rees polynomials as determinants of generalized Wendt matrices, which specialize to the classical Wendt matrices used in the study of Fermat's Last Theorem. I described the polynomials for iterated addition using Kronecker sums of companion matrices, proving irreducibility and divisibility properties of their coefficients~\cite{BK26Wendt}.
+
+I extended the cyclic $n$-valued groups $\mathbb G_n(\mathbb C)$ to algebraic monoids on $\mathbb{CP}^{1}$. Within this family, I proved that projective duality followed by coordinatewise reciprocation transforms the addition curve for multiplicity $n$ into the corresponding curve for multiplicity $n-1$, and extended this relation to hypersurfaces describing iterated addition~\cite{BK26Discriminants}. I obtained explicit equations for the duals of Fermat hypersurfaces. This duality also gives a geometric explanation of discriminant formulas for the addition polynomials, which Gaiur, Rubtsov and van Straten identified as equations for the singular loci of hypersurface families whose periods represent higher Bessel multiplication kernels~\cite{BK25ProjectiveDuality}.
+
+I also obtained a complete classification of $n$-valued monoids and groups on three-element sets for arbitrary multiplicity $n$, completing a longstanding classification problem studied since 1996~\cite{Kor26Classification}, and derived exact and asymptotic growth formulas for families of coset dynamics using generalized Fibonacci recurrences~\cite{Kor24Dynamics}.
+
+I introduced the Buchstaber genus and constructed its associated one-dimensional commutative formal group law $F_{\mathrm{Bc}}$, whose formal inverse is $[-1]_{F_{\mathrm{Bc}}}(u)=-u$ and whose modulus square belongs to Buchstaber's two-valued family \cite{Kor26Genera}. I proved that $F_{\mathrm{Bc}}$ is universal within this class over commutative $\mathbb Z[1/2]$-algebras. I computed the genus on complex projective spaces and theta divisors and established its relations to the Ochanine, Krichever and Witten genera. I constructed a complex-oriented multiplicative cohomology theory realizing the genus and identified its localization at the discriminant with a Landweber-exact elliptic cohomology theory. I also determined the minimal Hurwitz coefficient rings of the Buchstaber exponential and the Weierstrass sigma-function~\cite{Kor26GeneraV2}.
+
+In my thesis, I also expressed rational complex cobordism classes of Fermat hypersurfaces through products of theta-divisor classes, with coefficients given by weighted, signed face counts of associahedra. This generalizes the projective-space formula of Buchstaber and Veselov and connects with the Milnor--Hirzebruch problem of realizing cobordism classes by smooth irreducible algebraic varieties.
+
+In joint work with Victor M.~Buchstaber, I solved the longstanding problem of determining the exact denominators of the coefficients of the universal two-valued logarithm in complex cobordism~\cite{BK26Logarithm}, complementing Buchstaber's 1970s result for the corresponding exponential. We obtained
+\[
+B(x)=x+\sum_{n\geq1}\frac{C_n}{d_n}x^{n+1},
+\qquad
+d_n=\frac{n+1}{2}\operatorname{lcm}(1,\ldots,2n+2).
+\]
+We proved that the numerator classes $C_n$ are primitive and indecomposable, expressed them as integral combinations of quotient Stong-manifold classes, and determined the exact denominator $2d_n$ of the rational lift of each coefficient $C_n/d_n$ to quaternionic cobordism modulo torsion. We also proved that the oriented extension of the Buchstaber genus is integral on closed smooth spin manifolds of real dimension below $24$ and on closed smooth string manifolds of real dimension at most $24$.
+
+\needspace{7\baselineskip}
+Jointly with Buchstaber and Vladimir Rubtsov \cite{BKR26Associativity}, I established equivalent formulations of the associativity condition for the universal symmetric $2$-algebraic two-valued law in terms of the Chazy III equation, the Gauss--Manin equations characterizing the Ramanujan vector field, associativity of the corresponding three-dimensional Dubrovin--Frobenius structures, and the quantum Yang--Baxter equation for their Casimir operators. We constructed an explicit four-parameter family of $9\times9$ matrices $R(a,b,c,d)$ satisfying the quantum Yang--Baxter equation if and only if $a^2-d-bc=0$.
+
+I obtained an $n$-valued analogue of Abel's theorem \cite{Kor26Abel}: every associative algebraic $n$-valued monoid on $\mathbb P^1$ over a characteristic-zero field with a strong two-sided unit is commutative, as is every one-dimensional formal $n$-valued group over a reduced commutative $\mathbb Q$-algebra. Over commutative $\mathbb Q$-algebras that are integral domains, I proved Kholodov's classification conjecture: every such formal group is strongly isomorphic over its coefficient ring to the $(n/m)$-fold diagonal of the cyclic elementary $m$-valued law $\mathbb G_m$, for a unique divisor $m\mid n$.
+
+My survey \cite{Kor23Spheres} on homology spheres  presents results on the realization of fundamental groups of homology spheres and their connections with superperfect groups, acyclic groups, universal central extensions and the Kan--Thurston construction.
+
+My broader interests include higher homotopy theory and $\infty$-categories. Together with Grisha Taroyan, I co-organized the study seminar on abstract homotopy theory and its applications. I have given mini-courses on $\infty$-cosmoi, the $\infty$-category of motivic coarse spaces, and other different topics in higher homotopy theory.
+
+\newpage
+\section*{Publications}
+\nocite{*}
+\printbibliography[heading=subbibliography,title={Journal publications},keyword=mathematics,type=article]
+\printbibliography[heading=subbibliography,title={Preprints},keyword=preprint]
+\printbibliography[heading=subbibliography,title={Mathematics and music},keyword=music]
+
+\newpage
+\begingroup
+\small
+\setlength{\parskip}{1pt}
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\renewcommand{\entry}[3]{\par\needspace{3\baselineskip}\noindent\begin{minipage}[t]{0.17\textwidth}\raggedright #1\end{minipage}\hfill\begin{minipage}[t]{0.805\textwidth}#2\if\relax\detokenize{#3}\relax\else\\#3\fi\end{minipage}\par}
+\section*{Conference talks}
+\entry{Oct. 2026}{\textit{Logarithm of the Universal Two-Valued Formal Group}}{International Conference ``Algebraic Topology and Group Actions,'' Steklov Mathematical Institute of RAS, Moscow, Russia}
+\entry{Oct. 2026}{\textit{Two-Valued Groups, Chazy Equation, Dubrovin--Frobenius Structures, and QYBE}}{International Conference ``Integrable Systems and Quantum Theory,'' dedicated to the 80th anniversary of A.~K.~Pogrebkov, Saint Petersburg State University, Saint Petersburg, Russia}
+\entry{Aug. 2026}{\textit{Buchstaber Genus, Formal Groups, and Cohomology Theories}}{6th Conference of Mathematical Centers of Russia, Kazan, Russia}
+\entry{May 2026}{\textit{Buchstaber Genus and Formal Groups}}{Conference ``Algebraic Topology, Group Actions, and Combinatorics,'' Sirius, Sochi, Russia}
+\entry{Aug. 2025}{\textit{$n$-Valued Groups, Kronecker Sums, and Wendt Matrices}}{Joint work with Victor M.~Buchstaber.\\
+5th Conference of Mathematical Centers of Russia, Krasnoyarsk, Russia}
+\entry{May 2024}{\textit{Homology Spheres, Acyclic Groups and Kan--Thurston Theorem}}{Conference ``From Analysis to Homotopy Theory,'' University of Greifswald, Greifswald, Germany}
+\entry{Mar. 2023}{\textit{Dynamics and multivalued groups}}{Conference ``SIMC Youth Race,'' Steklov Mathematical Institute of RAS, Moscow, Russia}
+\entry{Oct. 2022}{\textit{Inconcreteness of homotopy categories}}{International School ``Toric topology, combinatorics and data analysis,'' Euler International Mathematical Institute, Saint Petersburg, Russia}
+\entry{Apr. 2022}{\textit{Acyclic groups and spaces}}{29th International Scientific Conference for Undergraduate and Graduate Students and Young Scientists ``Lomonosov,'' Lomonosov Moscow State University, Moscow, Russia}
+\entry{Nov. 2021}{\textit{Acyclic groups and Kan--Thurston theorem}}{International School ``Toric Topology and Combinatorics,'' Sirius Mathematics Center, Sochi, Russia}
+
+\needspace{6\baselineskip}
+\section*{Seminar talks}
+\entry{Sep. 2026}{\textit{Buchstaber, Witten, Krichever, and Ochanine Genera} (two talks)}{Seminar ``Automorphic Forms and Their Applications,'' Faculty of Mathematics, HSE University, Moscow, Russia}
+\entry{May 2026}{\textit{Buchstaber genus and formal groups}}{Seminar ``Toric Topology, Combinatorics, and Homotopy Theory,'' jointly with the Laboratory of Topology and Complex Networks, Faculty of Mathematics, HSE University; Moscow Center for Continuous Mathematical Education (MCCME), Moscow, Russia}
+\entry{Dec. 2025}{\textit{Fermat hypersurfaces, projective duality, and algebraic $n$-valued monoids}}{Department of Geometry and Topology seminar ``Geometry, Topology and Mathematical Physics'' (Novikov Seminar), Steklov Mathematical Institute of RAS, Moscow, Russia}
+\entry{Dec. 2025}{\textit{Discrete and Algebraic $n$-Valued Groups}}{Seminar on Discrete Geometry and Geometry of Numbers, Moscow State University, Moscow, Russia}
+\entry{Nov. 2025}{\textit{$n$-Valued Algebraic Monoids, Cubics, and Discriminants}}{Seminar of the International Laboratory of Algebraic Topology and Its Applications, HSE University, Moscow, Russia}
+\entry{May 2025}{\textit{$n$-Valued Groups, Kronecker Sums, and Wendt Matrices}}{Joint work with Victor M.~Buchstaber.\\
+Department of Geometry and Topology seminar ``Geometry, Topology and Mathematical Physics'' (Novikov Seminar), Steklov Mathematical Institute of RAS, Moscow, Russia}
+\entry{Apr. 2023}{\textit{Acyclic groups and Kan--Thurston theorem}}{Geometric Group Theory Seminar, organized by I.~G.~Lysenok and A.~L.~Talambutsa, Steklov Mathematical Institute of RAS, Moscow, Russia}
+\entry{Dec. 2022}{\textit{Fundamental groups of homology spheres}}{Seminar ``Geometry, Topology and their Applications,'' Sobolev Institute of Mathematics; online}
+\endgroup
+
+\needspace{8\baselineskip}
+\begingroup
+\small
+\setlength{\parskip}{3pt}
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\titlespacing*{\subsection}{0pt}{7pt}{3pt}
+\section*{Teaching}
+\entry{May 2022--\\2024}{\textbf{Mathematics tutor}, Profi platform}{Courses including algebraic geometry, algebraic topology, abstract algebra, differential geometry, linear algebra, probability theory, discrete mathematics and calculus\\
+\href{https://profi.ru/profile/KornevMI3/}{profi.ru/profile/KornevMI3/}}
+\entry{Sep. 2016--\\2022}{\textbf{Little Mech-Math courses}, Lomonosov Moscow State University}{Olympiad mathematics classes}
+
+\section*{Service}
+\entry{Jun. 2021--\\2024}{\textbf{Co-organizer}, ``Homotopy Theory and Applications'' study seminar}{Independent University of Moscow.\\
+\href{https://researchseminars.org/seminar/HomotopyTheoryAndApps}{researchseminars.org/seminar/HomotopyTheoryAndApps}}
+
+\section*{Study seminar talks and mini-courses}
+\subsection*{Texas Tech Quantum Homotopy Seminar}
+\entry{Dec. 2024}{\textit{An Introduction to Cartan Geometries}}{}
+\entry{Mar. 2024}{\textit{Euler--Lagrange dynamics via the $\infty$-jet bundle} (two talks)}{}
+\subsection*{Homotopy Theory and Applications, Independent University of Moscow}
+\entry{Dec. 2023}{\textit{Principal $\infty$-bundles}}{}
+\entry{Apr.--May 2023}{\textit{The $\infty$-category of motivic coarse spaces} (four-talk mini-course)}{}
+\entry{Apr. 2023}{\textit{Elements of unstable motivic homotopy theory}}{}
+\entry{Feb.--Apr. 2023}{\textit{$\infty$-cosmoi} (four-talk mini-course)}{}
+\entry{Dec. 2022}{\textit{Applications of Reedy theory}}{}
+\entry{Nov. 2022}{\textit{Weighted (co)limits, Gambino's theorem, Reedy model structures}}{}
+\entry{Nov. 2022}{\textit{Homotopically final functors and examples of calculations with homotopy (co)limits}}{}
+\entry{Nov. 2022}{\textit{Nerve--realization adjunction and bar construction}}{}
+\entry{Apr. 2022}{\textit{Sheaves of sets} (four-talk series)}{}
+\entry{Apr. 2022}{\textit{Kan extensions. Additional topics}}{}
+\entry{Oct. 2021}{\textit{The categorical meaning of the Kan--Thurston theorem}}{}
+\entry{Jul.--Aug. 2021}{\textit{Quillen's theorem, a closed model structure on $s\mathcal{Set}$}}{}
+\subsection*{Study and Scientific Seminar ``Geometry and Topology,'' Moscow State University}
+\entry{Sep. 2020}{\textit{Andreev's theorem on hyperbolic polyhedra}}{}
+\entry{Nov. 2019}{\textit{The intersection form of $4$-manifolds}}{}
+\entry{May 2019}{\textit{Nilmanifolds and Massey product in bigraded cohomology rings}}{}
+\endgroup
+
+\newpage
+\begingroup
+\small
+\setlength{\parskip}{3pt}
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\section*{Conferences, workshops and schools}
+\entry{Oct. 2026}{International Conference ``Algebraic Topology and Group Actions''}{Steklov Mathematical Institute of RAS, Moscow, Russia}
+\entry{Oct. 2026}{International Conference ``Integrable Systems and Quantum Theory,'' dedicated to the 80th anniversary of A.~K.~Pogrebkov}{Saint Petersburg State University, Saint Petersburg, Russia}
+\entry{Sep. 2026}{Conference ``Modern Algebraic Geometry,'' dedicated to the 60th anniversary of Dmitri Orlov}{Steklov Mathematical Institute of RAS, Moscow, Russia}
+\entry{Aug. 2026}{6th Conference of Mathematical Centers of Russia}{Kazan Federal University, Kazan, Russia}
+\entry{Jul.--Aug. 2026}{International Summer Mathematical School and Conference ``Algebra and Geometry''}{HSE University, Steklov Mathematical Institute of RAS, Suzdal, Russia}
+\entry{Jul. 2026}{Summer School ``Categorical Constructions in Geometry''}{Centre of Pure Mathematics, Moscow Institute of Physics and Technology, Dolgoprudny, Russia}
+\entry{May 2026}{School ``Toric Topology, Hyperbolic Geometry, and Combinatorial Group Theory''}{Sirius Mathematics Center, Sochi, Russia}
+\entry{May 2026}{Conference ``Algebraic Topology, Group Actions, and Combinatorics''}{Sirius Mathematics Center, Sochi, Russia}
+\entry{Aug. 2025}{5th Conference of Mathematical Centers of Russia}{Siberian Federal University, Krasnoyarsk, Russia}
+\entry{Jun.--Jul. 2025}{Summer School ``Fundamental Aspects of Geometry and Topology''}{Centre of Fundamental Mathematics, Moscow Institute of Physics and Technology, Dolgoprudny, Russia}
+\entry{Jul. 2024}{Summer School ``Classical, Derived, and Condensed Geometry''}{Centre of Fundamental Mathematics, Moscow Institute of Physics and Technology, Dolgoprudny, Russia; participation continued online}
+\entry{May 2024}{Conference ``From Analysis to Homotopy Theory''}{University of Greifswald, Greifswald, Germany}
+\entry{Jul. 2023}{Summer School ``Algebra and Geometry''}{HSE University, Steklov Mathematical Institute of RAS, Suzdal, Russia}
+\entry{Jul. 2023}{Summer School on non-commutative and derived geometry of matrix factorisations}{Centre of Pure Mathematics, Moscow Institute of Physics and Technology, Dolgoprudny, Russia}
+\entry{Jun.--Jul. 2023}{Second Summer School ``Algebra and Number Theory''}{HSE University, Voronovo, Russia}
+\entry{Jun. 2023}{Conference on algebra, algebraic geometry, and number theory on the occasion of the 100th birthday of academician Igor Rostislavovich Shafarevich}{Steklov Mathematical Institute of RAS, Moscow, Russia}
+\entry{Apr. 2023}{Conference ``Geometry, topology and mathematical physics,'' on the occasion of the 85th anniversary of S.~P.~Novikov and the 80th anniversary of V.~M.~Buchstaber}{Steklov Mathematical Institute of RAS, Moscow, Russia}
+\entry{Mar. 2023}{Conference ``SIMC Youth Race''}{Steklov Mathematical Institute of RAS, Moscow, Russia}
+\entry{Oct. 2022}{International School ``Toric topology, combinatorics and data analysis''}{Euler International Mathematical Institute, Saint Petersburg, Russia}
+\entry{Jul. 2022}{Summer School ``Algebra and Geometry''}{HSE University, Steklov Mathematical Institute of RAS, Suzdal, Russia}
+\entry{Apr. 2022}{29th International Scientific Conference for Undergraduate and Graduate Students and Young Scientists ``Lomonosov''}{Lomonosov Moscow State University, Moscow, Russia}
+\entry{Nov. 2021}{International School ``Toric Topology and Combinatorics''}{HSE University, Sirius Mathematics Center, Sochi, Russia}
+\entry{Nov. 2020}{Topology and Geometry of Group Actions}{HSE University; online}
+\entry{Jul. 2020}{7th Summer School-Conference on Geometric Methods of Mathematical Physics}{Online}
+\entry{Sep. 2019}{Geometry, Topology and Mathematical Physics}{Landau Institute for Theoretical Physics, Lomonosov Moscow State University, Chernogolovka, Russia}
+\entry{Nov. 2018}{Geometry, Topology and Mathematical Physics}{Landau Institute for Theoretical Physics, Lomonosov Moscow State University, Chernogolovka, Russia}
+\entry{Jul. 2018}{Summer School ``Modern Mathematics''}{HSE University, Lomonosov Moscow State University, Independent University of Moscow, Dubna, Russia}
+\entry{Jul. 2017}{Summer School ``Modern Mathematics''}{HSE University, Lomonosov Moscow State University, Independent University of Moscow, Dubna, Russia}
+
+\needspace{6\baselineskip}
+\section*{Mathematics Olympiad Awards}
+\entry{2019}{Winner, Partial Differential Equations Olympiad}{Lomonosov Moscow State University}
+\entry{2018}{Winner, Ordinary Differential Equations Olympiad}{Lomonosov Moscow State University}
+
+\needspace{4\baselineskip}
+\section*{Languages}
+Russian (native); English (fluent); French (intermediate); Latin (basic).
+
+\needspace{6\baselineskip}
+\section*{Reference}
+\textbf{Victor M.~Buchstaber}\\
+Steklov Mathematical Institute of RAS\\
+\href{mailto:buchstab@mi-ras.ru}{buchstab@mi-ras.ru}
+\endgroup
+\end{document}
+

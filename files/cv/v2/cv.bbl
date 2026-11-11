@@ -1,0 +1,487 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{newest/global//global/global/global}
+    \entry{Kor26Abel}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhashraw}{23714023e15318b9896db50c235fd98c}
+      \strng{bibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorbibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authornamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhashraw}{23714023e15318b9896db50c235fd98c}
+      \field{extraname}{1}
+      \field{labelalpha}{Kor26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.RA}
+      \field{eprinttype}{arxiv}
+      \field{title}{{$n$}-Valued Analogue of {Abel}'s Theorem}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2610.14044
+      \endverb
+      \verb{eprint}
+      \verb 2610.14044
+      \endverb
+      \keyw{mathematics,preprint}
+    \endentry
+    \entry{BK26Logarithm}{unpublished}{}{}
+      \name{author}{2}{}{%
+        {{hash=aeb08371104bf6076a0b3fd5f117f09a}{%
+           family={Buchstaber},
+           familyi={B\bibinitperiod},
+           given={Victor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{fullhash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{fullhashraw}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{bibnamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorbibnamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authornamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorfullhash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorfullhashraw}{6df3455c122f2cc982b9315ec8832f0c}
+      \field{extraname}{1}
+      \field{labelalpha}{BK26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arxiv}
+      \field{title}{Logarithm of the Universal Two-Valued Formal Group}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb 2609.15878
+      \endverb
+      \keyw{mathematics,preprint}
+    \endentry
+    \entry{Kor26GeneraV2}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhashraw}{23714023e15318b9896db50c235fd98c}
+      \strng{bibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorbibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authornamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhashraw}{23714023e15318b9896db50c235fd98c}
+      \field{extraname}{2}
+      \field{labelalpha}{Kor26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.AT}
+      \field{eprinttype}{arxiv}
+      \field{note}{Version 2}
+      \field{title}{{Buchstaber}, {Ochanine}, {Krichever}, and {Witten} genera}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb 2603.21118v2
+      \endverb
+      \keyw{mathematics,preprint}
+    \endentry
+    \entry{BK26Wendt}{article}{eprint=false}{}
+      \name{author}{2}{}{%
+        {{hash=aeb08371104bf6076a0b3fd5f117f09a}{%
+           family={Buchstaber},
+           familyi={B\bibinitperiod},
+           given={Victor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{fullhash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{fullhashraw}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{bibnamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorbibnamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authornamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorfullhash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorfullhashraw}{6df3455c122f2cc982b9315ec8832f0c}
+      \field{extraname}{2}
+      \field{labelalpha}{BK26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Based on preprints: \arxiv{2505.04296} and \arxiv{2510.14010}}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{Sbornik: Mathematics}
+      \field{number}{8}
+      \field{title}{Algebraic {$n$}-valued groups, cubics and {Wendt} matrices}
+      \field{volume}{217}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{pages}{1101\bibrangedash 1153}
+      \range{pages}{53}
+      \verb{doi}
+      \verb 10.4213/sm10344e
+      \endverb
+      \verb{eprint}
+      \verb 2505.04296
+      \endverb
+      \keyw{mathematics,journal}
+    \endentry
+    \entry{BKR26Associativity}{unpublished}{}{}
+      \name{author}{3}{}{%
+        {{hash=aeb08371104bf6076a0b3fd5f117f09a}{%
+           family={Buchstaber},
+           familyi={B\bibinitperiod},
+           given={Victor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=7c5d4616eef568b3b225afab010390ca}{%
+           family={Rubtsov},
+           familyi={R\bibinitperiod},
+           given={Vladimir\bibnamedelima N.},
+           giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{44f3850a918535a96dcd951b8c77a6d0}
+      \strng{fullhash}{44f3850a918535a96dcd951b8c77a6d0}
+      \strng{fullhashraw}{44f3850a918535a96dcd951b8c77a6d0}
+      \strng{bibnamehash}{44f3850a918535a96dcd951b8c77a6d0}
+      \strng{authorbibnamehash}{44f3850a918535a96dcd951b8c77a6d0}
+      \strng{authornamehash}{44f3850a918535a96dcd951b8c77a6d0}
+      \strng{authorfullhash}{44f3850a918535a96dcd951b8c77a6d0}
+      \strng{authorfullhashraw}{44f3850a918535a96dcd951b8c77a6d0}
+      \field{labelalpha}{BKR26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arxiv}
+      \field{title}{Two-Valued Groups, {Chazy} Equation, {Dubrovin--Frobenius} Structures, and {QYBE}}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb 2604.26641
+      \endverb
+      \keyw{mathematics,preprint}
+    \endentry
+    \entry{Kor26Genera}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhashraw}{23714023e15318b9896db50c235fd98c}
+      \strng{bibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorbibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authornamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhashraw}{23714023e15318b9896db50c235fd98c}
+      \field{extraname}{3}
+      \field{labelalpha}{Kor26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{105855}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{Journal of Geometry and Physics}
+      \field{title}{{Buchstaber}, {Ochanine}, {Krichever}, and {Witten} genera}
+      \field{volume}{226}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1016/j.geomphys.2026.105855
+      \endverb
+      \verb{eprint}
+      \verb 2603.21118
+      \endverb
+      \keyw{mathematics,journal}
+    \endentry
+    \entry{BK26Discriminants}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=aeb08371104bf6076a0b3fd5f117f09a}{%
+           family={Buchstaber},
+           familyi={B\bibinitperiod},
+           given={Victor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{fullhash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{fullhashraw}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{bibnamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorbibnamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authornamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorfullhash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorfullhashraw}{6df3455c122f2cc982b9315ec8832f0c}
+      \field{extraname}{3}
+      \field{labelalpha}{BK26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{Russian Mathematical Surveys}
+      \field{number}{1}
+      \field{title}{{$n$}-Valued Monoids on {$\mathbb{C}P^1$} and Discriminants}
+      \field{volume}{81}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{pages}{191\bibrangedash 193}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.4213/rm10280e
+      \endverb
+      \verb{eprint}
+      \verb 2510.14010
+      \endverb
+      \keyw{mathematics,journal}
+    \endentry
+    \entry{Kor26Classification}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhashraw}{23714023e15318b9896db50c235fd98c}
+      \strng{bibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorbibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authornamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhashraw}{23714023e15318b9896db50c235fd98c}
+      \field{extraname}{4}
+      \field{labelalpha}{Kor26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{Matematicheskie Zametki}
+      \field{number}{2}
+      \field{title}{On the Classification of {$n$}-Valued Monoids and Groups of Order {$3$}}
+      \field{volume}{119}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{pages}{244\bibrangedash 252}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.4213/mzm14803
+      \endverb
+      \verb{eprint}
+      \verb 2508.04454
+      \endverb
+      \keyw{mathematics,journal}
+    \endentry
+    \entry{BK25ProjectiveDuality}{unpublished}{}{}
+      \name{author}{2}{}{%
+        {{hash=aeb08371104bf6076a0b3fd5f117f09a}{%
+           family={Buchstaber},
+           familyi={B\bibinitperiod},
+           given={Victor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{fullhash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{fullhashraw}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{bibnamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorbibnamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authornamehash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorfullhash}{6df3455c122f2cc982b9315ec8832f0c}
+      \strng{authorfullhashraw}{6df3455c122f2cc982b9315ec8832f0c}
+      \field{extraname}{4}
+      \field{labelalpha}{BK25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.GR}
+      \field{eprinttype}{arxiv}
+      \field{title}{Algebraic {$n$}-Valued Monoids on {$\mathbb{C}P^1$}, Discriminants and Projective Duality}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2510.14010
+      \endverb
+      \keyw{mathematics,preprint}
+    \endentry
+    \entry{Kor25Music}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhashraw}{23714023e15318b9896db50c235fd98c}
+      \strng{bibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorbibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authornamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhashraw}{23714023e15318b9896db50c235fd98c}
+      \field{extraname}{5}
+      \field{labelalpha}{Kor25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Music Academy}
+      \field{number}{3}
+      \field{title}{The Technique of Musical Icosahedra}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{64\bibrangedash 83}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.34690/479
+      \endverb
+      \keyw{music,journal}
+    \endentry
+    \entry{Kor24Dynamics}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhashraw}{23714023e15318b9896db50c235fd98c}
+      \strng{bibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorbibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authornamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhashraw}{23714023e15318b9896db50c235fd98c}
+      \field{extraname}{6}
+      \field{labelalpha}{Kor24}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{Mathematical Notes}
+      \field{number}{1}
+      \field{title}{{$n$}-Valued Coset Groups and Dynamics}
+      \field{volume}{116}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{66\bibrangedash 76}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.4213/mzm14243
+      \endverb
+      \verb{eprint}
+      \verb 2401.12718
+      \endverb
+      \keyw{mathematics,journal}
+    \endentry
+    \entry{Kor23Spheres}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=23714023e15318b9896db50c235fd98c}{%
+           family={Kornev},
+           familyi={K\bibinitperiod},
+           given={Mikhail\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{fullhashraw}{23714023e15318b9896db50c235fd98c}
+      \strng{bibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorbibnamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authornamehash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhash}{23714023e15318b9896db50c235fd98c}
+      \strng{authorfullhashraw}{23714023e15318b9896db50c235fd98c}
+      \field{extraname}{7}
+      \field{labelalpha}{Kor23}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions of the Moscow Mathematical Society}
+      \field{title}{Homology Spheres}
+      \field{volume}{84}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{197\bibrangedash 239}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1090/mosc/352
+      \endverb
+      \keyw{mathematics,journal}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
