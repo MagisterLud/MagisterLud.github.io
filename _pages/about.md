@@ -6,8 +6,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a mathematician. My research interests include Geometry and Topology.
+I am a mathematician working in algebraic topology and its connections with algebraic geometry and mathematical physics. My research focuses on $n$-valued algebraic and formal groups, cobordism theory, and Hirzebruch genera. My broader interests include manifold topology and categorical approaches to geometry and homotopy theory.
 
 I am currently seeking a postdoctoral position.
 
-My [Curriculum Vitae.]({{ '/files/cv/v2/cv.pdf' | relative_url }})
+[Curriculum vitae](https://magisterlud.github.io/files/cv/v2/cv.pdf)
